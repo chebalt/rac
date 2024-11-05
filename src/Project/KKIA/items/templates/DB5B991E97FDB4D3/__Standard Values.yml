@@ -1,0 +1,37 @@
+﻿---
+ID: "a1fa9bbf-8baf-4ae9-87ab-5fb10c7b18a3"
+Parent: "3a21113d-0c5a-488e-bf78-73ca85b05942"
+Template: "3a21113d-0c5a-488e-bf78-73ca85b05942"
+Path: /sitecore/templates/Project/KKIA/Parking and Transport/Transport Search and Filter/Transport Search and Filter Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3A21113D-0C5A-488E-BF78-73CA85B05942}
+    {EB6673C8-F001-4724-AF44-0946AA7F5395}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T082316Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e09d61b3-d142-4488-92d8-73a24ab194fd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T082413Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "647b09c0-8726-4204-ac6f-74f3d967137f"
+Parent: "8c77709c-bbd2-432a-b263-e121bcec7dad"
+Template: "8c77709c-bbd2-432a-b263-e121bcec7dad"
+Path: /sitecore/templates/Project/KKIA/Services/Benefit/Benefit/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T133624Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f9bf0a85-5c4f-408f-b7d2-9a085b445d98"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T133632Z
+    - ID: "fbcfae24-beef-46fa-923d-7f83c4f94deb"
+      Hint: Name
+      Value: $name

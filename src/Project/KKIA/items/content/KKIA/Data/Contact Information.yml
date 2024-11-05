@@ -1,0 +1,72 @@
+﻿---
+ID: "e57a27f9-1e58-46f2-943e-757938a86601"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "793e4a93-0ef3-48cf-953f-26e1ce0ac649"
+Path: /sitecore/content/KKIA/KKIA/Data/Contact Information
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02ed4bf5-1eca-41a6-88c3-3034a4546ea9"
+      Hint: FirstCardTitle
+      Value: Lost & Found
+    - ID: "17244fea-51b6-4928-8e4a-5f800992c30b"
+      Hint: Address
+      Value: |
+        <link text="Address" linktype="external" url="Airport Road. King Khalid International Airport. Riyadh" anchor="" target="" />
+    - ID: "229ba111-9861-475c-8865-de703f8c90b4"
+      Hint: Description
+      Value: |
+        
+        Learn rich and diverse heritage, drawn from the large number of
+        civilizations that have flourished over the centuries.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240711T100216Z
+    - ID: "3f699d1b-4e50-4460-85cf-c6c245a36243"
+      Hint: SecondCardTitle
+      Value: Ask Me Team
+    - ID: "79e32c02-b889-4160-bb9a-792dec8636e1"
+      Hint: FirstCardLink
+      Value: |
+        <link text="Find your items" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{30693D4D-7B4D-4EFE-BB3B-D1E7ABDA8CB0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1034e7d0-dc28-4f15-8674-a01f78d82855"
+    - ID: "a71a5ce2-4dcc-481a-8006-5bd6ff00f0d2"
+      Hint: SubTitle
+      Value: Let us assist you
+    - ID: "a99658ee-74f3-48a3-8e06-b08ed1c952bd"
+      Hint: SecondCardDescription
+      Value: |
+        Our staff is committed to
+        help you!
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "bf8cb5bc-2803-48eb-8f78-1abc1bca01b1"
+      Hint: Email
+      Value: "<link text='E-mail' linktype='mailto' style='' url='mailto:info@riyadhairports.com'  title='' />"
+    - ID: "c05be45b-fa05-4cbb-8abd-738a2a54f19f"
+      Hint: SecondCardLink
+      Value: |
+        <link text="Learn more" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{30693D4D-7B4D-4EFE-BB3B-D1E7ABDA8CB0}" />
+    - ID: "d2546b45-d5d9-4538-8181-34a55bfd25f0"
+      Hint: PhoneNumber
+      Value: |
+        <link text="Phone number (for English &amp; Arabic)" linktype="external" url="tel:8001248100" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240711T100621Z
+    - ID: "f4d52004-a36e-414a-b448-f482db5a5730"
+      Hint: FirstCardDescription
+      Value: |
+        Let us help you reunite
+        with your belongings,
+        
+    - ID: "f84cfea3-ccdf-4714-83aa-00d446c2c88a"
+      Hint: WhatsApp
+      Value: |
+        <link text="hatsApp (for English &amp; Arabic)" linktype="external" url="tel: 20020090" anchor="" target="" />

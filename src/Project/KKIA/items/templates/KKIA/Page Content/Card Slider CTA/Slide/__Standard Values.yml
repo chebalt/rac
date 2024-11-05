@@ -1,0 +1,34 @@
+﻿---
+ID: "94e37ca1-55c6-4b9e-8455-200b9b247392"
+Parent: "dd4cb83e-d4f7-4f5d-867d-41964efef82a"
+Template: "dd4cb83e-d4f7-4f5d-867d-41964efef82a"
+Path: /sitecore/templates/Project/KKIA/Page Content/Card Slider CTA/Slide/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240625T100619Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fedb7e6b-368e-4932-8a2b-8fadc44ef8e5"
+    - ID: "af75662e-0684-4dcc-8bb0-c81c458c2ac0"
+      Hint: Title
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240819T132349Z

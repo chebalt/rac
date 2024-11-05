@@ -1,0 +1,51 @@
+﻿---
+ID: "14850d5a-a7ad-4911-9192-48b48f51fe13"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "696d7c5c-a139-487f-918d-5fcf4d4df0c2"
+Path: /sitecore/content/KKIA/KKIA/Data/Parking And Transport Page Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "011e913e-bf53-4f7b-9bc1-9172a3593642"
+      Hint: Image
+      Value: |
+        <image mediaid="{E55AA9DD-E3F3-4E95-A9A9-C3B3804D2DA4}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240829T125614Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "75db3f6b-b459-456b-8969-fd2d36f7533d"
+      Hint: Features
+      Value: |
+        {36791018-A86A-47A4-9EA3-5F77A3D47F1F}
+        {4240DC30-2B74-4897-8E3F-9E06E13B061E}
+        {A77F0BB8-DD68-4225-848B-05E3AAA9EEC0}
+        {A293F471-6BBA-4CE8-902D-4874886D41E9}
+        {7123EB35-D225-45DD-8F24-53D5A86A7A83}
+        {2170E673-89EC-4C2C-85B4-83CCB7343659}
+        {45C95D2D-DC12-4316-966A-CCB2D6421E0D}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a529d43-4947-4edb-8591-f2b9db095524"
+    - ID: "a95eef54-f097-46c9-b7a9-6efdb0e907fd"
+      Hint: Heading
+      Value: MOBILITY SOLUTIONS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240830T073032Z
+    - ID: "e3aef18b-e8fd-4a80-9a69-ee43f98b8dfc"
+      Hint: Title
+      Value: Parking & Transport

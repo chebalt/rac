@@ -1,0 +1,33 @@
+﻿---
+ID: "87b5371a-8424-4a94-859a-356616991ef0"
+Parent: "34e40689-4b08-463f-b56a-6c14d9385ef6"
+Template: "34e40689-4b08-463f-b56a-6c14d9385ef6"
+Path: /sitecore/templates/Project/KKIA/Shop Dine Explore/Three Column Shops/Three Column Shops Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {78F35239-BAEF-4508-8695-1F07B1F271F6}
+    {34E40689-4B08-463F-B56A-6C14D9385EF6}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11d8e9ab-75fd-47d7-8575-13df59ef8316"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240725T163555Z

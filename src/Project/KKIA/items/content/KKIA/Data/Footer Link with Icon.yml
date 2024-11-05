@@ -1,0 +1,32 @@
+﻿---
+ID: "24fd7365-30ea-4209-961a-061f1c9571d5"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "e8cb153f-c5ca-4fb4-bf20-8b76f07f406c"
+Path: /sitecore/content/KKIA/KKIA/Data/Footer Link with Icon
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240821T122055Z
+    - ID: "8c718bd6-9986-460d-9c3c-36e81469b714"
+      Hint: Link
+      Value: |
+        <link text="Airport Road, King Khalid International Airport, Riyadh" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{49B53566-35B3-4882-BEF3-B158C066469C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3032fcf-c301-4009-92c3-73e3552d3d8d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "c79ff8b4-aa54-45ce-8c2f-9c4ec357f9cb"
+      Hint: Icon
+      Value: |
+        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.9271 7.79183C17.0521 3.94183 13.6937 2.2085 10.7437 2.2085C10.7437 2.2085 10.7437 2.2085 10.7354 2.2085C7.79373 2.2085 4.42707 3.9335 3.55207 7.7835C2.57707 12.0835 5.2104 15.7252 7.59373 18.0168C8.47706 18.8668 9.6104 19.2918 10.7437 19.2918C11.8771 19.2918 13.0104 18.8668 13.8854 18.0168C16.2687 15.7252 18.9021 12.0918 17.9271 7.79183ZM10.7437 11.9668C9.29373 11.9668 8.11873 10.7918 8.11873 9.34183C8.11873 7.89183 9.29373 6.71683 10.7437 6.71683C12.1937 6.71683 13.3687 7.89183 13.3687 9.34183C13.3687 10.7918 12.1937 11.9668 10.7437 11.9668Z" fill="#E4E4E4"></path></svg>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240821T123640Z

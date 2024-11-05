@@ -1,0 +1,76 @@
+﻿---
+ID: "df9b89a0-7166-46b2-9d48-923685d2ba0c"
+Parent: "d21959dc-c84d-415d-9b72-bed03369ec90"
+Template: "ca69b057-28b7-4d20-96ec-75737bdb5927"
+Path: /sitecore/content/RAC/RAC/Home
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{71EE515E-DAB1-400E-8148-2167011003F3}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{118D22FE-F436-45EB-AFA3-B956E63F3018}"
+          p:before="*"
+          s:ds="{EF453EFE-6906-4479-8481-694684DD2B80}"
+          s:id="{1C723E8F-2CDA-40D9-8E12-5EA65DB582BD}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{00F9AB59-5497-4CCB-9B93-23C06392A809}"
+          p:after="r[@uid='{118D22FE-F436-45EB-AFA3-B956E63F3018}']"
+          s:ds="{6A04111C-B2A5-47A4-AF69-F74CC81BB867}"
+          s:id="{7949A3C4-4A1C-471A-841E-ED13B3D59A61}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{078C8599-7DA3-4E11-B03A-763B83DFC652}"
+          p:after="*[1=2]"
+          s:ds="{857831D7-FB7D-4B6A-B179-69E2BAE0EB09}"
+          s:id="{BB50FFC8-6596-478F-A619-99AF3FC956AF}"
+          s:par="CSSStyles"
+          s:ph="headless-main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T220428Z
+    - ID: "37a354d1-ba74-414a-a949-a821641c5624"
+      Hint: Title
+      Value: RAC
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: RAC
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "caba9049-32df-4897-ad61-61368136ad5c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\etriputko@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T161532Z

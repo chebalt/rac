@@ -1,0 +1,37 @@
+﻿---
+ID: "c41e2f72-50d9-48da-8bb8-8f477681b876"
+Parent: "2f2f6709-9e19-43e8-bdf2-11d65f7c7d3c"
+Template: "2f2f6709-9e19-43e8-bdf2-11d65f7c7d3c"
+Path: /sitecore/templates/Project/KKIA/Services/Contact Tiles/Contact Tiles Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {B2277C6E-0954-4F37-8EDD-FA4FFC082D2E}
+    {C55F05C7-7620-48BF-93D9-A2357451A0E3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240923T164021Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32b10266-ec91-42cb-84be-5b7512d8def8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240923T172146Z

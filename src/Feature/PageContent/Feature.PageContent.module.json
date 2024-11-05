@@ -1,0 +1,16 @@
+{
+    "namespace": "Feature.PageContent",
+    "references": [ "Foundation.*" ],
+    "items": {
+      "includes": [
+        {
+          "name": "templates",
+          "path": "/sitecore/templates/Feature/Page Content"
+        },
+        {
+          "name": "renderings",
+          "path": "/sitecore/layout/Renderings/Feature/Page Content"
+        },
+      ]
+    }
+}

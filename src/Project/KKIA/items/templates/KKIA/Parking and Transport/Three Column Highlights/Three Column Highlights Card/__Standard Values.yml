@@ -1,0 +1,37 @@
+﻿---
+ID: "2543db78-6098-47d2-a513-f29dafad62d3"
+Parent: "132fed8e-bd40-4204-9b71-b07bc8a6e222"
+Template: "132fed8e-bd40-4204-9b71-b07bc8a6e222"
+Path: /sitecore/templates/Project/KKIA/Parking and Transport/Three Column Highlights/Three Column Highlights Card/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T064319Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8075918-5b82-4c7c-b369-ee1562097870"
+    - ID: "b59e3947-95ab-4bc5-ac4b-ce55d47ce26a"
+      Hint: Image
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "c0a147e4-203b-49ed-9109-bcd719096ad7"
+      Hint: Title
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240918T142336Z

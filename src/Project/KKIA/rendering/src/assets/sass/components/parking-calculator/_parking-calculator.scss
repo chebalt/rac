@@ -1,0 +1,180 @@
+.c-parking-calculator {
+  padding: 3.5rem 0 6rem 0;
+  @apply w-full max-xl:py-[1rem];
+}
+
+.c-form-input {
+  &--label {
+    @apply text-[0.875rem] text-muted-darkest bg-background-dark;
+  }
+}
+
+.c-parking-calculator__options {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.c-parking-fee-option {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+  padding: 0 1.5rem 0 0;
+}
+
+.c-parking-fee-option:last-of-type {
+  padding: 0 0 0 0;
+}
+
+.c-parking-fee-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 3rem 0 2rem 0;
+
+  &__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.c-parking-fee-form-input {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 2rem 1.5rem 0;
+}
+
+.c-parking-fee-form__inputs:nth-of-type(1) .c-parking-fee-form-input:last-child {
+  padding: 0;
+}
+
+.c-parking-fee-form__inputs:nth-of-type(2) .c-parking-fee-form-input:last-child {
+  padding: 0;
+}
+
+.c-parking-fee-form-input--input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  @apply p-[1rem] bg-background-dark text-[1rem] text-muted-dark border-b-2 border-muted-darker appearance-none w-full;
+}
+
+.c-parking-fee-option--submit {
+  transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  @apply px-[1.5rem] pb-[1rem] text-primary-dark-green font-bold flex flex-row items-center justify-center gap-[0.5rem] text-[1.125rem];
+  &:hover {
+    opacity: 0.8;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  }
+}
+
+.c-parking-fee-form--submit {
+  transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  @apply bg-primary-variant px-[1.5rem] py-[1rem] font-bold text-jade-darker max-xl:w-full text-[1.125rem];
+  &:hover {
+    opacity: 0.8;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  }
+}
+
+.c-parking-calculator__link {
+  &--text {
+    @apply pt-[2rem] text-muted-darkest text-[1.25rem];
+    a {
+      @apply text-primary-dark-green font-bold;
+    }
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .c-parking-fee-option {
+    display: grid;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .c-parking-fee-option {
+    padding: 0 0 1.5rem 0;
+  }
+
+  .c-parking-fee-form-input {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 1rem 1.5rem 0;
+  }
+
+  .c-parking-fee-form__inputs:nth-of-type(1) .c-parking-fee-form-input:last-child {
+    padding: 0 0 0 1rem;
+  }
+  .c-parking-fee-form__inputs:nth-of-type(2) .c-parking-fee-form-input:last-child {
+    padding: 0 0 0 1rem;
+  }
+}
+
+.c-parking-error-text {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  @apply text-red-500;
+}
+
+.flight-picker {
+  position: relative;
+  width: 100%;
+}
+
+.flight-picker__input-container {
+  position: relative;
+  display: flex;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  @apply p-[1rem] bg-background-dark text-[1rem] text-muted-dark border-b border-border-action-tertiary-default appearance-none w-full;
+}
+
+.flight-picker__icon {
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flight-picker__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.flight-picker__dropdown-icon {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.flight-picker__results {
+  position: absolute;
+  top: calc(100% - 20px);
+  left: 0;
+  right: 0;
+  background-color: $bg-basic-color;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  padding: 0.5rem 0;
+  list-style: none;
+  margin: 0;
+}
+
+.flight-picker__results li {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

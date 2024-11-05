@@ -1,0 +1,3282 @@
+[
+    {
+      "id": 1,
+      "number": "123",
+      "flightNumberSuffix": "FH",
+      "originDate": "2024-10-10T00:00:00",
+      "scheduled": "2024-10-10T00:00:00",
+      "estimated": "2024-10-10T02:00:00",
+      "actual": "2024-10-10T00:00:00",
+      "onBlock": "2024-10-10T00:00:00",
+      "offBlock": "2024-10-10T00:00:00",
+      "takeOff": "2024-10-10T00:00:00",
+      "firstBag": "2024-10-10T00:00:00",
+      "lastBag": "2024-10-10T00:00:00",
+      "calculated": "2024-10-10T00:00:00",
+      "calculatedTakeOff": "2024-10-10T00:00:00",
+      "internationalStatus": "YES",
+      "associatedFlightNumber": "123",
+      "aircraftParkingPositionQualifier": null,
+      "aircraftTerminal": "Terminal 1",
+      "aircraftRegistrationNumber": "SP-HGW",
+      "departureOrArrival": "Departure",
+      "passengerGate": "D10",
+      "touchDown": "2024-10-10T00:00:00",
+      "updated": "2024-10-10T00:00:00",
+      "active": 1,
+      "aircraftSubType": null,
+      "airline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "abc",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "code": "WAR",
+        "name": "Warszawa Chopin",
+        "description": "Warszawa Chopin",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "US",
+            "name": "United States",
+            "region": {
+              "id": 1,
+              "name": "Virginia",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightAirline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "associatedFlightArrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightDepartureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "checkInFirstPositionResource": null,
+      "checkInLastPositionResource": null,
+      "departureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "flightRemarkes": [],
+      "remark": {
+        "id": 2,
+        "code": "On Time",
+        "description": "On Time"
+      },
+      "runwayResource": null
+    },
+    {
+      "id": 2,
+      "number": "123",
+      "flightNumberSuffix": "AB",
+      "originDate": "2024-10-10T00:00:00",
+      "scheduled": "2024-10-10T08:00:00", 
+      "estimated": "2024-10-10T10:00:00", 
+      "actual": "2024-10-10T00:00:00",
+      "onBlock": "2024-10-10T00:00:00",
+      "offBlock": "2024-10-10T00:00:00",
+      "takeOff": "2024-10-10T00:00:00",
+      "firstBag": "2024-10-10T00:00:00",
+      "lastBag": "2024-10-10T00:00:00",
+      "calculated": "2024-10-10T10:30:00", 
+      "calculatedTakeOff": "2024-10-10T10:45:00", 
+      "internationalStatus": "YES",
+      "associatedFlightNumber": "123",
+      "aircraftParkingPositionQualifier": null,
+      "aircraftTerminal": "Terminal 1",
+      "aircraftRegistrationNumber": "SP-HGW",
+      "departureOrArrival": "Departure",
+      "passengerGate": "D10",
+      "touchDown": "2024-10-10T00:00:00",
+      "updated": "2024-10-10T09:30:00", 
+      "active": 1,
+      "aircraftSubType": null,
+      "airline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightAirline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "associatedFlightArrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightDepartureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "checkInFirstPositionResource": null,
+      "checkInLastPositionResource": null,
+      "departureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "flightRemarkes": [],
+      "remark": {
+        "id": 2,
+        "code": "Delayed",
+        "description": "Delayed"
+      },
+      "runwayResource": null
+    },
+    {
+      "id": 3,
+      "number": "123",
+      "flightNumberSuffix": "FH",
+      "originDate": "2024-10-10T00:00:00",
+      "scheduled": "2024-10-10T08:00:00", 
+      "estimated": "2024-10-10T10:00:00", 
+      "actual": "2024-10-10T00:00:00",
+      "onBlock": "2024-10-10T00:00:00",
+      "offBlock": "2024-10-10T00:00:00",
+      "takeOff": "2024-10-10T00:00:00",
+      "firstBag": "2024-10-10T00:00:00",
+      "lastBag": "2024-10-10T00:00:00",
+      "calculated": "2024-10-10T10:30:00", 
+      "calculatedTakeOff": "2024-10-10T10:45:00", 
+      "internationalStatus": "YES",
+      "associatedFlightNumber": "123",
+      "aircraftParkingPositionQualifier": null,
+      "aircraftTerminal": "Terminal 1",
+      "aircraftRegistrationNumber": "SP-HGW",
+      "departureOrArrival": "Departure",
+      "passengerGate": "D10",
+      "touchDown": "2024-10-10T00:00:00",
+      "updated": "2024-10-10T09:30:00", 
+      "active": 1,
+      "aircraftSubType": null,
+      "airline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightAirline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "associatedFlightArrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightDepartureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "checkInFirstPositionResource": null,
+      "checkInLastPositionResource": null,
+      "departureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "flightRemarkes": [],
+      "remark": {
+        "id": 2,
+        "code": "Cancelled",
+        "description": "Cancelled"
+      },
+      "runwayResource": null
+    },
+    {
+      "id": 4,
+      "number": "123",
+      "flightNumberSuffix": "FH",
+      "originDate": "2024-10-10T00:00:00",
+      "scheduled": "2024-10-10T08:00:00", 
+      "estimated": "2024-10-10T10:00:00", 
+      "actual": "2024-10-10T00:00:00",
+      "onBlock": "2024-10-10T00:00:00",
+      "offBlock": "2024-10-10T00:00:00",
+      "takeOff": "2024-10-10T00:00:00",
+      "firstBag": "2024-10-10T00:00:00",
+      "lastBag": "2024-10-10T00:00:00",
+      "calculated": "2024-10-10T10:30:00", 
+      "calculatedTakeOff": "2024-10-10T10:45:00", 
+      "internationalStatus": "YES",
+      "associatedFlightNumber": "123",
+      "aircraftParkingPositionQualifier": null,
+      "aircraftTerminal": "Terminal 1",
+      "aircraftRegistrationNumber": "SP-HGW",
+      "departureOrArrival": "Departure",
+      "passengerGate": "D10",
+      "touchDown": "2024-10-10T00:00:00",
+      "updated": "2024-10-10T09:30:00", 
+      "active": 1,
+      "aircraftSubType": null,
+      "airline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightAirline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "associatedFlightArrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightDepartureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "checkInFirstPositionResource": null,
+      "checkInLastPositionResource": null,
+      "departureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "flightRemarkes": [],
+      "remark": {
+        "id": 2,
+        "code": "Departed",
+        "description": "Departed"
+      },
+      "runwayResource": null
+    },
+    {
+      "id": 5,
+      "number": "123",
+      "flightNumberSuffix": "FH",
+      "originDate": "2024-10-10T00:00:00",
+      "scheduled": "2024-10-10T08:00:00", 
+      "estimated": "2024-10-10T10:00:00", 
+      "actual": "2024-10-10T00:00:00",
+      "onBlock": "2024-10-10T00:00:00",
+      "offBlock": "2024-10-10T00:00:00",
+      "takeOff": "2024-10-10T00:00:00",
+      "firstBag": "2024-10-10T00:00:00",
+      "lastBag": "2024-10-10T00:00:00",
+      "calculated": "2024-10-10T10:30:00", 
+      "calculatedTakeOff": "2024-10-10T10:45:00", 
+      "internationalStatus": "YES",
+      "associatedFlightNumber": "123",
+      "aircraftParkingPositionQualifier": null,
+      "aircraftTerminal": "Terminal 1",
+      "aircraftRegistrationNumber": "SP-HGW",
+      "departureOrArrival": "Departure",
+      "passengerGate": "D10",
+      "touchDown": "2024-10-10T00:00:00",
+      "updated": "2024-10-10T09:30:00", 
+      "active": 1,
+      "aircraftSubType": null,
+      "airline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "arrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightAirline": {
+        "id": 1,
+        "code": "LHA",
+        "description": "Lufthansa",
+        "callSign": "LH",
+        "baseAirport": "1",
+        "flag": true,
+        "country": {
+          "id": 2,
+          "code": "DE",
+          "name": "Deutschland",
+          "region": {
+            "id": 1,
+            "name": "Europe",
+            "description": "Europe"
+          }
+        }
+      },
+      "associatedFlightArrivalAirport": {
+        "id": 2,
+        "code": "KRK",
+        "name": "Kraków Balice",
+        "description": "Kraków Balice",
+        "airportCategory": "K",
+        "flag": true,
+        "city": {
+          "id": 1,
+          "code": "KRK",
+          "name": "Kraków Airport",
+          "country": {
+            "id": 1,
+            "code": "PL",
+            "name": "Poland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "associatedFlightDepartureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "checkInFirstPositionResource": null,
+      "checkInLastPositionResource": null,
+      "departureAirport": {
+        "id": 1,
+        "code": "FRA",
+        "name": "Rhein-Main-Flughafen",
+        "description": "Rhein-Main-Flughafen",
+        "airportCategory": "F",
+        "flag": true,
+        "city": {
+          "id": 2,
+          "code": "FRA",
+          "name": "Frankfurt am Mein",
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        }
+      },
+      "flightRemarkes": [],
+      "remark": {
+        "id": 2,
+        "code": "Closed",
+        "description": "Closed"
+      },
+      "runwayResource": null
+    },
+    {
+        "id": 6,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T00:00:00",
+        "estimated": "2024-10-10T00:00:00",
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T00:00:00",
+        "calculatedTakeOff": "2024-10-10T00:00:00",
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Arrival",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T00:00:00",
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "On Time",
+          "description": "On Time"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 7,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Arrival",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Delayed",
+          "description": "Delayed"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 8,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Arrival",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Cancelled",
+          "description": "Cancelled"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 9,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Arrival",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Departed",
+          "description": "Departed"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 10,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Arrival",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Closed",
+          "description": "Closed"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 11,
+        "number": "123",
+        "flightNumberSuffix": "XY",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T00:00:00",
+        "estimated": "2024-10-10T00:00:00",
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T00:00:00",
+        "calculatedTakeOff": "2024-10-10T00:00:00",
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Departure",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T00:00:00",
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "On Time",
+          "description": "On Time"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 12,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Departure",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Delayed",
+          "description": "Delayed"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 13,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Departure",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Cancelled",
+          "description": "Cancelled"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 14,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Departure",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Departed",
+          "description": "Departed"
+        },
+        "runwayResource": null
+      },
+      {
+        "id": 15,
+        "number": "123",
+        "flightNumberSuffix": "FH",
+        "originDate": "2024-10-10T00:00:00",
+        "scheduled": "2024-10-10T08:00:00", 
+        "estimated": "2024-10-10T10:00:00", 
+        "actual": "2024-10-10T00:00:00",
+        "onBlock": "2024-10-10T00:00:00",
+        "offBlock": "2024-10-10T00:00:00",
+        "takeOff": "2024-10-10T00:00:00",
+        "firstBag": "2024-10-10T00:00:00",
+        "lastBag": "2024-10-10T00:00:00",
+        "calculated": "2024-10-10T10:30:00", 
+        "calculatedTakeOff": "2024-10-10T10:45:00", 
+        "internationalStatus": "YES",
+        "associatedFlightNumber": "123",
+        "aircraftParkingPositionQualifier": null,
+        "aircraftTerminal": "Terminal 1",
+        "aircraftRegistrationNumber": "SP-HGW",
+        "departureOrArrival": "Departure",
+        "passengerGate": "D10",
+        "touchDown": "2024-10-10T00:00:00",
+        "updated": "2024-10-10T09:30:00", 
+        "active": 1,
+        "aircraftSubType": null,
+        "airline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "arrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightAirline": {
+          "id": 1,
+          "code": "LHA",
+          "description": "Lufthansa",
+          "callSign": "LH",
+          "baseAirport": "1",
+          "flag": true,
+          "country": {
+            "id": 2,
+            "code": "DE",
+            "name": "Deutschland",
+            "region": {
+              "id": 1,
+              "name": "Europe",
+              "description": "Europe"
+            }
+          }
+        },
+        "associatedFlightArrivalAirport": {
+          "id": 2,
+          "code": "KRK",
+          "name": "Kraków Balice",
+          "description": "Kraków Balice",
+          "airportCategory": "K",
+          "flag": true,
+          "city": {
+            "id": 1,
+            "code": "KRK",
+            "name": "Kraków Airport",
+            "country": {
+              "id": 1,
+              "code": "PL",
+              "name": "Poland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "associatedFlightDepartureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "checkInFirstPositionResource": null,
+        "checkInLastPositionResource": null,
+        "departureAirport": {
+          "id": 1,
+          "code": "FRA",
+          "name": "Rhein-Main-Flughafen",
+          "description": "Rhein-Main-Flughafen",
+          "airportCategory": "F",
+          "flag": true,
+          "city": {
+            "id": 2,
+            "code": "FRA",
+            "name": "Frankfurt am Mein",
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          }
+        },
+        "flightRemarkes": [],
+        "remark": {
+          "id": 2,
+          "code": "Closed",
+          "description": "Closed"
+        },
+        "runwayResource": null
+      },
+      {
+          "id": 16,
+          "number": "123",
+          "flightNumberSuffix": "FH",
+          "originDate": "2024-10-10T00:00:00",
+          "scheduled": "2024-10-10T00:00:00",
+          "estimated": "2024-10-10T00:00:00",
+          "actual": "2024-10-10T00:00:00",
+          "onBlock": "2024-10-10T00:00:00",
+          "offBlock": "2024-10-10T00:00:00",
+          "takeOff": "2024-10-10T00:00:00",
+          "firstBag": "2024-10-10T00:00:00",
+          "lastBag": "2024-10-10T00:00:00",
+          "calculated": "2024-10-10T00:00:00",
+          "calculatedTakeOff": "2024-10-10T00:00:00",
+          "internationalStatus": "YES",
+          "associatedFlightNumber": "123",
+          "aircraftParkingPositionQualifier": null,
+          "aircraftTerminal": "Terminal 1",
+          "aircraftRegistrationNumber": "SP-HGW",
+          "departureOrArrival": "Arrival",
+          "passengerGate": "D10",
+          "touchDown": "2024-10-10T00:00:00",
+          "updated": "2024-10-10T00:00:00",
+          "active": 1,
+          "aircraftSubType": null,
+          "airline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "arrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightAirline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "associatedFlightArrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightDepartureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "checkInFirstPositionResource": null,
+          "checkInLastPositionResource": null,
+          "departureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "flightRemarkes": [],
+          "remark": {
+            "id": 2,
+            "code": "On Time",
+            "description": "On Time"
+          },
+          "runwayResource": null
+        },
+        {
+          "id": 17,
+          "number": "123",
+          "flightNumberSuffix": "FH",
+          "originDate": "2024-10-10T00:00:00",
+          "scheduled": "2024-10-10T08:00:00", 
+          "estimated": "2024-10-10T10:00:00", 
+          "actual": "2024-10-10T00:00:00",
+          "onBlock": "2024-10-10T00:00:00",
+          "offBlock": "2024-10-10T00:00:00",
+          "takeOff": "2024-10-10T00:00:00",
+          "firstBag": "2024-10-10T00:00:00",
+          "lastBag": "2024-10-10T00:00:00",
+          "calculated": "2024-10-10T10:30:00", 
+          "calculatedTakeOff": "2024-10-10T10:45:00", 
+          "internationalStatus": "YES",
+          "associatedFlightNumber": "123",
+          "aircraftParkingPositionQualifier": null,
+          "aircraftTerminal": "Terminal 1",
+          "aircraftRegistrationNumber": "SP-HGW",
+          "departureOrArrival": "Arrival",
+          "passengerGate": "D10",
+          "touchDown": "2024-10-10T00:00:00",
+          "updated": "2024-10-10T09:30:00", 
+          "active": 1,
+          "aircraftSubType": null,
+          "airline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "arrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightAirline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "associatedFlightArrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightDepartureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "checkInFirstPositionResource": null,
+          "checkInLastPositionResource": null,
+          "departureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "flightRemarkes": [],
+          "remark": {
+            "id": 2,
+            "code": "Delayed",
+            "description": "Delayed"
+          },
+          "runwayResource": null
+        },
+        {
+          "id": 18,
+          "number": "123",
+          "flightNumberSuffix": "FH",
+          "originDate": "2024-10-10T00:00:00",
+          "scheduled": "2024-10-10T08:00:00", 
+          "estimated": "2024-10-10T10:00:00", 
+          "actual": "2024-10-10T00:00:00",
+          "onBlock": "2024-10-10T00:00:00",
+          "offBlock": "2024-10-10T00:00:00",
+          "takeOff": "2024-10-10T00:00:00",
+          "firstBag": "2024-10-10T00:00:00",
+          "lastBag": "2024-10-10T00:00:00",
+          "calculated": "2024-10-10T10:30:00", 
+          "calculatedTakeOff": "2024-10-10T10:45:00", 
+          "internationalStatus": "YES",
+          "associatedFlightNumber": "123",
+          "aircraftParkingPositionQualifier": null,
+          "aircraftTerminal": "Terminal 1",
+          "aircraftRegistrationNumber": "SP-HGW",
+          "departureOrArrival": "Arrival",
+          "passengerGate": "D10",
+          "touchDown": "2024-10-10T00:00:00",
+          "updated": "2024-10-10T09:30:00", 
+          "active": 1,
+          "aircraftSubType": null,
+          "airline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "arrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightAirline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "associatedFlightArrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightDepartureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "checkInFirstPositionResource": null,
+          "checkInLastPositionResource": null,
+          "departureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "flightRemarkes": [],
+          "remark": {
+            "id": 2,
+            "code": "Cancelled",
+            "description": "Cancelled"
+          },
+          "runwayResource": null
+        },
+        {
+          "id": 19,
+          "number": "123",
+          "flightNumberSuffix": "FH",
+          "originDate": "2024-10-10T00:00:00",
+          "scheduled": "2024-10-10T08:00:00", 
+          "estimated": "2024-10-10T10:00:00", 
+          "actual": "2024-10-10T00:00:00",
+          "onBlock": "2024-10-10T00:00:00",
+          "offBlock": "2024-10-10T00:00:00",
+          "takeOff": "2024-10-10T00:00:00",
+          "firstBag": "2024-10-10T00:00:00",
+          "lastBag": "2024-10-10T00:00:00",
+          "calculated": "2024-10-10T10:30:00", 
+          "calculatedTakeOff": "2024-10-10T10:45:00", 
+          "internationalStatus": "YES",
+          "associatedFlightNumber": "123",
+          "aircraftParkingPositionQualifier": null,
+          "aircraftTerminal": "Terminal 1",
+          "aircraftRegistrationNumber": "SP-HGW",
+          "departureOrArrival": "Arrival",
+          "passengerGate": "D10",
+          "touchDown": "2024-10-10T00:00:00",
+          "updated": "2024-10-10T09:30:00", 
+          "active": 1,
+          "aircraftSubType": null,
+          "airline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "arrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightAirline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "associatedFlightArrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightDepartureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "checkInFirstPositionResource": null,
+          "checkInLastPositionResource": null,
+          "departureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "flightRemarkes": [],
+          "remark": {
+            "id": 2,
+            "code": "Departed",
+            "description": "Departed"
+          },
+          "runwayResource": null
+        },
+        {
+          "id": 20,
+          "number": "123",
+          "flightNumberSuffix": "FH",
+          "originDate": "2024-10-10T00:00:00",
+          "scheduled": "2024-10-10T08:00:00", 
+          "estimated": "2024-10-10T10:00:00", 
+          "actual": "2024-10-10T00:00:00",
+          "onBlock": "2024-10-10T00:00:00",
+          "offBlock": "2024-10-10T00:00:00",
+          "takeOff": "2024-10-10T00:00:00",
+          "firstBag": "2024-10-10T00:00:00",
+          "lastBag": "2024-10-10T00:00:00",
+          "calculated": "2024-10-10T10:30:00", 
+          "calculatedTakeOff": "2024-10-10T10:45:00", 
+          "internationalStatus": "YES",
+          "associatedFlightNumber": "123",
+          "aircraftParkingPositionQualifier": null,
+          "aircraftTerminal": "Terminal 1",
+          "aircraftRegistrationNumber": "SP-HGW",
+          "departureOrArrival": "Arrival",
+          "passengerGate": "D10",
+          "touchDown": "2024-10-10T00:00:00",
+          "updated": "2024-10-10T09:30:00", 
+          "active": 1,
+          "aircraftSubType": null,
+          "airline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "arrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightAirline": {
+            "id": 1,
+            "code": "LHA",
+            "description": "Lufthansa",
+            "callSign": "LH",
+            "baseAirport": "1",
+            "flag": true,
+            "country": {
+              "id": 2,
+              "code": "DE",
+              "name": "Deutschland",
+              "region": {
+                "id": 1,
+                "name": "Europe",
+                "description": "Europe"
+              }
+            }
+          },
+          "associatedFlightArrivalAirport": {
+            "id": 2,
+            "code": "KRK",
+            "name": "Kraków Balice",
+            "description": "Kraków Balice",
+            "airportCategory": "K",
+            "flag": true,
+            "city": {
+              "id": 1,
+              "code": "KRK",
+              "name": "Kraków Airport",
+              "country": {
+                "id": 1,
+                "code": "PL",
+                "name": "Poland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "associatedFlightDepartureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "checkInFirstPositionResource": null,
+          "checkInLastPositionResource": null,
+          "departureAirport": {
+            "id": 1,
+            "code": "FRA",
+            "name": "Rhein-Main-Flughafen",
+            "description": "Rhein-Main-Flughafen",
+            "airportCategory": "F",
+            "flag": true,
+            "city": {
+              "id": 2,
+              "code": "FRA",
+              "name": "Frankfurt am Mein",
+              "country": {
+                "id": 2,
+                "code": "DE",
+                "name": "Deutschland",
+                "region": {
+                  "id": 1,
+                  "name": "Europe",
+                  "description": "Europe"
+                }
+              }
+            }
+          },
+          "flightRemarkes": [],
+          "remark": {
+            "id": 2,
+            "code": "Closed",
+            "description": "Closed"
+          },
+          "runwayResource": null
+        }
+  ]

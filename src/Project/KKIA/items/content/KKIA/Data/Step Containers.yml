@@ -1,0 +1,23 @@
+﻿---
+ID: "5a5f63de-2d7a-422b-a1d3-ca61f7ebcedb"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "62a192be-9354-4ffa-946f-b31fc1ab2193"
+Path: /sitecore/content/KKIA/KKIA/Data/Step Containers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240926T085655Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc458ab0-79d8-4ca0-8825-88680c322f50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240926T085655Z

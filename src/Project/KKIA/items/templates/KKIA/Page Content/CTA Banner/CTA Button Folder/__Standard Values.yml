@@ -1,0 +1,35 @@
+﻿---
+ID: "d8c9a562-53fe-4d24-91d6-fa98cd532844"
+Parent: "944acde9-ff94-41fc-a7b7-d4945cbcc3a9"
+Template: "944acde9-ff94-41fc-a7b7-d4945cbcc3a9"
+Path: /sitecore/templates/Project/KKIA/Page Content/CTA Banner/CTA Button Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{6A207A3C-183C-4889-AEDF-6495A9762EA0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240920T134002Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11eba3ae-c706-44b6-9a7a-bde3d1365cd7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240920T134013Z

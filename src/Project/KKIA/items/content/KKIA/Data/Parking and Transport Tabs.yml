@@ -1,0 +1,31 @@
+﻿---
+ID: "2f928b6c-dbf0-4f7f-aa8a-51aab657da02"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "4c69559a-d7a0-45c2-ad3f-4304c4ab5538"
+Path: /sitecore/content/KKIA/KKIA/Data/Parking and Transport Tabs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240830T075419Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85eee477-6a49-4a59-a9b4-3a734bc57535"
+    - ID: "b3c6cd42-c3c1-419e-b2ce-ce9d4d47730b"
+      Hint: Tabs
+      Value: |
+        {47577A05-8AE0-432D-8358-2C497173CF70}
+        {E3231229-650C-4C0E-B928-B95B397F1D51}
+        {DFCF27D5-F96D-43C8-B692-572F47103050}
+        {264F2724-63F3-4B4F-9E1A-4E9FB34F4596}
+        {4B6E8633-2233-4C5C-982E-A32AFD188DF1}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240830T075547Z

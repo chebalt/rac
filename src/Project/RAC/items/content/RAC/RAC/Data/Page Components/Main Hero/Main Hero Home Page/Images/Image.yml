@@ -1,0 +1,27 @@
+﻿---
+ID: "a9c24fcb-999c-48bf-ad6a-735eaf53f12c"
+Parent: "6459490b-6506-4423-b8a9-db649c7fbe7c"
+Template: "c79c44ce-84a4-4622-bd58-330b151b0eee"
+Path: /sitecore/content/RAC/RAC/Data/Page Components/Main Hero/Main Hero Home Page/Images/Image
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241105T161806Z
+    - ID: "86f490c4-6fc1-44a6-932e-01f0de07b84c"
+      Hint: Image
+      Value: |
+        <image mediaid="{A89199FC-BE88-40E5-B90B-31B4B1D51AC7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3028a206-6793-47c6-b99d-73aef33cff27"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\etriputko@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T161819Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "c72ad6fc-18f8-44e2-9d1c-66860f3d0a3e"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "7e25bff8-0ee0-448d-bc6e-7451e281b057"
+Path: /sitecore/content/KKIA/KKIA/Data/Transport Types
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T084820Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "23331f1a-46ba-4780-bf8e-16c958e08640"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T084820Z

@@ -1,0 +1,57 @@
+﻿---
+ID: "7046cb7f-d21e-42b0-90c0-d711c11438f2"
+Parent: "ed9769e2-3be0-4c11-afcc-24838b931fdc"
+Template: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
+Path: /sitecore/content/RAC/RAC/Settings/Site Grouping/RAC
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
+  Hint: StartItem
+  Value: "{DF9B89A0-7166-46B2-9D48-923685D2BA0C}"
+- ID: "475031d8-724d-463c-80b2-90839dd1ad98"
+  Hint: VirtualFolder
+  Value: 
+- ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
+  Hint: ThumbnailsRootPath
+  Value: "{EF80747E-0EF8-4BB2-AC5B-B709E2074849}"
+- ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
+  Hint: HostName
+  Value: *
+- ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
+  Hint: SiteName
+  Value: RAC
+- ID: "da06d09e-02b6-464a-80fc-9d8d7fc875e3"
+  Hint: Environment
+  Value: *
+- ID: "f57099a3-526a-49f2-aebd-635453e48875"
+  Hint: RenderingHost
+  Value: Default
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{23E42340-77BE-49FC-A7C4-77D3CB545223}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T220429Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5bcb07ca-e6df-4177-9b62-5ea496d0aec8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T220446Z

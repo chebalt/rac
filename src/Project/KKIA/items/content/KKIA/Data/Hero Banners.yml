@@ -1,0 +1,23 @@
+﻿---
+ID: "83433a26-ed23-4e24-a4bd-54633c527709"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "43882115-0c08-46d6-aaef-695812456521"
+Path: /sitecore/content/KKIA/KKIA/Data/Hero Banners
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T073658Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a50b862-c696-4e3c-ac5c-17ae8de1c03d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T073658Z

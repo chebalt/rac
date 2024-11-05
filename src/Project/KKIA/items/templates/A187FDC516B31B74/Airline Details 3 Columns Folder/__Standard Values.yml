@@ -1,0 +1,33 @@
+﻿---
+ID: "844239d5-8f50-4003-83e5-43b276ecf16b"
+Parent: "395a4607-4af1-4b23-8619-71f8dd2932db"
+Template: "395a4607-4af1-4b23-8619-71f8dd2932db"
+Path: /sitecore/templates/Project/KKIA/Flights/Destinations and Airlines/Airline Details/Airline Details 3 Columns/Airline Details 3 Columns Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C49E9F8A-9B4E-4402-BB10-F9624242F233}
+    {395A4607-4AF1-4B23-8619-71F8DD2932DB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0abf9c91-1bf0-4e58-94e2-caffec746d51"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T092441Z

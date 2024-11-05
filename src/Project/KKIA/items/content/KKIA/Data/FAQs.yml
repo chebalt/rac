@@ -1,0 +1,23 @@
+﻿---
+ID: "e5eae89b-4d91-4352-92a9-adb9c02ff356"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "67eaf642-85bc-460e-8ec2-41727a0e0bf6"
+Path: /sitecore/content/KKIA/KKIA/Data/FAQs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240829T082044Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9b1eaa24-4cac-43ee-89d4-6b765d76ca9b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T082044Z

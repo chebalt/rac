@@ -1,0 +1,27 @@
+﻿---
+ID: "8cb86faf-46d8-4b90-924d-83ea90c4b1a0"
+Parent: "c55ff97f-6658-4a2f-9b71-bb30d3794961"
+Template: "c55ff97f-6658-4a2f-9b71-bb30d3794961"
+Path: /sitecore/templates/Project/KKIA/Shop Dine Explore/Rendering Parameters/Shop Information Grid/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "41175dfc-b2c4-49fd-bb02-7d3e5f71b4fb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T124406Z

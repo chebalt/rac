@@ -1,0 +1,49 @@
+﻿---
+ID: "72dfd545-926c-4a98-9700-5df23547b8af"
+Parent: "bec2d09b-0916-4113-985c-f13e8c904de1"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/KKIA/Page Content/Tabs/kkia-pagecontent-tab-2"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "kkia-pagecontent-tab-2-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {6F81B441-5482-4DED-A065-D50AF597D56F}
+    {BC41DEC2-403E-4381-ACC7-FB304ACB6090}
+    {706EEF22-C509-42F4-ADAC-28E6A0C283F9}
+    {A230A740-9F60-4398-AD37-E682211F3518}
+    {B67C1EFD-B534-41D4-B977-8A7C752C9752}
+    {5C6565EF-1DBB-4F61-BC75-D326838F2ECB}
+    {47B09D18-38AD-4533-BCD2-05007F3DC06F}
+    {52CCB93C-5823-46E3-A334-13FA3601290F}
+    {F77EF5F7-8D5E-44B7-B00F-400CC2E8AD18}
+    {C4208B1A-9BEB-43DF-8FBB-BDE70492F12B}
+    {DFE2AE7A-F65D-46F6-A06C-7CB77EF2E241}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240920T083602Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5edf0eed-eabb-4c4d-9371-a21edcc9049d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240923T145643Z

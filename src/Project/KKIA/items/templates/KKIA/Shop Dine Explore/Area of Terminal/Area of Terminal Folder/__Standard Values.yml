@@ -1,0 +1,33 @@
+﻿---
+ID: "d00ab50e-2743-4270-a648-eedceabe19e7"
+Parent: "9770e46c-30e1-4afb-a94e-4b77cf2dce19"
+Template: "9770e46c-30e1-4afb-a94e-4b77cf2dce19"
+Path: /sitecore/templates/Project/KKIA/Shop Dine Explore/Area of Terminal/Area of Terminal Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A32826D2-CD62-4C1B-933A-C7BDED6445FC}
+    {9770E46C-30E1-4AFB-A94E-4B77CF2DCE19}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a19790e7-db8b-4870-a1b9-0faa4a26970d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240724T083752Z

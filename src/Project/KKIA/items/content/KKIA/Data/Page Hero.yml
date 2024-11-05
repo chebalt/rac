@@ -1,0 +1,45 @@
+﻿---
+ID: "3936a7bb-7bf1-4d01-8218-ee3ccd62ae95"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "696d7c5c-a139-487f-918d-5fcf4d4df0c2"
+Path: /sitecore/content/KKIA/KKIA/Data/Page Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "011e913e-bf53-4f7b-9bc1-9172a3593642"
+      Hint: Image
+      Value: |
+        <image mediaid="{7588F088-A91C-4634-8F7B-E77C91F2F784}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240715T112938Z
+    - ID: "38e3d895-3037-44c3-8bbe-9ba14ca09c60"
+      Hint: Description
+      Value: |
+        Fusion Of flavors, an array Of Shops. and captivating
+        explorations awaiting your arrival.
+    - ID: "75db3f6b-b459-456b-8969-fd2d36f7533d"
+      Hint: Features
+      Value: |
+        {993EEB99-24CD-4840-BD4D-2556E63F1514}
+        {EAA573B6-E886-4017-95DF-F21983D22575}
+        {72D8B880-9F44-42FE-90FE-D1AAD1EA2AEF}
+        {1046C49B-6285-4886-A01A-7299415A9E9C}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3566f109-05a6-4e86-a803-dbdb492440ab"
+    - ID: "a95eef54-f097-46c9-b7a9-6efdb0e907fd"
+      Hint: Heading
+      Value: EXPERIENCE MORE
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T092745Z
+    - ID: "e3aef18b-e8fd-4a80-9a69-ee43f98b8dfc"
+      Hint: Title
+      Value: Embark on a Journey f Taste, Style, and Discovery

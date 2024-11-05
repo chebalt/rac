@@ -1,0 +1,37 @@
+﻿---
+ID: "18a7b6e7-db44-45f6-bb88-7fd79b1f1891"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "3b4bd13b-b84a-4998-893c-8fb6446d17c0"
+Path: /sitecore/content/KKIA/KKIA/Data/Uncover Saudi CTA
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17641f4d-e935-47ee-ba1e-09d38e31066f"
+      Hint: Image
+      Value: |
+        <image mediaid="{9D4A533E-F935-4BA0-8B7C-7479D5DAEE7B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T071049Z
+    - ID: "66618154-780e-43e3-8f4e-f461fb80e85c"
+      Hint: CTALink
+      Value: |
+        <link text="Find out more" anchor="" linktype="internal" class="" title="Find out more"  querystring="" id="{AE2512BE-4C74-4375-90F3-3C4B934A90DA}" />
+    - ID: "7b4e0bf0-5211-494d-b44b-437852e6f43f"
+      Hint: Description
+      Value: Learn rich and diverse heritage, drawn from the large number of civilizations that have flourished over the centuries.
+    - ID: "7f33194b-2d02-4a7e-bab3-ccbe37383a25"
+      Hint: Title
+      Value: Uncover Saudi heritage 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f499fd9a-752b-4f83-9b16-c698bc690b9a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240909T072540Z

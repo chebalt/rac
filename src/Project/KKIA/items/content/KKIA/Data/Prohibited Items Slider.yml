@@ -1,0 +1,38 @@
+﻿---
+ID: "87d690c7-edd2-442f-bfec-800c3fc0d832"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "702bcc1f-ef12-437c-bba6-3350b796da58"
+Path: /sitecore/content/KKIA/KKIA/Data/Prohibited Items Slider
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0abcf434-fb77-48df-a6f8-b22b19a6b317"
+      Hint: Slides
+      Value: |
+        {BAF495C8-1A15-497C-830E-7886EB6E535D}
+        {E6CCB2C7-43E1-484C-86AE-EAF259423A07}
+        {031281E0-7AE7-4E52-B129-C4AB4975B76B}
+        {4E666378-B718-4B64-BB01-02A73CE9F802}
+        {8EDF6D89-BAE5-451B-8C37-AA8D7E5ECDE8}
+        {3DC042AF-D6AC-4E0B-98B2-B0D9B9E3B069}
+        {F83FC0C5-A173-495E-A28C-A2FED46FCFC2}
+        {13ADEF8C-C3D6-4F04-9753-BDBC8B3DBB99}
+        {6332A322-0E85-49AD-B2AE-3EE07F33C308}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240923T152439Z
+    - ID: "39163bfd-216c-4370-ac6e-d5a870a13d55"
+      Hint: Text
+      Value: "• all baggage - examples:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2bb0bac7-cef0-4ed8-8db8-f28c05d3587b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240923T153232Z

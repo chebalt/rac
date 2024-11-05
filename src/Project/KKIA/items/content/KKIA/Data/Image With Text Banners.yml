@@ -1,0 +1,23 @@
+﻿---
+ID: "d25229e6-8598-425a-b510-22cafe4f81df"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "24d98b68-baa6-4d20-a6cc-d286810967df"
+Path: /sitecore/content/KKIA/KKIA/Data/Image With Text Banners
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T063610Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f07f26ad-62ad-4f50-b574-7bbfcdc409e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T063610Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "0f72828d-0b1a-4bc9-a215-f35166a799c6"
+Parent: "553e7dce-339b-4d3e-8cfe-771151d964e3"
+Template: "553e7dce-339b-4d3e-8cfe-771151d964e3"
+Path: /sitecore/templates/Project/KKIA/Page Content/Steps/Steps Container/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {30DC60B1-20DD-49BC-AC5D-65A4889CF995}
+    {33492166-FAD9-4637-B0D8-35420F2D725F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240924T104151Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee686837-d3cb-4ec0-a59c-18541c0b67dc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240924T104203Z

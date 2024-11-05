@@ -1,0 +1,38 @@
+﻿---
+ID: "6e613147-8924-4804-8db7-60d2d42dca10"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "929a9f33-5d3b-4628-8471-17b74022f165"
+Path: /sitecore/content/KKIA/KKIA/Data/Lost and Found Offices
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "059840f5-ca7d-4af8-84ac-543150238db4"
+      Hint: Offices
+      Value: |
+        {922E8AF3-AD16-4253-9ED8-C352FEF70915}
+        {5952FEEA-3989-4CEC-9DF2-2316FDEEA975}
+        {401AFA35-C41E-4759-BE38-E0CC4ABE0E78}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240923T145122Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7f82819-90f0-43cc-a701-0ca3dd99b27a"
+    - ID: "8ed855ae-5002-4fe5-9dc4-62a1f437c576"
+      Hint: Description
+      Value: If you're still at KKIA Airport, visit one of our Lost & Found desks. Your lost item might have been found and turned in. If so, we'll help return it to you right away or provide instructions on how to retrieve it
+    - ID: "a535fbe6-84bb-4444-9235-5df756b2a8f7"
+      Hint: Title
+      Value: Office of Lost and found
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240923T145412Z
+    - ID: "e6e6d7fa-acc8-40a8-a427-bf0c8beb9630"
+      Hint: Coordinates
+      Value: 24.959717676136794, 46.702412066511414

@@ -1,0 +1,17 @@
+.shop-hero {
+  &__image img {
+    width: 640px;
+    height: 340px;
+    object-fit: cover;
+  }
+  &__preview-overlay {
+    background: linear-gradient(0deg, rgba(29, 29, 29, 0.25), rgba(29, 29, 29, 0.25)),
+    linear-gradient(3.32deg, #1E514F -3.98%, rgba(25, 84, 81, 0.809715) 45.03%, rgba(5, 97, 92, 0) 97.39%);
+    @apply absolute inset-0 pointer-events-none;
+  }
+  &__preview-overlay-flights {
+    background: linear-gradient(0deg, rgba(29, 29, 29, 0.25), rgba(29, 29, 29, 0.25)),
+    linear-gradient(3.32deg, #1E514F -3.98%, rgba(25, 84, 81, 0.809715) 45.03%, rgba(5, 97, 92, 0) 97.39%);
+    @apply absolute inset-0 pointer-events-none xl:w-[90%] max-w-[1320px] mx-auto;
+  }
+}

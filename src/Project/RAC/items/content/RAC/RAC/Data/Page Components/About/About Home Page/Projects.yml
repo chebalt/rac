@@ -1,0 +1,33 @@
+﻿---
+ID: "a0a835eb-09b1-48c7-ba68-3e05073a6147"
+Parent: "857831d7-fb7d-4b6a-b179-69e2bae0eb09"
+Template: "2f94c51c-29a5-419b-89db-5b4017cbc813"
+Path: /sitecore/content/RAC/RAC/Data/Page Components/About/About Home Page/Projects
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241105T140231Z
+    - ID: "82271f55-e98e-4bf7-ac06-617e8dc63956"
+      Hint: description
+      Value: Explore all of our all current projects
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85fff68b-4b2e-4a9a-a3a4-174acc28d5d3"
+    - ID: "b16dfe54-34a9-4d13-88e9-3b9b5276aa9d"
+      Hint: title
+      Value: Projects
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\etriputko@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T140721Z
+    - ID: "ff748d5e-9c25-4a06-9350-c4acac9d07ca"
+      Hint: link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{DF9B89A0-7166-46B2-9D48-923685D2BA0C}" />

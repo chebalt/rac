@@ -1,0 +1,46 @@
+﻿---
+ID: "ef453efe-6906-4479-8481-694684dd2b80"
+Parent: "4759111e-a313-44f2-b143-014245234e6b"
+Template: "5d7afd1a-3843-4be4-90d5-eed7c2446576"
+Path: /sitecore/content/RAC/RAC/Data/Page Components/Main Hero/Main Hero Home Page
+BranchID: "dfb627be-9d7d-4f79-acdd-b4423b1e46d9"
+SharedFields:
+- ID: "79d8d184-18da-4f34-9b34-97579cecb950"
+  Hint: images
+  Value: |
+    {A9C24FCB-999C-48BF-AD6A-735EAF53F12C}
+    {7F1D78EF-705E-47BD-9CC2-3920D0FDEC49}
+    {28C74DFC-3633-4605-B035-EE1CD24F6D57}
+    {626E2521-6B9F-4DAF-ABAE-3768785B54E3}
+- ID: "f2d501f3-1433-4a96-b7ca-7333ef1e40e8"
+  Hint: links
+  Value: |
+    {3A9575E6-6F66-4EBC-B44A-D71E79B377A7}
+    {2696B1D5-797E-4556-8029-7ACF30E452AC}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FE5EB1C6-AE2F-4021-A586-3DD60628070B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241105T161529Z
+    - ID: "547b170e-3476-4fbe-9ed9-73f8b2a49466"
+      Hint: description
+      Value: Scroll down to discover Riyadh Airport Company
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "364fc959-eed6-44f7-87eb-611fe900e96b"
+    - ID: "9ba01e78-a615-477f-a3af-fe1250c17baa"
+      Hint: title
+      Value: Connecting people and business for a bright future
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\etriputko@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T161900Z

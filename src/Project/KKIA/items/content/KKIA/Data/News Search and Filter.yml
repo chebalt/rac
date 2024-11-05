@@ -1,0 +1,41 @@
+﻿---
+ID: "86018d57-f8c0-4f02-bc40-f3d5737732d5"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "3c1226e5-38a6-44fb-ac5d-b1bf544a0abd"
+Path: /sitecore/content/KKIA/KKIA/Data/News Search and Filter
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241011T111453Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "283f57c3-eb9b-4118-a096-4e7154bce3fa"
+    - ID: "96f6fafb-74af-4f51-9626-41939fb8a638"
+      Hint: SortTypes
+      Value: |
+        {96679DF5-279F-4748-93D5-2F5167D60768}
+        {C582DCBF-7C1A-47C5-A126-03281F12E06F}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "c0aa38f8-5dac-402f-9c87-890863dcdb44"
+      Hint: NewsTypes
+      Value: |
+        {C8F5B280-7037-49BB-99E1-1911E0C52423}
+        {928F3A4B-F716-4307-A3FB-FA20E12D7E74}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241015T100103Z

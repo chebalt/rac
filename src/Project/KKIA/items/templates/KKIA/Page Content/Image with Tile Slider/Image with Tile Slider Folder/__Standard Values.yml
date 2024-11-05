@@ -1,0 +1,35 @@
+﻿---
+ID: "73ef0998-e18c-4bf8-8d80-bda78e1bbe5e"
+Parent: "7ba7611a-f8f6-4aab-ae02-67ef286fadeb"
+Template: "7ba7611a-f8f6-4aab-ae02-67ef286fadeb"
+Path: /sitecore/templates/Project/KKIA/Page Content/Image with Tile Slider/Image with Tile Slider Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{EEA3F107-5DDD-452C-B8A8-7CFD5628BAFF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240927T071630Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c157f041-d3b1-4ba0-8810-756aa5d9f45a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240927T071756Z

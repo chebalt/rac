@@ -1,0 +1,23 @@
+﻿---
+ID: "da5a402a-b4ee-4ab8-883a-cb9a0bed7f47"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "be24c72b-a4be-4f54-9da4-b770ee3853ec"
+Path: /sitecore/content/KKIA/KKIA/Data/Three Column Benefits
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T123717Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1228230-b35a-4c2a-8213-987ed2bc7108"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240909T123717Z

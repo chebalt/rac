@@ -1,0 +1,23 @@
+﻿---
+ID: "bf284b31-a83f-493e-85e9-58d1bb3169d3"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "b128b684-8095-4d3d-bb8e-6bf408e93c42"
+Path: /sitecore/content/KKIA/KKIA/Data/Centered CTAs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240918T084536Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c14e0442-2a1f-42b4-8d2b-a0103ba6e4d6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240918T084536Z

@@ -1,0 +1,27 @@
+﻿---
+ID: "8c63c6ed-f791-496f-a2fa-8439412c3ef5"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "59859ecf-4ccb-4d78-a2d8-5142000ec0e8"
+Path: /sitecore/content/KKIA/KKIA/Data/Route Guides
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T070336Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bd0f4d3-fac0-4c99-967e-a7856eaaa4c2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T081548Z

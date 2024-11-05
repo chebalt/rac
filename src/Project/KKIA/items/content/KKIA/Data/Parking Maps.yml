@@ -1,0 +1,23 @@
+﻿---
+ID: "7fee49af-59d4-48f3-8750-9c73c3a2487e"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "ad41d0e1-db09-4fee-b485-ffe63ba2dc1f"
+Path: /sitecore/content/KKIA/KKIA/Data/Parking Maps
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240916T072503Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93d9d691-cdb9-485b-9c31-8603c1c504af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240916T072510Z

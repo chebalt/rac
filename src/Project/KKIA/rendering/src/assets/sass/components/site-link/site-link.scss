@@ -1,0 +1,7 @@
+.c-site-link {
+  @apply px-3 border-r-2 border-jade-light flex items-center max-lg:mx-[1rem] max-lg:px-0 max-lg:py-[1rem] max-lg:border-t-2 max-lg:border-muted-variant max-lg:border-r-0;
+
+  &__content {
+    @apply text-primary-dark-green text-xs contents h-full max-lg:text-[1rem] max-lg:text-jade-darkest;
+  }
+}

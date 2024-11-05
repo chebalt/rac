@@ -1,0 +1,76 @@
+﻿---
+ID: "fea230af-8bae-4f56-82c6-bf8e6472672e"
+Parent: "80951b81-536c-4963-8877-363b0a8e7456"
+Template: "e9fc7bf6-9d69-40a6-9c20-29f8278b904d"
+Path: /sitecore/content/RAC/RAC/Data/Header/Language Drawer/Arabic
+Languages:
+- Language: "ar-SA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1053aee2-3f23-4339-a7fb-51a9aae02470"
+      Hint: Language Name Field
+      Value: العربية
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240611T101213Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\adylevich@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "5f5c19a2-5902-4c4d-9f7f-d896071b7429"
+      Hint: Language Code Field
+      Value: "ar-SA"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03eada29-6722-4067-94b7-9a7ceeb27aa3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\adylevich@kogifi.com
+    - ID: "bfda8a19-77ba-4b50-a0f0-f2529f467bb1"
+      Hint: Url
+      Value: |
+        <link text="Arabic" linktype="external" url="/ar-sa/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T125530Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1053aee2-3f23-4339-a7fb-51a9aae02470"
+      Hint: Language Name Field
+      Value: العربية
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240611T101213Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "5f5c19a2-5902-4c4d-9f7f-d896071b7429"
+      Hint: Language Code Field
+      Value: "ar-SA"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc1c674b-c5eb-44c8-a747-8d0a7f51ccaf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "bfda8a19-77ba-4b50-a0f0-f2529f467bb1"
+      Hint: Url
+      Value: |
+        <link text="Arabic" linktype="external" url="/ar-sa/" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240611T102346Z

@@ -1,0 +1,12 @@
+{
+    "namespace": "Feature.HeadlessExperienceAccelerator",
+    "references": [ "Foundation.*" ],
+    "items": {
+      "includes": [
+        {
+          "name": "templates",
+          "path": "/sitecore/templates/Feature/JSS Experience Accelerator"
+        }
+      ]
+    }
+}

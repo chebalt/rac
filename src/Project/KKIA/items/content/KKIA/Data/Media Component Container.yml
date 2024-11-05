@@ -1,0 +1,28 @@
+﻿---
+ID: "f00e9ee4-4e67-42d3-94b8-bbe369753f4d"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "f34a1b16-14a1-4036-b58c-aba74fecf8f4"
+Path: /sitecore/content/KKIA/KKIA/Data/Media Component Container
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240927T185959Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eaabe5c3-1852-48d2-bf68-374c2b0bf2df"
+    - ID: "aaf53b07-400a-496d-b176-31347aa5e7df"
+      Hint: Items
+      Value: |
+        {4C6D0D19-8193-4556-9061-330085BC0FCA}
+        {D08F46EC-4CB6-476C-A16B-6665A2B9B5D4}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240927T190039Z

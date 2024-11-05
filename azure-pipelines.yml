@@ -1,0 +1,14 @@
+trigger:
+- main
+ 
+pool:
+  vmImage: ubuntu-latest
+ 
+steps:
+- task: vercel-deployment-task@1
+  inputs:
+    vercelProjectId: 'prj_cAoAq7BZ7mPhl5EkbneakqLSBsJE'
+    vercelOrgId: 'team_yl2Z0cxKIyPLBBzak74b0LcF'
+    vercelToken: $(VERCEL_TOKEN)
+    production: true
+    vercelCWD: '$(System.DefaultWorkingDirectory)/src/Project/KKIA/rendering'

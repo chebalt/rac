@@ -1,0 +1,23 @@
+﻿---
+ID: "5f41ed79-15ad-4724-b2aa-66f82134a48c"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "1044894b-8f6f-41e0-b1db-55881611096f"
+Path: /sitecore/content/KKIA/KKIA/Data/Hero Sliders
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T124548Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd83fc7f-1c73-4428-a48f-9ac70073f960"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T124548Z

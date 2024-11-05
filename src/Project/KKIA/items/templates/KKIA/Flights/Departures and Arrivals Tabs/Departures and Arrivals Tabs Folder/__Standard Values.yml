@@ -1,0 +1,34 @@
+﻿---
+ID: "090ace95-535b-463a-b309-af792c77b13b"
+Parent: "54f43070-3974-4514-8dc5-16dec07a5130"
+Template: "54f43070-3974-4514-8dc5-16dec07a5130"
+Path: /sitecore/templates/Project/KKIA/Flights/Departures and Arrivals Tabs/Departures and Arrivals Tabs Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {56E9A7F7-BDCB-4FC9-83EC-89230398B9C0}
+    {54F43070-3974-4514-8DC5-16DEC07A5130}
+    {C3314E91-68A0-4CE9-80A6-F3E9A1857C8C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f801b58-07d5-4292-a901-8d41e0bd39da"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241104T104635Z

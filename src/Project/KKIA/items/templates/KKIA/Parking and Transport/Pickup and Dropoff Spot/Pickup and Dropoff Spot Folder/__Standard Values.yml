@@ -1,0 +1,35 @@
+﻿---
+ID: "56e525f7-2878-4fe1-8d06-290e63087d53"
+Parent: "887d59ca-d80d-418c-9738-c89c0fa7f530"
+Template: "887d59ca-d80d-418c-9738-c89c0fa7f530"
+Path: /sitecore/templates/Project/KKIA/Parking and Transport/Pickup and Dropoff Spot/Pickup and Dropoff Spot Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{FDE82F59-E031-439A-B7ED-044836B4E931}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T093304Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60b4b2d6-6e98-4fd5-87c3-be71fabc187f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240909T093407Z

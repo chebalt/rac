@@ -1,0 +1,21 @@
+.c-nav-item {
+  box-shadow: 0 4px 8px 0 #3c3c3b29;
+  @apply absolute w-max max-xl:min-w-[8rem] top-[5rem] left-0 bg-white max-lg:relative max-lg:top-0 max-lg:shadow-none max-lg:bg-background max-lg:w-full;
+  z-index: 1000 !important;
+
+  &__content {
+    @apply p-[1rem] text-muted-dark cursor-pointer max-lg:border-b-2 max-lg:border-muted-variant;
+    &--link {
+      @apply text-[1rem];
+    }
+
+    &--link:hover {
+      @apply text-muted-dark;
+    }
+  }
+
+  &__content:hover {
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    @apply bg-muted-primary max-lg:bg-background max-lg:shadow-none;
+  }
+}

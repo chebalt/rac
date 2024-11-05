@@ -1,0 +1,78 @@
+@media all and (min-width: 1025px) {
+  .c-nav {
+    @apply flex px-[0.5rem] py-[1.75rem] relative;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+
+    &__mobile-menu {
+      @apply hidden;
+    }
+
+    &:hover {
+      box-shadow: inset 0 -4px 0 0 var(--primary-light-green);
+      transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    }
+    &--active {
+      box-shadow: inset 0 -4px 0 0 var(--primary-light-green);
+      transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    }
+
+    &__item {
+      @apply flex items-center gap-[0.25rem] text-muted-darker;
+      &--title {
+        @apply text-[1rem];
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .c-nav {
+    @apply flex py-[1rem] relative text-jade-darkest;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+
+    &__mobile-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: var(--jade-light);
+      transition: transform 0.1s ease-in-out;
+      transform: translateX(100%);
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: 0 2px 4px 0 #3c3c3b0f;
+
+      @apply lg:hidden;
+
+      &--open {
+        transform: translateX(0);
+      }
+
+      &--close {
+        transform: translateX(100%);
+      }
+    }
+
+    &--active {
+      transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    }
+
+    &__item {
+      transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+      @apply flex items-center flex-col justify-between text-muted-darker w-full;
+
+      &--title {
+        @apply w-full text-jade-darkest text-[1rem];
+      }
+
+      div {
+        transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+        @apply w-full text-start;
+      }
+    }
+  }
+}

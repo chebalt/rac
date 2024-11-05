@@ -1,0 +1,41 @@
+﻿---
+ID: "98d1f274-f6e8-46ba-9c94-b5461ac084e5"
+Parent: "a5c6e812-6093-45a2-9544-733f47b608ee"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/KKIA/Parking and Transport/Parking and Transport Tabs/kkia-pagecontent-parkingtab-1"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "kkia-pagecontent-parkingtab-1-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {509BD4BF-3DAF-4073-923F-CB4291E1E2A5}
+    {DF5D2F04-6279-4F8E-9F51-6DD2503DCA98}
+    {B67C1EFD-B534-41D4-B977-8A7C752C9752}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240830T075640Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "620465a0-dab8-4af8-b0f6-a1ded1d32d26"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240905T131138Z

@@ -1,0 +1,44 @@
+﻿---
+ID: "2b637ca0-be32-4f10-885b-90ee06a624f6"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "01b047c3-60e4-4223-a820-1ba462e37eb5"
+Path: /sitecore/content/KKIA/KKIA/Data/Shuttle Bus Locations
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240911T090355Z
+    - ID: "3e0ec1b4-f353-4d5c-9da4-b3c7a122997d"
+      Hint: Shuttle Bus Types
+      Value: |
+        {2B894DA7-6FA7-425C-A5E0-57DBC5D5CE21}
+        {0A60FE24-142C-4A52-AF55-DBA51ABFEB7E}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "06ffc9e9-55f7-44a5-a866-cdd35b9fe377"
+    - ID: "b42ab6b0-7ea5-48e4-8b7a-1143503c0426"
+      Hint: Shuttle Bus Locations
+      Value: |
+        {3C8964CA-BA34-42E5-86EA-E841B270285A}
+        {E354CDF6-C095-493D-B173-9E0A4D8DBCFA}
+        {AA62867A-8386-47B8-8876-64C5A04CA886}
+        {2E51D987-9EAF-4BB0-9827-081AC5C5FDD2}
+        {83458600-2590-4B4A-BFDB-5059C4B1D695}
+        {774FBC09-1471-4F48-BE20-A1532BBDB995}
+        {9B41A159-8F06-4EE9-87BC-291CD2C4B8DD}
+        {864CE661-B79F-497E-8F6B-ACA9D7E02DA4}
+        {95C5DBF1-C5D4-4DE0-AEC3-BCE7250F3850}
+        {DF3B8578-3720-4CA2-8357-708005C41BDD}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240911T091609Z
+    - ID: "f5187df0-7201-4098-abd4-95086ff56cde"
+      Hint: Title
+      Value: Finding shuttle buses locations

@@ -1,0 +1,23 @@
+﻿---
+ID: "753671ae-13e3-4c4b-af6c-2e36eecc1319"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "986b08ba-e76f-41aa-8806-c839cef8e6e4"
+Path: /sitecore/content/KKIA/KKIA/Data/Services Search and Filter
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T134437Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef8177d8-1a5f-4ee3-9300-e4b563d6e267"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T134437Z

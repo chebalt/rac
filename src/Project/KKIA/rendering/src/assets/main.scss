@@ -1,0 +1,303 @@
+// @import "basic/fonts";
+// @import "sass/main.scss";
+// @import "basic/main.scss";
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'sass/main';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hover\\:opacity-50:hover {
+    @apply transition-opacity;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --background-dark: #f9f9f9;
+    --background-variant: #a8a8a8;
+    --background-gray-variant: #f5f2f8;
+    --background-secondary-variant: #b1e3e0;
+    --jade-light: #f4faf9;
+    --jade-lighter: #d8eeec;
+    --jade-dark: #dbf0ee;
+    --jade-darker: #132e2d;
+    --jade-darkest: #2f3030;
+    --primary-dark-green: #04615c;
+    --primary-darker-green: #18413f;
+    --primary-dark-green-variant: #05615c;
+    --primary-light-green: #27928c;
+
+    --primary-variant: #47c0bb;
+    --muted-primary: #eaeaea;
+    --muted-variant: #dcdcdc;
+    --muted-dark: #606060;
+    --muted-darker: #555759;
+    --muted-darkest: #303030;
+    --border-light: #55575926;
+    --error-dark: hsla(7, 70%, 49%, 1);
+    --green-overlay: #1e514f20;
+    --info: #046689;
+    --info-light: #e6f6fc;
+    --info-border: #06a7e0;
+    --dark-green: #1e514f;
+
+    /* Text */
+
+    --text-primary: #2f3030;
+    --text-secondary: #555759;
+    --text-invert: #f4faf9;
+
+    --text-error: #922819;
+    --text-warning: #a94418;
+    --text-info: #046689;
+    --text-success: #1c7530;
+
+    --text-action-primary: #132e2d;
+
+    --text-action-secondary-default: #04615c;
+    --text-action-secondary-hover: #1e514f;
+    --text-action-secondary-press: #132e2d;
+
+    --text-action-disabled: #c0c0c0;
+
+    /* Borders*/
+
+    --border-primary: #dbf0ee;
+    --border-secondary: #dcdcdc;
+    --border-tertiary: #eaeaea;
+
+    --border-action-primary-default: #47c0bb;
+    --border-action-primary-hover: #27928c;
+    --border-action-primary-press: #1e514f;
+
+    --border-action-secondary-default: #04615c;
+    --border-action-secondary-hover: #1e514f;
+    --border-action-secondary-press: #132e2d;
+
+    --border-action-tertiary-default: #a8a8a8;
+    --border-action-tertiary-hover: #77797a;
+    --border-action-tertiary-press: #555759;
+    --border-action-tertiary-filled: #77797a;
+
+    --border-action-disabled: #c0c0c0;
+    --border-action-focus: #132e2d;
+    --border-error: #ef4129;
+
+    /* Surface */
+
+    --surface-primary: #ffffff;
+    --surface-secondary: #f4faf9;
+    --surface-secondary-invert: #04615c;
+    --surface-quaternary: #f9f9f9;
+
+    --surface-action-primary-default: #47c2bb;
+    --surface-action-primary-hover: #84d5d0;
+    --surface-action-primary-press: #b1e3e0;
+
+    --surface-action-secondary-default: #f4faf9;
+    --surface-action-secondary-hover: #dbf0ee;
+    --surface-action-secondary-press: #b1e3e0;
+
+    --surface-action-tertiary-default: #f9f9f9;
+    --surface-action-tertiary-hover: #eaeaea;
+    --surface-action-tertiary-press: #dcdcdc;
+    --surface-action-tertiary-filled: #eaeaea;
+
+    --surface-on-action-disabled: #c0c0c0;
+    --surface-action-disabled: #eaeaea;
+
+    --surface-error: #fdecea;
+    --surface-warning: #feefe9;
+    --surface-info: #e6f6fc;
+    --surface-success: #eaf6ec;
+
+    /* Icon */
+
+    --icon-primary: #04615c;
+    --icon-secondary: #555759;
+    --icon-error: #ef4129;
+    --icon-warning: #f26122;
+    --icon-info: #06a7e0;
+    --icon-success: #28a745;
+    --icon-invert: #f4faf9;
+
+    --icon-action-secondary-default: #04615c;
+    --icon-action-secondary-hover: #1e514f;
+    --icon-action-secondary-press: #132e2d;
+  }
+}
+
+// typography
+
+h1 {
+  font-size: 3.5rem; /* 56px */
+}
+
+h2 {
+  font-size: 2.125rem; /* 34px */
+}
+
+h3 {
+  font-size: 2rem; /* 32px */
+}
+
+h4 {
+  font-size: 1.625rem; /* 26px */
+}
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+}
+
+h6 {
+  font-size: 1rem; /* 16px */
+}
+
+span {
+  font-size: 0.75rem; /* 12px */
+}
+
+p {
+  font-size: 1.125rem; /* 18px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 140%;
+  color: var(--jade-darkest);
+}
+
+html[dir="rtl"] p,
+html[dir="rtl"] a,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] ul,
+html[dir="rtl"] li,
+html[dir="rtl"] span,
+html[dir="rtl"] input {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] {
+  direction: ltr;
+}
+
+html[dir="rtl"] .dir-rtl {
+  direction: rtl;
+}
+
+html[dir="rtl"] .dir-ltr {
+  direction: ltr;
+}
+
+/* Fonts */
+.text-body-extra-small-light {
+  @apply font-light text-xs;
+}
+
+.text-body-extra-small-regular {
+  @apply font-normal text-xs;
+}
+
+.text-body-extra-small-bold {
+  @apply font-bold text-xs;
+}
+
+.text-body-small-light {
+  @apply font-light text-sm leading-[1.5rem];
+}
+
+.text-body-small-regular {
+  @apply font-normal text-sm leading-[1.5rem];
+}
+
+.text-body-small-bold {
+  @apply font-bold text-sm leading-[1.5rem];
+}
+
+.text-body-normal-light {
+  @apply font-light text-base;
+}
+
+.text-body-normal-regular {
+  @apply font-normal text-base;
+}
+
+.text-body-normal-bold {
+  @apply font-bold text-base;
+}
+
+.text-body-medium-light {
+  @apply font-light text-lg;
+}
+
+.text-body-medium-regular {
+  @apply font-normal text-lg;
+}
+
+.text-body-medium-bold {
+  @apply font-bold text-lg;
+}
+
+.text-body-large-light {
+  @apply font-light text-xl;
+}
+
+.text-body-large-regular {
+  @apply font-normal text-xl;
+}
+
+.text-body-large-bold {
+  @apply font-bold text-xl;
+}
+
+.text-body-extra-large-bold {
+  @apply font-bold text-[2rem] leading-[3rem] md:text-[3rem] md:leading-[3.5rem];
+}
+
+.text-headline-h1 {
+  @apply font-bold text-4xl leading-[3.5rem] md:text-[4rem] md:leading-[4.5rem];
+}
+
+.text-headline-h1-2 {
+  @apply font-bold text-[2.5rem] leading-[3.5rem];
+}
+
+.text-headline-h2 {
+  @apply font-bold text-2xl leading-[2.5rem] md:text-[2rem] md:leading-[2.875rem];
+}
+
+.text-label-regular {
+  @apply font-normal text-xs tracking-[10%];
+}
+
+.text-label-bold {
+  @apply font-normal text-xs tracking-[10%];
+}

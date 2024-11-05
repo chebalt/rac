@@ -1,0 +1,37 @@
+﻿---
+ID: "5ca3a5f5-24b4-4069-a4b1-29a1fb999816"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "798822d7-f5ba-4b35-8a1c-bbe63031fe70"
+Path: /sitecore/content/KKIA/KKIA/Data/Terminal Tabs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T063353Z
+    - ID: "64014095-b694-4583-acc0-4c871229b770"
+      Hint: Tabs
+      Value: |
+        {5B6EC474-5A1B-4CCC-A3B9-DAB2469D0C07}
+        {B8E0CC9A-8A5A-4AEB-A56F-CA6F69A29D1B}
+        {0439415A-359D-4325-A8CE-4F0F87AFA8D8}
+        {3CBB748B-FB41-439F-B9CF-018CAB268FE0}
+        {0EB95F12-5808-4BB0-9423-0A59E78C8325}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed265b41-40bd-4cdc-8d48-c09598ddc26f"
+    - ID: "9eee6233-cb1b-4e06-9066-c99f6be155b8"
+      Hint: Title
+      Value: "Finding Pick-up & Drop-off spots"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240916T132508Z
+    - ID: "dde164e9-b533-41a3-9348-78b3481ade3c"
+      Hint: Description
+      Value: Navigate to the right spot with map directions.

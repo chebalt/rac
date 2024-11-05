@@ -1,0 +1,33 @@
+﻿---
+ID: "7efa1607-18de-4e36-b89e-02fa7fa16556"
+Parent: "8bdc7f93-d2c4-4e1c-a906-c5f735bb28e2"
+Template: "8bdc7f93-d2c4-4e1c-a906-c5f735bb28e2"
+Path: /sitecore/templates/Project/KKIA/Shop Dine Explore/Shop Find On Map/Shop Find On Map Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {E23D59E9-370F-46AE-8E6C-14C6EF948D77}
+    {8BDC7F93-D2C4-4E1C-A906-C5F735BB28E2}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e62238fa-6a39-4071-b35b-05a096e06b7a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240730T080116Z

@@ -1,0 +1,54 @@
+﻿---
+ID: "dd09f749-4c59-45dd-bd31-8ed0e14b1710"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "696d7c5c-a139-487f-918d-5fcf4d4df0c2"
+Path: /sitecore/content/KKIA/KKIA/Data/Services Page Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "011e913e-bf53-4f7b-9bc1-9172a3593642"
+      Hint: Image
+      Value: |
+        <image mediaid="{7588F088-A91C-4634-8F7B-E77C91F2F784}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240920T072747Z
+    - ID: "38e3d895-3037-44c3-8bbe-9ba14ca09c60"
+      Hint: Description
+      Value: Find everything you need in one place, including
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "75db3f6b-b459-456b-8969-fd2d36f7533d"
+      Hint: Features
+      Value: |
+        {BC233380-89BC-47D1-8342-140B2B70EA5F}
+        {58FF91F5-961A-4DE0-99C0-735BF9B4B7C3}
+        {E50733E6-09F9-4595-993B-C6D8CAD5AFB8}
+        {9B34A877-2B05-47C0-9723-3895F055B5D6}
+        {C1AFBDA7-B7AB-4C0A-9570-F383E8881A21}
+        {45A28CC5-8F3B-4316-A13C-0177D89B8470}
+        {48574181-ECE3-4C43-B124-C83224EB1C8D}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e929444-4e95-4a83-93e2-e84573df1d5f"
+    - ID: "a95eef54-f097-46c9-b7a9-6efdb0e907fd"
+      Hint: Heading
+      Value: EXPERIENCE MORE
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240920T073522Z
+    - ID: "e3aef18b-e8fd-4a80-9a69-ee43f98b8dfc"
+      Hint: Title
+      Value: Services

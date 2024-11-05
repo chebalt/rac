@@ -1,0 +1,33 @@
+﻿---
+ID: "c36f8ae5-4f8e-4c2e-8d37-7c14be7e9994"
+Parent: "45cac16e-79ae-4226-a57c-55fd23474d19"
+Template: "45cac16e-79ae-4226-a57c-55fd23474d19"
+Path: /sitecore/templates/Project/KKIA/Shop Dine Explore/Payment Method/Payment Method Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {45CAC16E-79AE-4226-A57C-55FD23474D19}
+    {482F36EF-6728-4EE4-ADA8-55933E559A36}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dad03489-0c83-4a9c-9e98-b603ea8f2b89"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240729T104428Z

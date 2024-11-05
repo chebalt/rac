@@ -1,0 +1,23 @@
+﻿---
+ID: "6c02e1b1-9e69-4249-86ef-58e43f2c0620"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "db470b4e-7f6f-4ad1-8941-f4f949d0113d"
+Path: /sitecore/content/KKIA/KKIA/Data/Three Column Services
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T135552Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad9bd5de-459a-4763-a258-d70b6989af02"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T135552Z

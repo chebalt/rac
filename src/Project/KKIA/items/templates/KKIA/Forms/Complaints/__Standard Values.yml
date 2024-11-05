@@ -1,0 +1,37 @@
+﻿---
+ID: "b9d05d4d-9caf-4fcb-97d1-aa6ddb1b77f1"
+Parent: "cb479722-9f7e-4704-86f3-4d987d6b7d93"
+Template: "cb479722-9f7e-4704-86f3-4d987d6b7d93"
+Path: /sitecore/templates/Project/KKIA/Forms/Complaints/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240705T132625Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "56e4578e-533e-44ee-b64f-c909b0d00a28"
+      Hint: Clear Button Text
+      Value: Clear
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a6738bd1-17de-4adf-bcac-f6175ec3e309"
+    - ID: "af77877b-f4d5-4df9-8111-bd0e6ffae046"
+      Hint: Send Button Text
+      Value: Send
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240903T104019Z

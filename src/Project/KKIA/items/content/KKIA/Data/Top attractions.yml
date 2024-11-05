@@ -1,0 +1,32 @@
+﻿---
+ID: "e6c46be2-4a50-4785-b156-2dce8caf31e5"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "faafc7cc-258a-40ed-af79-735c59f99b9d"
+Path: /sitecore/content/KKIA/KKIA/Data/Top attractions
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e2f2d50-aa53-44b3-a3e8-6f6271718fc0"
+      Hint: Cards
+      Value: |
+        {467FBA87-5A95-4213-84FD-7676512B8315}
+        {95294B2D-7A05-49B7-9F15-BEBD8FDCEDB7}
+        {5BE711DB-68BE-45AA-85CB-A8803DC5B034}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240724T142738Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f5e4aaa-bb27-4517-bb66-59d5e4125198"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dpiestov@kogifi.com
+    - ID: "c2e51f4e-c3f8-482e-9322-05c78e323624"
+      Hint: Header
+      Value: Top attractions
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240724T143324Z

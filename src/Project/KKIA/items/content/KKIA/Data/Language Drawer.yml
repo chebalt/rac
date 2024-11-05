@@ -1,0 +1,38 @@
+﻿---
+ID: "c28b22f8-73b7-4fcb-91ae-a19e80bafe93"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "7b6d8700-28f0-4f30-97d5-a649588c9e74"
+Path: /sitecore/content/KKIA/KKIA/Data/Language Drawer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240611T081327Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "6f734f3e-7fe5-4073-8498-751436efc211"
+      Hint: Site Languages
+      Value: |
+        {2731DA0F-FE3D-4498-89FA-019BC0989505}
+        {B6BA6AA9-4E8A-4C69-926B-240381255B16}
+        {E4807FFA-0EDA-458F-ACD2-271DF9658125}
+        {0188E878-F9AC-4A44-BDDC-346AC07C1CEC}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4cb01a9d-c13e-4744-a64e-a6734fdbefb5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240612T134742Z

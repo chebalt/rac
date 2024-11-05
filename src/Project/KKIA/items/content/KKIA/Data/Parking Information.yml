@@ -1,0 +1,27 @@
+﻿---
+ID: "ec917ac5-84d3-470b-a9bc-7666639ba35f"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "b4899bf3-e1a4-4106-9b3a-69648dab1485"
+Path: /sitecore/content/KKIA/KKIA/Data/Parking Information
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T070554Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6464a983-4974-4ee2-900d-20f527b754a9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T081548Z

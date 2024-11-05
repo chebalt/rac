@@ -1,0 +1,37 @@
+﻿---
+ID: "e19da81a-23f0-4b3f-82f5-4c4143d5a513"
+Parent: "fa0a5195-3139-4463-aa12-8a6e1c0b8fe1"
+Template: "fa0a5195-3139-4463-aa12-8a6e1c0b8fe1"
+Path: /sitecore/templates/Project/KKIA/Parking and Transport/Taxi Company Details/Taxi Company Details Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6265284E-AE5C-43F5-ABDF-34391EE51205}
+    {FA0A5195-3139-4463-AA12-8A6E1C0B8FE1}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T085743Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78fa1666-a6ed-4443-b762-c928dfa614bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mkalisz@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240916T080802Z

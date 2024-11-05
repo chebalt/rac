@@ -1,0 +1,68 @@
+.c-column-slider-tab {
+  @apply flex gap-[6rem] max-xl:flex-col;
+
+  &__text {
+    @apply flex flex-col gap-[2rem];
+    &--title {
+      @apply text-[2rem] text-muted-darkest font-bold max-xl:text-[1.5rem];
+    }
+
+    &--description {
+      @apply text-[1.125rem] text-muted-dark font-light max-xl:mb-[1.5rem];
+    }
+
+    &--btn {
+      @apply bg-primary-variant text-jade-darker px-[1.5rem] py-[1rem] font-bold w-fit max-xl:hidden;
+      transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+
+      &:hover {
+        @apply opacity-80;
+        transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+      }
+    }
+  }
+
+  &__slide {
+    margin-top: -92px;
+    max-height: 606px;
+    width: 100%;
+    @apply relative overflow-hidden max-xl:max-h-full;
+
+    &--wrapper {
+      display: flex;
+      gap: 2rem;
+      transition: transform 0.3s ease-in-out;
+
+      &-container {
+        min-width: 743px;
+        @apply max-xl:min-w-full;
+      }
+    }
+  }
+
+  &__actions {
+    position: absolute;
+    right: 2rem;
+    top: 33%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    z-index: 99;
+
+    @apply max-xl:relative max-xl:right-0 max-xl:top-0 max-xl:justify-between;
+    &--btn {
+      border: none;
+      padding: 1.25rem;
+      cursor: pointer;
+      background: var(--background);
+      border-radius: 100%;
+      @apply bg-none;
+
+      &:hover {
+        box-shadow: 0 6px 16px 0 #3c3c3b29;
+        opacity: 0.66;
+        transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+﻿---
+ID: "bcf860eb-4c5e-4ae8-bbaf-08df76717ce7"
+Parent: "aada3945-eccc-4894-bb68-60642eb9e2f3"
+Template: "a8dd41a1-ece4-4653-a3b8-9e257f7c695f"
+Path: /sitecore/content/KKIA/KKIA/Data/Assistance Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a4291c5-18df-47d9-8b5e-9935d82d8e87"
+      Hint: Whatsapp Icon
+      Value: |
+        <image mediaid="{FCF1D521-1726-4721-8232-0498FA8D4199}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T121429Z
+    - ID: "2b2f4d31-2b49-4a62-a321-1c9149fc0ab2"
+      Hint: Image
+      Value: |
+        <image mediaid="{A03D9AEF-80AE-41E1-B2EE-C40664A582CC}" />
+    - ID: "31123252-af80-4eb0-aabc-d651e52252dd"
+      Hint: Title
+      Value: "Need assistance? Let us know in time!"
+    - ID: "3d9f8453-7750-48ea-af9c-f57e92d26be4"
+      Hint: Email Icon
+      Value: |
+        <image mediaid="{A5AE5E31-924D-4F14-8D46-86C92D4B2B38}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "865dd878-3af9-495f-ab10-152577841788"
+      Hint: Whatsapp
+      Value: |
+        <link text="+44 111 222 333" linktype="external" url="tel: +44111222333" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b4411f1-6727-49ba-b2bb-3289f843d363"
+    - ID: "94199705-7539-41c4-9420-2c5a09250351"
+      Hint: Email
+      Value: "<link text='example@gmail.com' linktype='mailto' style='' url='mailto:example@gmail.com'  title='' />"
+    - ID: "9fd4527f-417a-4dc4-b6a0-26e487b55350"
+      Hint: Description
+      Value: For people with disability parking reserved bays are located close to the terminal. Enjoy longer free parking. If you require assistance, please let us know in advance. Contact our Ask Me team for assistance.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbuczak@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T124211Z

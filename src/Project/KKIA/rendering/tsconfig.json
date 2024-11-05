@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "lib/*": ["src/lib/*"],
+      "temp/*": ["src/temp/*"],
+      "assets/*": ["src/assets/*"],
+      "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"],
+      "react": ["node_modules/react"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "downlevelIteration": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "incremental": true,
+    "forceConsistentCasingInFileNames": false
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/api/contactForm.ts",
+    "src/apollo-client.js",
+    "src/apollo-client.js",
+    "src/contexts/LanguageContext.js",
+    "src/data/locales.js"
+  ],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,82 @@
+﻿---
+ID: "c37f18e9-2e88-40e8-9cfd-8d3ca56b57a9"
+Parent: "3616e4f4-bc4b-457f-b8e1-818b2964574a"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/RAC/RAC/Presentation/Partial Designs/Standard Footer
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "standard-footer"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{097AEFB3-A302-4AA5-9405-3248DB16ECB3}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0A7E07E3-5BE4-45ED-846D-666096813F0C}"
+          p:before="*"
+          s:id="{ED40BED6-1965-43ED-A435-E6EDC7A75E0D}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{05E61CE1-2F7B-4C64-BF0A-780006C74224}"
+          p:after="r[@uid='{0A7E07E3-5BE4-45ED-846D-666096813F0C}']"
+          s:ds="{BD66142C-7751-4FEE-88EF-E0AEF5CE3164}"
+          s:id="{5C8B7B5A-523F-4991-87B6-DC8B4A2DF46A}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-footer/kkia-pagecontent-footerlogo-1" />
+        <r
+          uid="{A202DA10-960E-46AD-AD7B-157053AF3B66}"
+          p:after="r[@uid='{05E61CE1-2F7B-4C64-BF0A-780006C74224}']"
+          s:ds="{D6D7721B-CEAD-47F2-9B44-D1674CCC8DE7}"
+          s:id="{7B87227B-D675-429D-A5C7-B34C672B305C}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/kkia-pagecontent-footersocial-1" />
+        <r
+          uid="{8B4404FE-E729-48B8-88FB-A765F33C48EB}"
+          p:after="r[@uid='{A202DA10-960E-46AD-AD7B-157053AF3B66}']"
+          s:ds="{FC4C0BAF-F3C9-4751-9BB5-30DC23CB6BE8}"
+          s:id="{4C0113D6-58EF-4D04-96E9-1C80189FAED5}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/kkia-pagecontent-footermenu-1" />
+        <r
+          uid="{D02C8811-B64B-46D6-90EA-C9068137205B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{191A12F0-280D-4CCD-BBE7-EB1B05B30A91}"
+          s:par="CSSStyles"
+          s:ph="/headless-footer/kkia-pagecontent-footerbottom-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240622T015707Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\afortaleza@kogifi.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "373dacc6-3a31-44d7-8989-65892537f8d9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\etriputko@kogifi.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241104T154713Z
