@@ -3,12 +3,16 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { useRef, useState } from 'react';
 
-import { Text as JssText, TextField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Text as JssText,
+  Image as JssImage,
+  TextField,
+  LinkField,
+  ImageField,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 import { Swiper, SwiperSlide, SwiperRef } from 'swiper/react';
 import { Navigation, Autoplay, Pagination } from 'swiper/modules';
-
-import Image from 'next/image';
 
 import Button from 'components/atoms/Button';
 import ArrowButton from 'components/atoms/ArrowButton';
@@ -21,24 +25,21 @@ import Play from 'components/icons/Play';
 import ArrowLeft from 'components/icons/ArrowLeft';
 import ArrowRight from 'components/icons/ArrowRight';
 
-interface MainHeroFields {
+interface MainHeroProps {
   fields: {
+    images: ImageField[];
     title: TextField;
     description: TextField;
     links: LinkField[];
   };
 }
 
-interface MainHeroProps {
-  props: MainHeroFields;
-}
+export default function MainHero({ fields }: MainHeroProps) {
+  console.log('Main Hero', fields);
 
-export default function MainHero({ props }: MainHeroProps) {
   const SLIDER_TIMER = 5000;
 
   const swiperRef = useRef<SwiperRef>(null);
-
-  const images = ['/images/1.jpeg', '/images/2.jpeg', '/images/3.jpeg', '/images/4.jpeg'];
 
   const [isPlaying, setIsPlaying] = useState<boolean>(true);
   const [timeLeft, setTimeLeft] = useState(100);
@@ -61,23 +62,19 @@ export default function MainHero({ props }: MainHeroProps) {
       <div className="relative mx-auto hidden h-[640px] w-full flex-col justify-end bg-surface-secondary-invert md:flex">
         <div className="z-20 mx-auto flex h-[412px] w-full max-w-[1440px] items-end justify-between gap-24 px-24 py-14">
           <div className="flex flex-col gap-10">
-            <JssText
-              tag="h1"
-              className="text-headline-h1 text-text-invert"
-              field={props.fields.title}
-            />
+            <JssText tag="h1" className="text-headline-h1 text-text-invert" field={fields.title} />
             <div className="flex gap-6">
               <Button
                 size="default"
                 variant="primary"
                 leftIcon={<Telescope />}
-                field={props.fields.links[0]}
+                field={fields.links[0]}
               />
               <Button
                 size="default"
                 variant="secondary"
                 leftIcon={<User />}
-                field={props.fields.links[1]}
+                field={fields.links[1]}
               />
             </div>
           </div>
@@ -85,7 +82,7 @@ export default function MainHero({ props }: MainHeroProps) {
             <JssText
               tag="p"
               className="text-body-medium-regular text-text-invert"
-              field={props.fields.description}
+              field={fields.description}
             />
             <ArrowButton direction="down" size="large" onClick={() => scrollTo('about')} />
           </div>
@@ -169,11 +166,10 @@ export default function MainHero({ props }: MainHeroProps) {
               setTimeLeft(percentage * 100);
             }}
           >
-            {images.map((image, index) => (
+            {fields.images.map((image, index) => (
               <SwiperSlide key={index}>
-                <Image
-                  src={image}
-                  alt={`Main Hero ${index + 1}`}
+                <JssImage
+                  field={image}
                   priority
                   width={1440}
                   height={640}
@@ -214,11 +210,10 @@ export default function MainHero({ props }: MainHeroProps) {
                 setTimeLeft(percentage * 100);
               }}
             >
-              {images.map((image, index) => (
+              {fields.images.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <Image
-                    src={image}
-                    alt={`Main Hero ${index + 1}`}
+                  <JssImage
+                    field={image}
                     priority
                     width={767}
                     height={380}
@@ -230,7 +225,7 @@ export default function MainHero({ props }: MainHeroProps) {
           </div>
           <div className="absolute bottom-0 left-0 z-20 flex h-[48px] w-full items-end justify-center">
             <IndicatorsGroup
-              count={images.length}
+              count={fields.images.length}
               onClick={slideTo}
               activeIndex={activeIndex}
               progress={timeLeft}
@@ -241,23 +236,19 @@ export default function MainHero({ props }: MainHeroProps) {
 
         <div className="flex justify-between gap-24 px-4 py-10">
           <div className="flex flex-col gap-10">
-            <JssText
-              tag="h1"
-              className="text-headline-h1 text-ocean-700"
-              field={props.fields.title}
-            />
+            <JssText tag="h1" className="text-headline-h1 text-ocean-700" field={fields.title} />
             <div className="flex flex-col gap-6">
               <Button
                 size="default"
                 variant="primary"
                 leftIcon={<Telescope />}
-                field={props.fields.links[0]}
+                field={fields.links[0]}
               />
               <Button
                 size="default"
                 variant="secondary"
                 leftIcon={<User />}
-                field={props.fields.links[1]}
+                field={fields.links[1]}
               />
             </div>
           </div>

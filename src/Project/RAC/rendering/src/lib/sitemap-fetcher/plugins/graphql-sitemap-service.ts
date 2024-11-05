@@ -14,6 +14,11 @@ class GraphqlSitemapServicePlugin implements SitemapFetcherPlugin {
   _graphqlSitemapService: MultisiteGraphQLSitemapService;
 
   constructor() {
+    const s: string[] = [...new Set(siteResolver.sites.map((site: SiteInfo) => site.name))];
+    s.forEach((element) => {
+      console.log('Site: ' + element);
+    });
+
     this._graphqlSitemapService = new MultisiteGraphQLSitemapService({
       clientFactory,
       sites: [...new Set(siteResolver.sites.map((site: SiteInfo) => site.name))],
