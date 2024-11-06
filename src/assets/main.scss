@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: var(--font-frutiger);
+  }
+
+  :root {
+    /* Background */
+    --background: #fff;
+
+    /* Text Colors */
+    --text-invert: #edf4fb;
+    --text-action-invert: #edf4fb;
+    --text-action-disabled: #cdc9c5;
+    --text-info: #045978;
+    --text-error: #982314;
+    --text-warning: #8e3400;
+    --text-success: #035e4c;
+    --text-primary: #303231;
+    --text-secondary: #4e504f;
+    --text-action-primary: #132e2d;
+    --text-action-secondary-default: #1f619b;
+    --text-action-secondary-hover: #164772;
+    --text-action-secondary-press: #0b2741;
+    --text-action-tertiary-default: #4e504f;
+    --text-action-tertiary-hover: #3b3d3c;
+    --text-action-tertiary-press: #303231;
+    --text-action-invert-default: #edf4fb;
+    --text-action-invert-hover: #d0e1f0;
+    --text-action-invert-press: #a6c6e3;
+
+    /* Border Colors */
+    --border-primary: #d0e1f0;
+    --border-action-primary-default: #4b8cc7;
+    --border-action-primary-hover: #2574bb;
+    --border-action-primary-press: #164772;
+    --border-action-secondary-default: #1f619b;
+    --border-action-secondary-hover: #164772;
+    --border-action-secondary-press: #0b2741;
+    --border-action-tertiary-default: #a6a29f;
+    --border-action-tertiary-default-2: #a8a8a8;
+    --border-action-tertiary-hover: #666765;
+    --border-action-tertiary-press: #3b3d3c;
+    --border-action-disabled: #cdc9c5;
+    --border-action-focus: #0b2741;
+    --border-action-focus-invert: #a6c6e3;
+
+    /* Surface Colors */
+
+    --surface-primary: #fff;
+    --surface-secondary-invert: #1f619b;
+    --surface-action-primary-default: #2574bb;
+    --surface-action-primary-hover: #1f619b;
+    --surface-action-primary-press: #164772;
+    --surface-action-secondary-default: #edf4fb;
+    --surface-action-secondary-hover: #d0e1f0;
+    --surface-action-secondary-press: #a6c6e3;
+    --surface-action-tertiary-default: #fbf9f7;
+    --surface-action-tertiary-hover: #f2f0ee;
+    --surface-action-tertiary-press: #e4e2df;
+    --surface-secondary: #edf4fb;
+    --surface-secondary-2: #e9f1f8;
+    --surface-quaternary: #e4e2df;
+    --surface-error: #feebe9;
+    --surface-info: #e6f6fc;
+    --surface-warning: #ffefe6;
+    --surface-success: #e6f7f3;
+    --surface-action-disabled: #f2f0ee;
+    --surface-on-action-disabled: #cdc9c5;
+
+    /* Icon Colors */
+    --icon-primary: #1f619b;
+    --icon-action-primary: #edf4fb;
+    --icon-action-secondary-default: #1f619b;
+    --icon-action-secondary-hover: #164772;
+    --icon-action-secondary-press: #0b2741;
+    --icon-invert: #edf4fb;
+    --icon-error: #f93822;
+    --icon-info: #00a9e0;
+    --icon-warning: #ff5e00;
+    --icon-success: #00b08b;
+    --icon-action-disabled: #cdc9c5;
+
+    /* Aqua Palette */
+    --aqua-700: #1e514f;
+
+    /* Ocean Palette */
+    --ocean-50: #edf4fb;
+    --ocean-100: #d0e1f0;
+    --ocean-200: #a6c6e3;
+    --ocean-300: #81aed8;
+    --ocean-400: #4b8cc7;
+    --ocean-500: #2574bb;
+    --ocean-600: #1f619b;
+    --ocean-700: #164772;
+    --ocean-800: #0b2741;
+
+    /* Indigo Palette */
+    --indigo-50: #f5f2f8;
+    --indigo-100: #d3cae0;
+    --indigo-300: #b0a0c8;
+    --indigo-400: #7f65a5;
+    --indigo-500: #654593;
+    --indigo-600: #502c84;
+
+    /* Grayscale Palette */
+    --grayscale-0: #fff;
+    --grayscale-50: #8e98a8;
+    --grayscale-100: #f9f9f9;
+    --grayscale-200: #eaeaea;
+    --grayscale-300: #dcdcdc;
+    --grayscale-400: #c0c0c0;
+    --grayscale-500: #a8a8a8;
+    --grayscale-600: #909090;
+    --grayscale-700: #787878;
+    --grayscale-800: #484848;
+    --grayscale-900: #303030;
+
+    /* Error Palette */
+    --error-50: #feebe9;
+    --error-100: #fdd4d4;
+    --error-200: #fba5a8;
+    --error-300: #fa5a48;
+    --error-400: #f93822;
+    --error-500: #982314;
+
+    /* Warning Palette */
+    --warning-50: #ffefe6;
+    --warning-100: #ffbd96;
+    --warning-200: #ffa26b;
+    --warning-300: #ff792b;
+    --warning-400: #ff5e00;
+    --warning-500: #c9510b;
+    --warning-600: #8e3400;
+
+    /* Info Palette */
+    --info-50: #e6f6fc;
+    --info-100: #aae1f5;
+    --info-200: #7dd1ef;
+    --info-300: #4abfe9;
+    --info-400: #00a9e0;
+    --info-500: #045978;
+
+    /* Success Palette */
+    --success-50: #e6f7f3;
+    --success-100: #96dfcf;
+    --success-200: #6bd1bc;
+    --success-300: #2bbd9f;
+    --success-400: #00b08b;
+    --success-500: #035e4c;
+  }
+
+  /* Fonts */
+  .text-body-extra-small-light {
+    @apply text-xs font-light;
+  }
+
+  .text-body-extra-small-regular {
+    @apply text-xs font-normal;
+  }
+
+  .text-body-extra-small-bold {
+    @apply text-xs font-bold;
+  }
+
+  .text-body-small-light {
+    @apply text-sm font-light leading-[1.5rem];
+  }
+
+  .text-body-small-regular {
+    @apply text-sm font-normal leading-[1.5rem];
+  }
+
+  .text-body-small-bold {
+    @apply text-sm font-bold leading-[1.5rem];
+  }
+
+  .text-body-normal-light {
+    @apply text-base font-light;
+  }
+
+  .text-body-normal-regular {
+    @apply text-base font-normal;
+  }
+
+  .text-body-normal-bold {
+    @apply text-base font-bold;
+  }
+
+  .text-body-medium-light {
+    @apply text-lg font-light;
+  }
+
+  .text-body-medium-regular {
+    @apply text-lg font-normal;
+  }
+
+  .text-body-medium-bold {
+    @apply text-lg font-bold;
+  }
+
+  .text-body-large-light {
+    @apply text-xl font-light;
+  }
+
+  .text-body-large-regular {
+    @apply text-xl font-normal;
+  }
+
+  .text-body-large-bold {
+    @apply text-xl font-bold;
+  }
+
+  .text-body-extra-large-bold {
+    @apply text-[2rem] font-bold leading-[3rem] md:text-[3rem] md:leading-[3.5rem];
+  }
+
+  .text-headline-h1 {
+    @apply text-4xl font-bold leading-[3.5rem] md:text-[4rem] md:leading-[4.5rem];
+  }
+
+  .text-headline-h1-2 {
+    @apply text-[3.5rem] font-bold leading-[3.5rem];
+  }
+
+  .text-headline-h2 {
+    @apply text-2xl font-bold leading-[2.5rem] md:text-[2.125rem] md:leading-[2.875rem];
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply w-2 bg-surface-action-tertiary-default;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply w-1 bg-border-action-tertiary-default;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-border-action-tertiary-hover;
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    @apply bg-border-action-tertiary-press;
+  }
+
+  .clip-triangle {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+
+  .clip-triangle-reverse {
+    clip-path: polygon(100% 0, 50% 100%, 100% 100%);
+  }
+
+  .clip-trapezoid {
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+  }
+
+  .clip-trapezoid-2 {
+    clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+  }
+
+  .clip-hexagon {
+    clip-path: polygon(30% 0, 100% 0, 100% 74%, 70% 100%, 0 100%, 0 26%);
+  }
+
+  .clip-hexagon-2 {
+    clip-path: polygon(10% 0, 100% 0, 100% 71%, 90% 100%, 0 100%, 0 29%);
+  }
+}
+
+@layer utilities {
+  .bg-surface-action-tertiary-default {
+    background-color: var(--surface-action-tertiary-default);
+  }
+
+  .bg-border-action-tertiary-default {
+    background-color: var(--border-action-tertiary-default);
+  }
+
+  .bg-border-action-tertiary-hover {
+    background-color: var(--border-action-tertiary-hover);
+  }
+
+  .bg-border-action-tertiary-press {
+    background-color: var(--border-action-tertiary-press);
+  }
+}
