@@ -18,10 +18,29 @@ const nextConfig = {
     PUBLIC_URL: publicUrl,
   },
 
+  async headers() {
+    return [
+      {
+        // matching all API routes
+        source: '/api/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Credentials', value: 'true' },
+          { key: 'Access-Control-Allow-Origin', value: '*' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,DELETE,PATCH,POST,PUT' },
+          {
+            key: 'Access-Control-Allow-Headers',
+            value:
+              'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
+          },
+        ],
+      },
+    ];
+  },
+
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
-    locales: ['en', 'ar-SA'],
+    locales: ['en', 'ar-sa'],
     // This is the locale that will be used when visiting a non-locale
     // prefixed path e.g. `/styleguide`.
     defaultLocale: jssConfig.defaultLanguage,
@@ -43,6 +62,21 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'feaas*.blob.core.windows.net',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.vercel.app',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'xmc-riyadhairpof017-kkia46e5-devaa5a.sitecorecloud.io', // XM DEV Instance
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'xmc-riyadhairpo80e5-kkiad3e9-previewad6e.sitecorecloud.io', // XM UAT Instance
         port: '',
       },
     ],
