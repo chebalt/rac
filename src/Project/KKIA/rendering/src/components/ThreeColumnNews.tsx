@@ -53,7 +53,7 @@ const ThreeColumnNews = (props: ThreeColumnNewsProps): JSX.Element => {
         <NewsCardsItem
           key={index}
           fields={pieceOfNews.fields}
-          itemUrl={pieceOfNews.url}
+          url={pieceOfNews.url}
           params={props.params}
         />
       ));

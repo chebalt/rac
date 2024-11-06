@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  Link as JssLink,
-  LinkField,
   Image as JssImage,
   ImageField,
   TextField,

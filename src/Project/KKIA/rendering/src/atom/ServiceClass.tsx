@@ -1,12 +1,8 @@
 import React from 'react';
-import {
-  Text as JssText,
-  Link as JssLink,
-  TextField,
-  LinkField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text as JssText, TextField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useI18n } from 'next-localization';
 import TickSvg from 'src/assets/icons/TickSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface FeatureFields {
   fields: {
@@ -86,7 +82,7 @@ const ServiceClass = (props: ServiceClassProps): JSX.Element => {
         </div>
       </div>
 
-      <JssLink
+      <CustomLink
         className="bg-surface-action-primary-default hover:bg-surface-action-primary-hover active:bg-surface-action-primary-press text-jade-darker font-normal text-lg py-4 w-full flex items-center justify-center"
         field={props.fields.Link}
       />

@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
@@ -10,6 +9,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useI18n } from 'next-localization';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface AssistanceBannerFields {
   Title: TextField;
@@ -52,7 +52,7 @@ const AssistanceBanner = (props: AssistanceBannerProps): JSX.Element => {
                 <div>
                   <div>{t('assistanceBanner-whatsapp')}</div>
                   <h5 className="font-bold">
-                    <JssLink field={props.fields.Whatsapp} />
+                    <CustomLink field={props.fields.Whatsapp} />
                   </h5>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const AssistanceBanner = (props: AssistanceBannerProps): JSX.Element => {
                 <div>
                   <div>{t('assistanceBanner-email')}</div>
                   <h5 className="font-bold">
-                    <JssLink field={props.fields.Email} />
+                    <CustomLink field={props.fields.Email} />
                   </h5>
                 </div>
               </div>

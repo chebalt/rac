@@ -2,14 +2,12 @@ import React from 'react';
 import {
   Text,
   Image,
-  Link,
   ImageField,
   TextField,
   LinkField,
   useSitecoreContext,
   NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from 'src/shared-components/PrimaryButton';
 import TerminalBox from './TerminalBox';
 import ClockSvg from 'assets/icons/ClockSvg';
 import PhoneSvg from 'assets/icons/PhoneSvg';
@@ -22,6 +20,9 @@ import Arrow2IconSvg from 'assets/icons/Arrow2IconSvg';
 import Book from 'assets/icons/Book';
 import { Text20 } from '../Texts';
 import CategoryTagLayer from '../CategoryTagLayer';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
+import CustomLink from '../CustomLink';
 
 interface ICustomCard {
   image: ImageField;
@@ -70,6 +71,7 @@ export default function CustomCard({
   const isEditing = sitecoreContext.pageEditing;
 
   const formatPhoneNumber = (phoneNumber: string) => {
+    console.log(`link: ${btnUrl}`);
     return phoneNumber.replace(/[^0-9+]/g, '');
   };
 
@@ -108,14 +110,14 @@ export default function CustomCard({
                     <Book className="w-6 h-6" />
                   </IconWrapper>
                   <h6 className="font-light text-muted-darker">
-                    <Link field={menulink ?? { value: { href: '', text: '' } }} editable />
+                    <CustomLink field={menulink ?? { value: { href: '', text: '' } }} />
                   </h6>
                 </div>
               )}
               {(location || isEditing) && (
                 <div className="flex text-primary-dark-green items-center hover:opacity-70 rtl:justify-end">
                   <div className="font-bold text-sm">
-                    <Link field={location ?? { value: { href: '', text: '' } }} editable />
+                    <CustomLink field={location ?? { value: { href: '', text: '' } }} />
                   </div>
                   <div className="ml-2">
                     <Arrow2IconSvg />
@@ -185,7 +187,7 @@ export default function CustomCard({
                     <GlobeSvg />
                   </IconWrapper>
                   <h6 className="font-light text-muted-darker">
-                    <Link field={website ?? { value: { href: '', text: '' } }} editable />
+                    <CustomLink field={website ?? { value: { href: '', text: '' } }} />
                   </h6>
                 </div>
               )}
@@ -205,12 +207,13 @@ export default function CustomCard({
                 </div>
               )}
             </div>
-            <PrimaryButton
-              fontSize="1.125rem"
-              noUnderline
-              text={btnText}
+
+            <Button
+              variant="tertiary"
+              label={btnText}
               url={btnUrl}
               className="max-w-[150px]"
+              rightIcon={<ArrowIconSvg />}
             />
           </div>
         </>

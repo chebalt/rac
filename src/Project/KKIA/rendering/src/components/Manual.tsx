@@ -2,13 +2,13 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import ArrowDown from 'assets/icons/ArrowDown';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type ManualStep = {
   fields: {
@@ -44,7 +44,7 @@ const Manual = (props: ManualProps): JSX.Element => {
               tag="p"
               className="text-body-medium-light text-text-secondary"
             />
-            <JssLink
+            <CustomLink
               field={step.fields.Link}
               className="text-body-medium-bold text-text-action-secondary-default hover:text-text-action-secondary-hover active:text-text-action-secondary-press"
             />

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import NavGroup from './NavGroup';
 import { useRouter } from 'next/router';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type NavProps = {
   title: {
@@ -78,7 +79,7 @@ const Nav: React.FC<NavProps> = ({ title, links, isMobileView, toggleMobileMenu,
           <li className="c-nav__item">
             <div className="flex items-center gap-[0.25rem] text-muted-darker rtl:justify-end">
               {links?.length === 0 ? (
-                <a href={linkHref} className="c-nav__item--link">
+                <CustomLink url={linkHref} className="c-nav__item--link">
                   <Text
                     field={title}
                     tag="span"
@@ -86,7 +87,7 @@ const Nav: React.FC<NavProps> = ({ title, links, isMobileView, toggleMobileMenu,
                       isActive ? 'text-body-normal-bold !text-primary-dark-green' : ''
                     }`}
                   />
-                </a>
+                </CustomLink>
               ) : (
                 <div className="flex items-center gap-[0.25rem] rtl:flex-row-reverse">
                   <Text field={title} tag="span" className="c-nav__item--title rtl:!text-left" />
@@ -124,9 +125,9 @@ const Nav: React.FC<NavProps> = ({ title, links, isMobileView, toggleMobileMenu,
             </div>
             <ul className="c-nav-item">
               <li className="c-nav-item__content rtl:text-end">
-                <a href={linkHref} className="c-nav-item__content--link text-jade-darkest">
+                <CustomLink url={linkHref} className="c-nav-item__content--link text-jade-darkest">
                   <Text field={title} tag="span" className="c-nav__item--title" />
-                </a>
+                </CustomLink>
               </li>
             </ul>
             <NavGroup links={links} />

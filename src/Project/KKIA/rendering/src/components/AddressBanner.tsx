@@ -7,8 +7,9 @@ import {
   Image as JssImage,
   Text as JssText,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from '../shared-components/PrimaryButton';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 interface AddressBannerProps {
   rendering: ComponentRendering;
@@ -39,7 +40,13 @@ const AddressBanner = (props: AddressBannerProps): JSX.Element => {
           </div>
         </div>
         <div className="flex justify-center w-full md:w-auto">
-          <PrimaryButton hasMaxWidth={false} field={props.fields.Link} />
+          <Button
+            variant="tertiary"
+            field={props.fields.Link}
+            className="font-normal"
+            rightIcon={<ArrowIconSvg />}
+            defaultUnderline
+          />
         </div>
       </div>
     </SectionPaddingWrapper>

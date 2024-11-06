@@ -11,17 +11,18 @@ interface AboutSection {
 
 interface AboutProps {
   fields?: {
-    image: ImageField;
-    items: AboutSection[];
+    image?: ImageField;
+    items?: AboutSection[];
   };
 }
+
 export default function About({ fields }: AboutProps) {
-  console.log(fields);
+  if (!fields?.items) return null;
   return (
     <div className="h-[1014px] w-full bg-surface-quaternary md:h-[773px]" id="about">
       <div
         className="mx-auto h-full w-full bg-cover bg-center bg-no-repeat md:max-w-[1440px]"
-        style={{ backgroundImage: `url(${fields?.image?.value?.src})` }}
+        style={{ backgroundImage: `url(${fields?.image?.value?.src || ''})` }}
       >
         {/* Desktop view */}
         <div className="hidden h-full w-full bg-[#1D1D1D40] md:flex">

@@ -1,7 +1,8 @@
-import { Link, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Link as JssLink, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import NextLink from 'next/link';
 import clsx from 'clsx';
 import ArrowRight from '../icons/ArrowRight';
+import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface ArrowButtonProps {
   /** Link field */
@@ -27,6 +28,8 @@ export default function ArrowButton({
   buttonClassName,
   url,
 }: ArrowButtonProps) {
+  const { sitecoreContext } = useSitecoreContext();
+
   const outerDivSize = size === 'small' ? 'w-12 h-12' : 'w-20 h-20';
   const arrowSize = size === 'small' ? 'h-6 w-6' : 'h-7 w-7';
   const commonClassName =
@@ -49,6 +52,7 @@ export default function ArrowButton({
         href={url}
         className={clsx(commonClassName, outerDivSize, buttonClassName)}
         style={{ transform: `rotate(${rotationDegrees}deg)` }}
+        locale={sitecoreContext?.language}
       >
         <ArrowRight className={arrowSize} />
       </NextLink>
@@ -57,9 +61,9 @@ export default function ArrowButton({
 
   if (field) {
     return (
-      <Link field={field} className={clsx(commonClassName, outerDivSize, buttonClassName)}>
+      <JssLink field={field} className={clsx(commonClassName, outerDivSize, buttonClassName)}>
         <ArrowRight className={arrowSize} />
-      </Link>
+      </JssLink>
     );
   }
 

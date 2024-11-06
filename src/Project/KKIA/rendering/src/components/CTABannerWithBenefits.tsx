@@ -9,6 +9,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import CTABannerBenefit, { CTABannerBenefitProps } from 'src/atom/CTABannerBenefit';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface CTABannerWithBenefitsProps {
   rendering: ComponentRendering;
@@ -45,8 +46,8 @@ const CTABannerWithBenefits = (props: CTABannerWithBenefitsProps): JSX.Element =
                 <CTABannerBenefit key={index} fields={benefit.fields} />
               ))}
             </div>
-            <a
-              href={linkUrl}
+            <CustomLink
+              url={linkUrl}
               className="px-6 py-4 text-jade-darker bg-primary-variant font-bold text-lg w-full md:w-fit text-center flex gap-2 flex-nowrap justify-center items-center"
             >
               {linkText}
@@ -55,7 +56,7 @@ const CTABannerWithBenefits = (props: CTABannerWithBenefitsProps): JSX.Element =
                   <JssImage field={props.fields['Link Icon']} />
                 </div>
               )}
-            </a>
+            </CustomLink>
           </div>
         </div>
       </div>

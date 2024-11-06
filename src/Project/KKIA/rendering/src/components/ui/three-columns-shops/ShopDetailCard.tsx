@@ -8,7 +8,6 @@ import {
 
 import { useI18n } from 'next-localization';
 import CustomCard from 'src/shared-components/CustomCard';
-import useUrl from 'src/hooks/useUrl';
 
 export interface AreaOfLocationFields {
   fields: {
@@ -51,7 +50,6 @@ export type ShopDetailCardProps = {
 
 const ShopDetailCard = ({ fields, itemUrl }: ShopDetailCardProps): JSX.Element => {
   const { t } = useI18n();
-  const fullUrl = useUrl(itemUrl);
 
   return (
     <CustomCard
@@ -65,7 +63,7 @@ const ShopDetailCard = ({ fields, itemUrl }: ShopDetailCardProps): JSX.Element =
       menulink={fields['Menu Link']}
       terminals={fields.Terminals}
       btnText={t('threecolumnshops-viewDetails')}
-      btnUrl={fullUrl}
+      btnUrl={itemUrl}
     />
   );
 };

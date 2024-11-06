@@ -2,7 +2,6 @@ import { Image as JssImage, Text as JssText } from '@sitecore-jss/sitecore-jss-n
 import { format } from 'date-fns';
 import { DateField as JssDateField } from '@sitecore-jss/sitecore-jss-react';
 import { useI18n } from 'next-localization';
-import useUrl from 'src/hooks/useUrl';
 import Button from 'src/shared-components/Button';
 import { NewsCardsItemProps } from 'components/NewsCards';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
@@ -10,8 +9,7 @@ import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
 const NewsCardsItem = (props: NewsCardsItemProps): JSX.Element => {
   const { Image, 'Publication Date': PublicationDate, Description } = props.fields;
   const { t } = useI18n();
-  const { itemUrl, url } = props;
-  const fullUrl = useUrl(itemUrl || url);
+  const { url } = props;
 
   return (
     <div className="flex flex-col w-full bg-surface-secondary md:min-h-[488px] mb-4">
@@ -30,7 +28,7 @@ const NewsCardsItem = (props: NewsCardsItemProps): JSX.Element => {
             </h5>
           </div>
           <Button
-            url={fullUrl}
+            url={url}
             label={t('newscards-readMore')}
             variant="tertiary"
             rightIcon={<ArrowRightSvg />}

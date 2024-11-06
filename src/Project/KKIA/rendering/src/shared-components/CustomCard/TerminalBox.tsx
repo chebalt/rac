@@ -1,9 +1,10 @@
-import { Link, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import Arrow2IconSvg from 'assets/icons/Arrow2IconSvg';
+import CustomLink from '../CustomLink';
 
 export default function TerminalBox({ field }: { field: LinkField }) {
   return (
-    <Link
+    <CustomLink
       field={field}
       className="border border-primary-dark-green px-2 py-1 flex items-center hover:opacity-50 rtl:flex-row-reverse"
     >
@@ -11,6 +12,6 @@ export default function TerminalBox({ field }: { field: LinkField }) {
       <div className="text-primary-dark-green text-base">
         <Arrow2IconSvg />
       </div>
-    </Link>
+    </CustomLink>
   );
 }

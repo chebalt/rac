@@ -6,9 +6,9 @@ import {
   Text,
   ImageField,
   LinkField,
-  Link,
   Image,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 interface SocialAccountFields {
   Logo: ImageField;
   Link: LinkField;
@@ -44,9 +44,9 @@ export const Default = ({ fields }: FooterSocialAccountsProps) => {
       <div className="flex my-6">
         {fields.Items.map((item) => {
           return (
-            <Link field={item.fields.Link} key={item.id} className="mr-6 hover:md:opacity-90">
+            <CustomLink field={item.fields.Link} key={item.id} className="mr-6 hover:md:opacity-90">
               <Image className="h-[25px] w-[25px]" field={item.fields.Logo} />
-            </Link>
+            </CustomLink>
           );
         })}
       </div>

@@ -1,13 +1,13 @@
 import React, { CSSProperties } from 'react';
 import {
   Image as JssImage,
-  Link as JssLink,
   ImageField,
   Field,
   LinkField,
   Text,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface Fields {
   Image: ImageField;
@@ -71,9 +71,9 @@ export const Default = (props: ImageProps): JSX.Element => {
           {sitecoreContext.pageState === 'edit' || !props.fields.TargetUrl?.value?.href ? (
             <Image />
           ) : (
-            <JssLink field={props.fields.TargetUrl}>
+            <CustomLink field={props.fields.TargetUrl}>
               <Image />
-            </JssLink>
+            </CustomLink>
           )}
           <Text
             tag="span"

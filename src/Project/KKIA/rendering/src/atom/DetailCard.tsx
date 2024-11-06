@@ -6,7 +6,6 @@ import {
   LinkField,
   FileField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import useUrl from 'src/hooks/useUrl';
 import { useI18n } from 'next-localization';
 
 import CustomCard from 'src/shared-components/CustomCard';
@@ -46,7 +45,6 @@ export type DetailCardProps = {
 const DetailCard = (props: DetailCardProps): JSX.Element => {
   const { itemUrl } = props;
   const { t } = useI18n();
-  const fullUrl = useUrl(itemUrl);
 
   return (
     <CustomCard
@@ -58,7 +56,7 @@ const DetailCard = (props: DetailCardProps): JSX.Element => {
       website={props.fields.Website}
       terminals={props.fields.Terminals}
       btnText={t('threecolumnshops-viewDetails')}
-      btnUrl={fullUrl}
+      btnUrl={itemUrl}
     />
   );
 };

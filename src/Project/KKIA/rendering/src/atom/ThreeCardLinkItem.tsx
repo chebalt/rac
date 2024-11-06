@@ -7,7 +7,8 @@ import {
   Text as JssText,
   TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 export interface ThreeCardLinkItemFields {
   Image: ImageField;
@@ -24,7 +25,7 @@ export type ThreeCardLinkItemProps = {
 
 export const Default = (props: ThreeCardLinkItemProps): JSX.Element => {
   return (
-    <div className="w-full">
+    <div className="flex flex-col w-full">
       <div className="relative">
         <NextImage
           className="max-h-[180px] h-full w-full object-cover"
@@ -34,12 +35,16 @@ export const Default = (props: ThreeCardLinkItemProps): JSX.Element => {
           <JssText field={props.fields.Badge} />
         </p>
       </div>
-      <div className="flex flex-col gap-5 p-6">
-        <JssText tag="h5" className="text-muted-darkest font-bold" field={props.fields.Title} />
-        <PrimaryButton noIcon={true} noUnderline field={props.fields.Link} />
-      </div>
-      <div>
-        <JssText field={props.fields.Description} />
+      <div className="flex flex-1 flex-col p-6 bg-surface-quaternary">
+        <JssText
+          tag="h5"
+          className="text-text-secondary font-bold mb-5"
+          field={props.fields.Title}
+        />
+        <JssText field={props.fields.Description} className="text-text-secondary font-light" />
+        <div className="mt-auto">
+          <Button variant="tertiary" field={props.fields.Link} rightIcon={<ArrowIconSvg />} />
+        </div>
       </div>
     </div>
   );

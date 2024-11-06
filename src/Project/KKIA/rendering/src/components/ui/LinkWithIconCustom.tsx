@@ -1,6 +1,7 @@
-import { Link, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ReactNode } from 'react';
 import clsx from 'clsx';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface LinkWithIconCustomProps {
   field: LinkField;
@@ -20,7 +21,7 @@ export default function LinkWithIconCustom({
   linkClassName,
 }: LinkWithIconCustomProps) {
   return (
-    <Link field={field} className={clsx(containerClassName)}>
+    <CustomLink field={field} className={clsx(containerClassName)}>
       {iconLeft && (
         <div className={clsx('inline-flex items-center', iconClassName)}>{iconLeft}</div>
       )}
@@ -30,6 +31,6 @@ export default function LinkWithIconCustom({
       {iconRight && (
         <div className={clsx('inline-flex items-center', iconClassName)}>{iconRight}</div>
       )}
-    </Link>
+    </CustomLink>
   );
 }

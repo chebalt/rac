@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   Image as JssImage,
-  Link as JssLink,
   RichText as JssRichText,
   ImageField,
   Field,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface Fields {
   PromoIcon: ImageField;
@@ -44,7 +44,7 @@ export const Default = (props: PromoProps): JSX.Element => {
               </div>
             </div>
             <div className="field-promolink">
-              <JssLink field={props.fields.PromoLink} />
+              <CustomLink field={props.fields.PromoLink} />
             </div>
           </div>
         </div>

@@ -3,8 +3,9 @@ import React from 'react';
 import ThingsToDoSliderItem, { ThingsToDoSliderItemProps } from 'src/atom/ThingsToDoSliderItem';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
 import ArrowGroup from '../shared-components/ArrowGroup';
-import SecondaryButton from '../shared-components/SecondaryButton';
 import ThingsToDoCarousel from 'components/ui/things-to-do/ThingsToDoCarousel';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 export interface ThingsToDoSliderFields {
   Items: ThingsToDoSliderItemProps[];
@@ -47,7 +48,12 @@ const ThingsToDoSlider = (props: ThingsToDoSliderProps): JSX.Element => {
         ))}
       </div>
       <div className="flex justify-center max-md:w-full">
-        <SecondaryButton className="text-lg" field={props.fields.Link} hasIcon />
+        <Button
+          variant="primary"
+          className="text-lg"
+          field={props.fields.Link}
+          rightIcon={<ArrowIconSvg />}
+        />
       </div>
     </SectionPaddingWrapper>
   );

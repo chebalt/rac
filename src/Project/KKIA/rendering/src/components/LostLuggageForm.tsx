@@ -24,7 +24,6 @@ import Snackbar from './ui/Snackbar';
 import Image from 'next/image';
 import PrinterSvg from 'assets/icons/PrinterSvg';
 import ReCAPTCHA from 'react-google-recaptcha';
-
 import CloseSvg from 'assets/icons/CloseSvg';
 import WhatsAppSvg from 'assets/icons/WhatsAppSvg';
 import EmailSvg from 'assets/icons/EmailSvg';

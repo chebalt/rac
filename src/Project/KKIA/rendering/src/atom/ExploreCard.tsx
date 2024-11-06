@@ -3,11 +3,11 @@ import {
   ComponentParams,
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface ExploreCardFields {
   Image: ImageField;
@@ -27,7 +27,7 @@ export const ExploreCard = (props: ExploreCardProps): JSX.Element => {
       <JssImage field={props.fields.Image} />
       <JssText field={props.fields.Title} />
       <JssText field={props.fields.Description} />
-      <JssLink field={props.fields.Link} />
+      <CustomLink field={props.fields.Link} />
     </div>
   );
 };

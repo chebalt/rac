@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link as JssLink, LinkField, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { LinkField, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface LoginButtonProps {
   rendering: ComponentRendering;

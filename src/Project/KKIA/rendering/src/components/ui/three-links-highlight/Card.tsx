@@ -4,9 +4,9 @@ import {
   ImageField,
   Field,
   Image as JssImage,
-  Link as JssLink,
   Text as JSSText,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface CardProps {
   title: Field<string>;
@@ -16,7 +16,7 @@ interface CardProps {
 }
 
 const Card = ({ title, description, link, icon }: CardProps): JSX.Element => (
-  <JssLink field={link} className="c-card rtl:flex-row-reverse">
+  <CustomLink field={link} className="c-card rtl:flex-row-reverse">
     <div className="flex flex-row items-center rtl:flex-row-reverse">
       <JssImage className="c-card__img--icon rtl:ml-0 rtl:mr-[1.5rem]" field={icon} />
       <div className="c-card__text">
@@ -33,7 +33,7 @@ const Card = ({ title, description, link, icon }: CardProps): JSX.Element => (
       src="/icons/three-links-arrow-right.svg"
       alt="arrow right"
     />
-  </JssLink>
+  </CustomLink>
 );
 
 export default Card;

@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  Image as JssImage,
-  Link as JssLink,
-  ImageField,
-  LinkField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Image as JssImage, ImageField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface Fields {
   Image: ImageField;
@@ -29,9 +25,9 @@ export const Default = (props: HeaderLogoProps): JSX.Element => {
   if (props.fields) {
     return (
       <div id={id ? id : undefined}>
-        <JssLink field={props.fields.Link}>
+        <CustomLink field={props.fields.Link}>
           <JssImage field={props.fields.Image} />
-        </JssLink>
+        </CustomLink>
       </div>
     );
   }

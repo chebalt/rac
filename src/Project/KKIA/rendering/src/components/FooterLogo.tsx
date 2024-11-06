@@ -1,5 +1,6 @@
 import React from 'react';
-import { Image, Link, ImageField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Image, ImageField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface Fields {
   Image: ImageField;
@@ -15,9 +16,9 @@ const FooterLogo = ({ fields }: FooterLogoProps) => {
   if (!fields) return null;
 
   return (
-    <Link field={fields.Link} className="hover:md:opacity-90 rtl:float-right">
+    <CustomLink field={fields.Link} className="hover:md:opacity-90 rtl:float-right">
       <Image field={fields.Image} />
-    </Link>
+    </CustomLink>
   );
 };
 

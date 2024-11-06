@@ -3,6 +3,7 @@ import { ComponentRendering, TextField } from '@sitecore-jss/sitecore-jss-nextjs
 import { useI18n } from 'next-localization';
 import Item from './ui/arline-details-3-columns/Item';
 import GlobeSvg from 'assets/icons/GlobeSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type AirlinePageProps = {
   fields: {
@@ -38,8 +39,8 @@ const AirlineDetails3Columns = (props: AirlineDetails3ColumnsProps): JSX.Element
         value={Airline.fields.Website}
         icon={<GlobeSvg />}
       />
-      <a
-        href={`tel:${formatPhoneNumber(String(Airline.fields['Phone Number'].value))}`}
+      <CustomLink
+        url={`tel:${formatPhoneNumber(String(Airline.fields['Phone Number'].value))}`}
         className="w-full xl:mx-4"
       >
         <Item
@@ -47,7 +48,7 @@ const AirlineDetails3Columns = (props: AirlineDetails3ColumnsProps): JSX.Element
           value={Airline.fields['Phone Number']}
           icon={<GlobeSvg />}
         />
-      </a>
+      </CustomLink>
       <Item title={t('airlinedetailpage-email')} value={Airline.fields.Email} icon={<GlobeSvg />} />
     </div>
   );

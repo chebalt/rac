@@ -10,8 +10,9 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import clsx from 'clsx';
-import PrimaryButton from 'src/shared-components/PrimaryButton';
 import { Text32 } from 'src/shared-components/Texts';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 interface ExploreCardsFields {
   Cards: Array<ExploreCardProps>;
@@ -62,12 +63,11 @@ const Default = (props: ExploreCardsProps): JSX.Element => {
                 <p className="text-jade-light mb-3">
                   <Text field={card.fields.Description} />
                 </p>
-                <PrimaryButton
-                  hasMaxWidth={false}
-                  fontSize="1.125rem"
-                  isLight
-                  noUnderline
+                <Button
                   field={card.fields.Link}
+                  variant={'tertiary'}
+                  className="text-lg text-white hover:text-white hover:border-white"
+                  rightIcon={<ArrowIconSvg />}
                 />
               </div>
             </div>
@@ -112,12 +112,11 @@ const ExploreCardsWithTitle = (props: ExploreCardsProps): JSX.Element => {
                   className="text-text-invert text-body-medium-regular"
                 />
 
-                <PrimaryButton
-                  hasMaxWidth={false}
-                  fontSize="1.125rem"
-                  isLight
-                  noUnderline
+                <Button
                   field={card.fields.Link}
+                  variant={'tertiary'}
+                  className="text-lg text-white hover:text-white hover:border-white"
+                  rightIcon={<ArrowIconSvg />}
                 />
               </div>
             </div>

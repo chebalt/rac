@@ -36,11 +36,6 @@ export default function HeaderTop({ props }: HeaderTopProps) {
     setOpenDrawer(openDrawer === drawer ? null : drawer);
   };
 
-  const languages = [
-    { code: 'en', name: 'English' },
-    { code: 'ar', name: 'Arabic' },
-  ];
-
   return (
     <div className="h-8 w-full bg-surface-secondary">
       <Container className="flex h-8 w-full items-center justify-end">
@@ -57,7 +52,10 @@ export default function HeaderTop({ props }: HeaderTopProps) {
         <LanguageDrawer
           isOpen={openDrawer === 'language'}
           toggleDrawer={() => toggleDrawer('language')}
-          languages={languages}
+          languages={props.fields.languages.map((language) => ({
+            code: language.value.code,
+            name: language.value.name,
+          }))}
         />
       </Container>
     </div>

@@ -1,6 +1,6 @@
 import {
-  Link as JssLink,
   Text as JssText,
+  Link as JssLink,
   LinkField,
   TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';

@@ -10,9 +10,9 @@ import {
 import NewsCardsItem from './ui/news-cards/NewsCardsItem';
 import DocumentIconSvg from 'assets/icons/DocumentIconSvg';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
 import NewsCardsCarousel from './ui/news-cards/NewsCardsCarousel';
 import ArrowGroup from 'src/shared-components/ArrowGroup';
+import Button from 'src/shared-components/Button';
 
 type NewsCardsProps = {
   rendering: ComponentRendering;
@@ -27,8 +27,7 @@ interface NewsCardsFields {
 export type NewsCardsItemProps = {
   params: ComponentParams;
   fields: NewsCardsItemFields;
-  itemUrl: string;
-  url?: string;
+  url: string;
 };
 
 export interface NewsCardsItemFields {
@@ -80,7 +79,7 @@ export const Default = (props: NewsCardsProps): JSX.Element => {
         ))}
       </div>
       <div className="mt-16 flex justify-center">
-        <SecondaryButton field={props.fields.Button} />
+        <Button variant="primary" field={props.fields.Button} />
       </div>
     </SectionPaddingWrapper>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Text as JssText,
-  Link as JssLink,
   RichText as JssRichText,
   TextField,
   LinkField,
@@ -14,6 +13,7 @@ import PinSvg from 'assets/icons/PinSvg';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
 import CallSvg from 'assets/icons/CallSvg';
 import EmailSvg from 'assets/icons/EmailSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface AreaOfLocationFields {
   fields: {
@@ -100,13 +100,13 @@ const ServiceDetails = (props: ServiceDetailsProps): JSX.Element => {
                     </div>
                   )} */}
                 </div>
-                <a
-                  href={terminal.fields.Location.value.href}
+                <CustomLink
+                  url={terminal.fields.Location.value.href}
                   className="flex gap-2 text-body-medium-bold text-text-action-secondary-default hover:text-text-action-secondary-hover hover:underline active:text-text-action-secondary-press"
                 >
                   {t('serviceDetails-getDirections')}
                   <ArrowRightSvg className="w-6 h-6 text-icon-primary" />
-                </a>
+                </CustomLink>
               </div>
             ))}
             <div className="border border-border-primary"></div>
@@ -145,7 +145,7 @@ const ServiceDetails = (props: ServiceDetailsProps): JSX.Element => {
               {props.fields.PhoneNumber && (
                 <div className="flex items-center gap-[0.625rem]">
                   <CallSvg className="w-5 h-5 text-icon-primary" />
-                  <JssLink
+                  <CustomLink
                     field={props.fields.PhoneNumber}
                     className="text-text-primary text-body-medium-bold"
                   />
@@ -153,7 +153,7 @@ const ServiceDetails = (props: ServiceDetailsProps): JSX.Element => {
               )}
               {props.fields.Email && (
                 <div className="flex items-center gap-[0.625rem]">
-                  <JssLink
+                  <CustomLink
                     field={props.fields.Email}
                     className="text-text-primary text-body-medium-bold"
                   />

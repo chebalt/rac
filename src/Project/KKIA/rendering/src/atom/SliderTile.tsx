@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Link as JssLink,
   LinkField,
   Image as JssImage,
   ImageField,
@@ -8,6 +7,7 @@ import {
   Text as JssText,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface SliderTileFields {
   Title: TextField;
@@ -38,7 +38,7 @@ const SliderTile = (props: SliderTileProps): JSX.Element => {
       />
 
       <div className="flex items-center gap-2 relative max-w-fit">
-        <JssLink
+        <CustomLink
           field={props.fields.Link}
           className="pr-8 relative z-10 text-body-normal-bold text-text-action-secondary-default hover:text-text-action-secondary-hover active:text-text-action-secondary-active"
         />

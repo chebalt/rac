@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Link as JssLink,
   RichText as JssRichText,
   Text as JssText,
   LinkField,
@@ -11,6 +10,7 @@ import {
   Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface NumberedTilesProps {
   rendering: ComponentRendering;
@@ -38,7 +38,7 @@ const NumberedTiles = (props: NumberedTilesProps): JSX.Element => {
 
         <div className="flex flex-col md:flex-row gap-6 items-center rtl:flex-row-reverse">
           <Placeholder name={phKey} rendering={props.rendering} />
-          <JssLink
+          <CustomLink
             field={props.fields.Link}
             className="text-text-action-secondary-default hover:text-text-action-secondary-hover active:text-text-action-secondary-press text-body-medium-bold flex-shrink-0"
           />

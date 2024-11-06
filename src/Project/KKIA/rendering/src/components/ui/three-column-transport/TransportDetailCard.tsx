@@ -5,7 +5,6 @@ import {
   ImageField,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import useUrl from 'src/hooks/useUrl';
 import { useI18n } from 'next-localization';
 import CustomCard from 'src/shared-components/CustomCard';
 
@@ -42,7 +41,6 @@ export type TransportDetailCardProps = {
 const TransportDetailCard = (props: TransportDetailCardProps): JSX.Element => {
   const { itemUrl } = props;
   const { t } = useI18n();
-  const fullUrl = useUrl(itemUrl);
 
   const isRentCarPage =
     props.fields['Transport Type'].fields.Type.value?.toString().toLowerCase() === 'rent a car';
@@ -56,7 +54,7 @@ const TransportDetailCard = (props: TransportDetailCardProps): JSX.Element => {
       phoneNumber={isRentCarPage ? props.fields['Phone Number'] : undefined}
       website={props.fields.Website}
       terminals={props.fields.Terminals}
-      btnUrl={fullUrl}
+      btnUrl={itemUrl}
     />
   );
 };

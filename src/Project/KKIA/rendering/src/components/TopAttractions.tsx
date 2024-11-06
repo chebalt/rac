@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Image as JssImage,
-  Link as JssLink,
   ImageField,
   Field,
   LinkField,
@@ -11,6 +10,7 @@ import {
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import Button from 'src/shared-components/Button';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface CardItem {
   fields: {
@@ -63,7 +63,7 @@ const TopAttractions = (props: TopAttractionsProps): JSX.Element => {
           </div>
 
           <div className="mt-8 flex justify-center">
-            <JssLink
+            <CustomLink
               field={props.fields.Link}
               className="px-6 py-4 text-jade-darker bg-primary-variant font-bold text-lg w-full md:w-fit text-center"
             />

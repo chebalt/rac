@@ -2,12 +2,12 @@ import React from 'react';
 import {
   Text as JssText,
   Image as JssImage,
-  Link as JssLink,
   TextField,
   LinkField,
   ImageField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
 
 interface HotelMapFields {
   Heading: TextField;
@@ -31,9 +31,13 @@ const HotelMap = (props: HotelMapProps): JSX.Element => {
             <JssText tag="p" className="font-bold text-muted-darker" field={props.fields.Title} />
             <JssText tag="p" className="text-sm" field={props.fields.Text} />
           </div>
-          <div>
-            <PrimaryButton hasMaxWidth={false} fontSize="1.125rem" field={props.fields.Link} />
-          </div>
+          <Button
+            variant="tertiary"
+            field={props.fields.Link}
+            className="text-lg"
+            defaultUnderline
+            rightIcon={<ArrowRightSvg />}
+          />
         </div>
         <JssImage className="max-h-[467px] h-full w-full object-cover" field={props.fields.Image} />
       </div>

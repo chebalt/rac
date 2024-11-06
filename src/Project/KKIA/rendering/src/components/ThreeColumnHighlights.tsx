@@ -23,7 +23,7 @@ const ThreeColumnHighlights = (props: ThreeColumnHighlightsProps): JSX.Element =
   const placeholderKey = `kkia-threecolumnhighlights-cards-${props.params.DynamicPlaceholderId}`;
 
   return (
-    <div className="bg-jade-light w-full">
+    <div className="bg-surface-secondary w-full">
       <SectionPaddingWrapper className="py-14 max-xl:py-10">
         <JssText field={Title} tag="h3" className="font-bold mb-10" />
         <div className="grid xl:grid-cols-3 gap-8">

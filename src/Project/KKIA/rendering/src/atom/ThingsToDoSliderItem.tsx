@@ -2,11 +2,11 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface ThingsToDoSliderItemFields {
   Image: ImageField;
@@ -35,7 +35,7 @@ const ThingsToDoSliderItem = (props: ThingsToDoSliderItemProps): JSX.Element => 
           </p>
         </div>
         <div className="c-column-slider-item__link">
-          <JssLink className="c-column-slider-item__link--container" field={props.fields.Link} />
+          <CustomLink className="c-column-slider-item__link--container" field={props.fields.Link} />
           <img src="/icons/hero-slider-arrow-right.svg" alt="link" />
         </div>
       </div>

@@ -12,6 +12,7 @@ import { useI18n } from 'next-localization';
 import LocationIconSvg from 'assets/icons/LocationIconSvg';
 import PhoneIconSvg from 'assets/icons/PhoneIconSvg';
 import CashPayMethodIconSvg from 'assets/icons/CashPayMethodIconSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type TerminalProps = {
   fields: {
@@ -68,12 +69,11 @@ const ShopStructuredInformation = (props: ShopStructuredInformationProps): JSX.E
                   </p>
                 </div>
                 <div className="c-column-slider-item__link">
-                  <a
+                  <CustomLink
+                    url={terminal.fields.Location.value.href}
+                    title={t('shopstructuredinformation-getDirections')}
                     className="c-column-slider-item__link--container whitespace-nowrap text-lg"
-                    href={terminal.fields.Location.value.href}
-                  >
-                    {t('shopstructuredinformation-getDirections')}
-                  </a>
+                  />
                   <img src="/icons/hero-slider-arrow-right.svg" alt="link" />
                 </div>
               </div>

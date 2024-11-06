@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  Link as JssLink,
-  LinkField,
-  Image as JssImage,
-  ImageField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { LinkField, Image as JssImage, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface ServicesItemFields {
   Link: LinkField;
@@ -22,7 +18,7 @@ const ServicesItem = (props: ServicesItemProps): JSX.Element => {
         <JssImage field={props.fields.Icon} />
       </div>
       <h5 className="font-bold text-muted-darkest">
-        <JssLink field={props.fields.Link} />
+        <CustomLink field={props.fields.Link} />
       </h5>
     </div>
   );

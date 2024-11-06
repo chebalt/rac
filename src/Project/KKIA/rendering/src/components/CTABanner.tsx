@@ -11,7 +11,6 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import Button from 'src/shared-components/Button';
-import PrimaryButton from 'src/shared-components/PrimaryButton';
 
 export interface ImageSideFields {
   fields: {
@@ -94,10 +93,11 @@ export const Default = (props: CTABannerProps): JSX.Element => {
                 />
               )}
               {secondaryButton && (
-                <PrimaryButton
+                <Button
+                  variant="tertiary"
+                  leftIcon={secondaryButton.fields['Left Icon']}
+                  rightIcon={secondaryButton.fields['Right Icon']}
                   field={secondaryButton.fields.Link}
-                  hasMaxWidth={false}
-                  noUnderline
                 />
               )}
             </div>
@@ -162,10 +162,11 @@ export const CTABannerNarrowWidth = (props: CTABannerProps): JSX.Element => {
                 />
               )}
               {secondaryButton && (
-                <PrimaryButton
+                <Button
+                  variant="tertiary"
+                  leftIcon={secondaryButton.fields['Left Icon']}
+                  rightIcon={secondaryButton.fields['Right Icon']}
                   field={secondaryButton.fields.Link}
-                  hasMaxWidth={false}
-                  noUnderline
                 />
               )}
             </div>

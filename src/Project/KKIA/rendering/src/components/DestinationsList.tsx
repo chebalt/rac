@@ -8,6 +8,7 @@ import {
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
 import Filter from './AirlinesFilter';
 import Button from '../shared-components/Button';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface CountryProps {
   fields: {
@@ -239,7 +240,11 @@ const DestinationsList = (props: DestinationsListProps): JSX.Element => {
               })
               .map((destination, index) => {
                 return (
-                  <a href={destination.url} className="flex items-baseline gap-2" key={index}>
+                  <CustomLink
+                    url={destination.url}
+                    className="flex items-baseline gap-2"
+                    key={index}
+                  >
                     <JssText
                       tag="p"
                       className="text-body-large-regular text-jade-darkest font-light"
@@ -250,7 +255,7 @@ const DestinationsList = (props: DestinationsListProps): JSX.Element => {
                       className="text-body-large-bold text-jade-darkest"
                       field={destination.fields['Airport Name']}
                     />
-                  </a>
+                  </CustomLink>
                 );
               })}
           </div>

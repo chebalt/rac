@@ -5,10 +5,10 @@ import {
   TextField,
   NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import useUrl from 'src/hooks/useUrl';
 import Button from '../shared-components/Button';
 import { useI18n } from 'next-localization';
 import CategoryTagLayer from '../shared-components/CategoryTagLayer';
+import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
 
 export interface TransportPageFields {
   Image: ImageField;
@@ -26,7 +26,7 @@ export interface TransportPageFields {
 export type MoreResourcesSliderItemProps = {
   fields: TransportPageFields;
   itemUrl: string;
-  displayCardLink?: boolean;
+  displayCardLink: boolean | undefined;
 };
 
 const MoreResourcesSliderItem = ({
@@ -34,7 +34,6 @@ const MoreResourcesSliderItem = ({
   itemUrl,
   displayCardLink,
 }: MoreResourcesSliderItemProps): JSX.Element => {
-  const fullUrl = useUrl(itemUrl);
   const { t } = useI18n();
 
   const categoryName = fields.Category?.fields?.Name?.value || '';
@@ -48,13 +47,12 @@ const MoreResourcesSliderItem = ({
       <div className="flex flex-col gap-5 p-6 bg-background-dark">
         <JssText className="font-bold text-muted-darkest" tag="h5" field={fields.Name} />
         {displayCardLink && (
-          <div>
-            <Button
-              variant="secondary"
-              url={fullUrl}
-              label={t('moreresourcesslider-viewDetails')}
-            />
-          </div>
+          <Button
+            variant="tertiary"
+            url={itemUrl}
+            label={t('moreresourcesslider-viewDetails')}
+            rightIcon={<ArrowRightSvg />}
+          />
         )}
       </div>
     </div>

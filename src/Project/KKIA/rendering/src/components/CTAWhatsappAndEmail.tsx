@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   Image as JssImage,
-  Link as JssLink,
   ImageField,
   LinkField,
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useI18n } from 'next-localization';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface CTAWhatsappAndEmailProps {
   rendering: ComponentRendering;
@@ -29,19 +29,18 @@ const CTAWhatsappAndEmail = (props: CTAWhatsappAndEmailProps): JSX.Element => {
           <p className="text-body-small-regular text-muted-dark">
             {t('assistanceBanner-whatsapp')}
           </p>
-          <a
-            href={`tel:${props.fields.Whatsapp.value.text}`}
+          <CustomLink
+            url={props.fields.Whatsapp.value.href}
+            title={props.fields.Whatsapp.value.text}
             className="text-body-medium-bold text-muted-darkest"
-          >
-            {props.fields.Whatsapp.value.text}
-          </a>
+          />
         </div>
       </div>
       <div className="flex gap-4 items-center md:w-1/2 rtl:flex-row-reverse">
         <JssImage field={props.fields['Email Icon']} className="w-10 h-10" />
         <div className="flex flex-col gap-1">
           <p className="text-body-small-regular text-muted-dark">{t('assistanceBanner-email')}</p>
-          <JssLink
+          <CustomLink
             field={props.fields.Email}
             className="text-body-medium-bold text-muted-darkest"
           />

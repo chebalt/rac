@@ -8,8 +8,8 @@ import {
   LinkField,
   NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
 import { Text16, Text18, Text20, Text48 } from 'src/shared-components/Texts';
+import Button from 'src/shared-components/Button';
 
 interface ServicesClassesCardFields {
   Image: ImageField;
@@ -46,9 +46,7 @@ const ServicesClassesCard = (props: ServicesClassesCardProps): JSX.Element => {
         <div className="gap-y-2">
           <Placeholder name={placeholderKey} rendering={props.rendering} />
         </div>
-        <div className="mt-6 flex justify-center">
-          <SecondaryButton field={Link} />
-        </div>
+        <Button variant="primary" field={Link} className="w-full md:w-full mt-6" />
       </div>
     </div>
   );

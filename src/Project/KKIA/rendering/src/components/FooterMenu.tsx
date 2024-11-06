@@ -4,6 +4,7 @@ import { ComponentProps } from 'lib/component-props';
 import Collapsible from 'react-collapsible';
 import clsx from 'clsx';
 import PlusIconSvg from 'assets/icons/PlusIconSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type DatasourceResult = {
   title: {
@@ -58,13 +59,13 @@ const FooterMenu: React.FC<FooterMenuProps> = ({ fields }) => {
             <ul>
               {item.children?.results?.map((childItem, index) => (
                 <li key={index} className="hover:md:opacity-90">
-                  <a href={childItem.link?.link?.value?.href}>
+                  <CustomLink url={childItem.link?.link?.value?.href}>
                     <span className="text-sm">
                       {(childItem.link?.link?.value?.text || '').trim() === ''
                         ? childItem?.displayName
                         : childItem.link?.link?.value?.text}
                     </span>
-                  </a>
+                  </CustomLink>
                 </li>
               ))}
             </ul>
@@ -87,13 +88,13 @@ const FooterMenu: React.FC<FooterMenuProps> = ({ fields }) => {
               <ul>
                 {item.children?.results?.map((childItem, index) => (
                   <li key={index} className="active:opacity-50">
-                    <a href={childItem.link?.link?.value?.href}>
+                    <CustomLink url={childItem.link?.link?.value?.href}>
                       <span className="text-sm">
                         {(childItem.link?.link?.value?.text || '').trim() === ''
                           ? childItem?.displayName
                           : childItem.link?.link?.value?.text}
                       </span>
-                    </a>
+                    </CustomLink>
                   </li>
                 ))}
               </ul>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Field, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionHeading from 'src/shared-components/SectionHeading';
 import { Text14, Text18 } from 'src/shared-components/Texts';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface App {
   id: string;
@@ -27,9 +28,9 @@ const FooterApps: React.FC<FooterAppsProps> = ({ fields }) => {
       {fields.SubTitle?.value && <Text14 field={fields.SubTitle} className="mb-6 text-white" />}
       <div className="flex flex-wrap overflow-hidden rtl:justify-right">
         {fields.Apps.map((item) => (
-          <a
+          <CustomLink
             key={item.id}
-            href={item.fields?.Link?.value?.href}
+            url={item.fields?.Link?.value?.href}
             className={
               fields.Apps.length > 1 ? 'mr-6 my-2 hover:md:opacity-90' : 'hover:md:opacity-90'
             }
@@ -48,7 +49,7 @@ const FooterApps: React.FC<FooterAppsProps> = ({ fields }) => {
                 }
               `}</style>
             </div>
-          </a>
+          </CustomLink>
         ))}
       </div>
     </div>

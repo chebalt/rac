@@ -2,13 +2,13 @@ import React from 'react';
 import {
   TextField,
   Image,
-  Link,
   ImageField,
   LinkField,
   Text,
   ComponentRendering,
   ComponentParams,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface Fields {
   Image: ImageField;
@@ -25,7 +25,7 @@ type LogoWithTextProps = {
 const LogoWithText = ({ fields }: LogoWithTextProps) => {
   if (!fields) return null;
   return (
-    <Link field={fields.Link} className="text-white ">
+    <CustomLink field={fields.Link} className="text-white ">
       <div>
         <span className="uppercase">
           <Text field={fields.Text} />
@@ -34,7 +34,7 @@ const LogoWithText = ({ fields }: LogoWithTextProps) => {
           <Image field={fields.Image} />
         </div>
       </div>
-    </Link>
+    </CustomLink>
   );
 };
 

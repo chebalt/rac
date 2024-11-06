@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import Datepicker from 'components/ui/datepicker/Datepicker';
 import Timepicker from 'components/ui/timepicker/Timepicker';
 import axios from 'axios';
-import { Flight } from 'src/pages/api/flightsInformation';
+import type { Flight } from 'src/pages/api/flightsInformation';
 import PlaneIconSvg from 'assets/icons/PlaneIconSvg';
 import InfoIconSvg from 'assets/icons/InfoIconSvg';
 import ChevronDownSvg from 'assets/icons/ChevronUpDown';
@@ -54,7 +54,7 @@ const ParkingFeeForm: React.FC<ParkingFeeFormProps> = ({
 
   const fetchFlights = useCallback(async () => {
     try {
-      const response = await axios.get(apiUrl);
+      const response = await axios.get<Flight[]>(apiUrl);
       setFlights(response.data);
     } catch (error) {
       console.error('Error fetching flight data:', error);

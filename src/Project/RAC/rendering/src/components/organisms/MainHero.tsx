@@ -35,8 +35,6 @@ interface MainHeroProps {
 }
 
 export default function MainHero({ fields }: MainHeroProps) {
-  console.log('Main Hero', fields);
-
   const SLIDER_TIMER = 5000;
 
   const swiperRef = useRef<SwiperRef>(null);

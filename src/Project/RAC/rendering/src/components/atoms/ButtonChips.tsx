@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
 import ChevronRight from '../icons/ChevronRight';
-import { LinkField, Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Link as JssLink, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import clsx from 'clsx';
 
 export interface ButtonChipsProps {
@@ -55,9 +55,9 @@ export default function ButtonChips({
 
   if (field) {
     return (
-      <Link field={field} className={clsx('group', commonClassName, variantClassName)}>
+      <JssLink field={field} className={clsx('group', commonClassName, variantClassName)}>
         {content}
-      </Link>
+      </JssLink>
     );
   }
 

@@ -39,7 +39,7 @@ export const Default = (props: FlightSearchProps): JSX.Element => {
 
   const fetchFlights = useCallback(async () => {
     try {
-      const response = await axios.get(apiUrl);
+      const response = await axios.get<Flight[]>(apiUrl);
       setFlights(response.data);
     } catch (error) {
       console.error('Error fetching flight data:', error);
@@ -351,7 +351,7 @@ export const NoButton = (props: FlightSearchProps): JSX.Element => {
 
   const fetchFlights = useCallback(async () => {
     try {
-      const response = await axios.get(apiUrl);
+      const response = await axios.get<Flight[]>(apiUrl);
       setFlights(response.data);
     } catch (error) {
       console.error('Error fetching flight data:', error);

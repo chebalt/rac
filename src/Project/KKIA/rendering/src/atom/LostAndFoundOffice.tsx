@@ -1,13 +1,9 @@
 import React from 'react';
-import {
-  Text as JssText,
-  Link as JssLink,
-  TextField,
-  LinkField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text as JssText, TextField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
 import ClockSvg from 'assets/icons/ClockSvg';
 import CallSvg from 'assets/icons/CallSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface LostAndFoundOfficeFields {
   Title: TextField;
@@ -63,7 +59,7 @@ const LostAndFoundOffice = (props: LostAndFoundOfficeProps): JSX.Element => {
         </div>
       </div>
       <div className="flex items-center gap-2 relative max-w-fit">
-        <JssLink
+        <CustomLink
           field={props.fields.Link}
           className="pr-8 relative z-10 text-primary-dark-green-variant text-base font-bold"
         />

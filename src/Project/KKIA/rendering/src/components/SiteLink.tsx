@@ -1,5 +1,6 @@
 import React from 'react';
-import { ComponentRendering, Link as JssLink, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentRendering, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface SiteLinkItemFields {
   Link: LinkField;
@@ -13,7 +14,7 @@ type SiteLinkProps = {
 export const Default = (props: SiteLinkProps): JSX.Element => {
   return (
     <div className="c-site-link">
-      <JssLink className="c-site-link__content" field={props.fields.Link}></JssLink>
+      <CustomLink className="c-site-link__content" field={props.fields.Link}></CustomLink>
     </div>
   );
 };

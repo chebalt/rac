@@ -2,7 +2,6 @@ import { Flight } from '../../pages/api/flightsInformation';
 import { parseISO, format, isValid } from 'date-fns';
 import {
   Text as JssText,
-  Link as JssLink,
   Image as JssImage,
   TextField,
   ImageField,

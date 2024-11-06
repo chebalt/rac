@@ -8,7 +8,8 @@ import {
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useI18n } from 'next-localization';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 interface PickupAndDropoffSpotProps {
   rendering: ComponentRendering;
@@ -50,11 +51,10 @@ const PickupAndDropoffSpot = (props: PickupAndDropoffSpotProps): JSX.Element => 
               field={props.fields['Pickup Description']}
             />
             <div className="pt-6">
-              <PrimaryButton
-                fontSize="1.125rem"
-                noUnderline
+              <Button
+                variant="tertiary"
                 field={props.fields['Pickup Link']}
-                hasMaxWidth={false}
+                rightIcon={<ArrowIconSvg />}
               />
             </div>
           </div>
@@ -69,11 +69,10 @@ const PickupAndDropoffSpot = (props: PickupAndDropoffSpotProps): JSX.Element => 
               field={props.fields['Dropoff Description']}
             />
             <div className="py-6">
-              <PrimaryButton
-                fontSize="1.125rem"
-                noUnderline
-                field={props.fields['Dropoff Link']}
-                hasMaxWidth={false}
+              <Button
+                variant="tertiary"
+                field={props.fields['Pickup Link']}
+                rightIcon={<ArrowIconSvg />}
               />
             </div>
           </div>

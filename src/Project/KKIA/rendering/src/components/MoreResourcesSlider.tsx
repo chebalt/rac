@@ -20,7 +20,9 @@ export interface MoreResourcesSliderProps {
   fields: {
     Slides: MoreResourcesSliderItemType[];
     Title: TextField;
-    'Display Card Link': boolean;
+    'Display Card Link'?: {
+      value: boolean;
+    };
   };
 }
 
@@ -47,12 +49,12 @@ export const Default = ({ fields }: MoreResourcesSliderProps): JSX.Element => {
             key={slide.id}
             fields={slide.fields}
             itemUrl={slide.url}
-            displayCardLink={displayCardLink}
+            displayCardLink={displayCardLink?.value}
           />
         ))}
       </div>
       <div className="max-md:hidden block">
-        <MoreResourcesCarousel resources={resourceItems} />
+        <MoreResourcesCarousel resources={resourceItems} displayCardLink />
       </div>
     </SectionPaddingWrapper>
   );
@@ -81,12 +83,12 @@ export const WithoutDescription = ({ fields }: MoreResourcesSliderProps): JSX.El
             key={slide.id}
             fields={{ ...slide.fields, Description: { value: '' } }}
             itemUrl={slide.url}
-            displayCardLink={displayCardLink}
+            displayCardLink={displayCardLink?.value}
           />
         ))}
       </div>
       <div className="max-md:hidden block">
-        <MoreResourcesCarousel resources={resourceItems} />
+        <MoreResourcesCarousel resources={resourceItems} displayCardLink />
       </div>
     </SectionPaddingWrapper>
   );

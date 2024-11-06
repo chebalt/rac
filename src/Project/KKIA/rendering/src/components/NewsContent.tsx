@@ -15,6 +15,7 @@ import FacebookIcon from '../assets/icons/FacebookIcon';
 import TwitterIcon from '../assets/icons/TwitterIcon';
 import LinkedInIcon from '../assets/icons/LinkedInIcon';
 import { useEffect, useState } from 'react';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type NewsProps = {
   fields: {
@@ -75,15 +76,15 @@ const NewsContent = (props: NewsContentProps): JSX.Element => {
             {t('kkia-news-content-shareVia')}
           </p>
           <div className="flex flex-row gap-6">
-            <a href={facebookLink}>
+            <CustomLink url={facebookLink}>
               <FacebookIcon className="w-5 h-5 cursor-pointer text-icon-primary" />
-            </a>
-            <a href={twitterLink}>
+            </CustomLink>
+            <CustomLink url={twitterLink}>
               <TwitterIcon className="w-5 h-5 cursor-pointer text-icon-primary" />
-            </a>
-            <a href={linkedinLink}>
+            </CustomLink>
+            <CustomLink url={linkedinLink}>
               <LinkedInIcon className="w-5 h-5 cursor-pointer text-icon-primary" />
-            </a>
+            </CustomLink>
             <div className="h-5 border-l border-border-primary"></div>
             <ShareIcon className="w-5 h-5 cursor-pointer text-icon-primary" />
           </div>

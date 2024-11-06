@@ -2,7 +2,6 @@ import React from 'react';
 import {
   ComponentParams,
   ComponentRendering,
-  Link as JssLink,
   Text as JssText,
   LinkField,
   TextField,
@@ -14,6 +13,7 @@ import StarIconSvg from 'assets/icons/StarIconSvg';
 import ImageCTARewardsCarousel from './ui/image-cta-rewards/ImageCTARewardsCarousel';
 import ImageCTARewardsWithArrowsCarousel from 'components/ui/image-cta-rewards/ImageCTARewardsWithArrowsCarousel';
 import ArrowGroup from '../shared-components/ArrowGroup';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface ImageCTARewardsFields {
   Title: TextField;
@@ -57,7 +57,7 @@ export const Default = (props: ImageCTARewardsProps): JSX.Element => {
                 <JssText field={props.fields.Text} />
               </p>
             </div>
-            <JssLink className="c-image-cta-slider--btn" field={props.fields.Button} />
+            <CustomLink className="c-image-cta-slider--btn" field={props.fields.Button} />
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ export const ImageCTARewardsWithArrows = (props: ImageCTARewardsProps): JSX.Elem
               </div>
             </div>
             <div className="flex flex-col gap-6">
-              <JssLink className="c-image-cta-slider--btn" field={props.fields.Button} />
+              <CustomLink className="c-image-cta-slider--btn" field={props.fields.Button} />
               <div className="lg:w-fit">
                 <ArrowGroup
                   nextBtnClassName="rewards-cta-w-arrows-slider-next"
@@ -129,7 +129,7 @@ export const VerticalImageCTARewardsWithArrows = (props: ImageCTARewardsProps): 
                 <JssText field={props.fields.Text} />
               </p>
             </div>
-            <JssLink className="c-image-cta-slider--btn" field={props.fields.Button} />
+            <CustomLink className="c-image-cta-slider--btn" field={props.fields.Button} />
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ export const HorizontalShopVariant = (props: ImageCTARewardsProps): JSX.Element 
                 <JssText field={props.fields.Text} />
               </p>
             </div>
-            <JssLink className="c-image-cta-slider--btn" field={props.fields.Button} />
+            <CustomLink className="c-image-cta-slider--btn" field={props.fields.Button} />
           </div>
         </div>
       </div>

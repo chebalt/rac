@@ -2,12 +2,12 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface ShuttleBusTypeFields {
   fields: {
@@ -48,7 +48,7 @@ const ShuttleBusLocation = (props: ShuttleBusLocationProps): JSX.Element => {
       </div>
 
       <div className="flex items-center gap-2 relative max-w-fit">
-        <JssLink
+        <CustomLink
           field={props.fields.Location}
           className="pr-8 relative z-10 text-body-medium-bold text-text-action-secondary-default hover:text-text-action-secondary-hover active:text-text-action-secondary-press"
         />

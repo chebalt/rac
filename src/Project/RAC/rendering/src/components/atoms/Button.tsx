@@ -1,6 +1,7 @@
 import { LinkField, Link, ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import NextLink from 'next/link';
 import clsx from 'clsx';
+import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
 export interface ButtonProps {
   /** Is this the principal call to action on the page? */
@@ -41,6 +42,8 @@ export default function Button({
   label,
   type = 'button',
 }: ButtonProps) {
+  const { sitecoreContext } = useSitecoreContext();
+
   const commonClassName =
     'flex items-center justify-center gap-2 w-full md:w-fit transition-all duration-200 rtl:flex-row-reverse';
   const sizeClassName =
@@ -113,6 +116,7 @@ export default function Button({
       <NextLink
         href={url}
         className={clsx(commonClassName, sizeClassName, variantClassName, className)}
+        locale={sitecoreContext?.language}
       >
         {renderButtonContent()}
       </NextLink>

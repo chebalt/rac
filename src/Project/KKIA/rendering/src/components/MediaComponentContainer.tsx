@@ -6,12 +6,12 @@ import {
   ComponentRendering,
   ImageField,
   LinkField,
-  Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
 import ArrowGroup from 'src/shared-components/ArrowGroup';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface MediaItem {
   fields: {
@@ -133,7 +133,7 @@ export const ImageGallery = (props: MediaComponentContainerProps): JSX.Element =
             </div>
           ))}
         </div>
-        <JssLink field={props.fields?.Link} />
+        <CustomLink field={props.fields?.Link} />
       </div>
     </SectionPaddingWrapper>
   );

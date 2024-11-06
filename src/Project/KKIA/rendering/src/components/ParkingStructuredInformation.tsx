@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Text,
   Image as JssImage,
-  Link as JssLink,
   LinkField,
   ComponentRendering,
   withDatasourceCheck,
@@ -14,6 +13,7 @@ import PinSvg from 'assets/icons/PinSvg';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
 import CallSvg from 'assets/icons/CallSvg';
 import EmailSvg from 'assets/icons/EmailSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type TerminalProps = {
   fields: {
@@ -87,14 +87,14 @@ const ParkingStructuredInformation = (props: ParkingStructuredInformationProps):
                   />
                 </div>
 
-                <a
-                  href={terminal.fields.Location.value.href}
+                <CustomLink
+                  url={terminal.fields.Location.value.href}
                   className="flex gap-2 text-primary-dark-green font-bold text-lg"
                 >
                   {t('parkingstructuredinformation-getDirections')}
 
                   <ArrowRightSvg className="w-6 h-6 text-primary-dark-green" />
-                </a>
+                </CustomLink>
               </div>
             ))}
           </div>
@@ -157,7 +157,10 @@ const ParkingStructuredInformation = (props: ParkingStructuredInformationProps):
           </div>
           <div className="flex gap-[0.625rem] items-center">
             <EmailSvg className="w-5 h-5 text-primary-dark-green flex-shrink-0" />
-            <JssLink field={Parking.fields.Email} className="text-lg font-bold text-jade-darkest" />
+            <CustomLink
+              field={Parking.fields.Email}
+              className="text-lg font-bold text-jade-darkest"
+            />
           </div>
         </div>
       </div>

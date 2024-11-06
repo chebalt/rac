@@ -8,7 +8,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 import SliderPagination from 'src/shared-components/SliderPagination';
 import ArrowGroup from 'src/shared-components/ArrowGroup';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
+import Button from 'src/shared-components/Button';
 
 export interface ColumnSliderTabFields {
   'Tab Title': TextField;
@@ -47,7 +47,7 @@ const ColumnSliderCarousel = (props: ColumnSliderTabProps): JSX.Element => {
             <Text field={props.fields.Description} />
           </p>
         </div>
-        <Link className="c-column-slider-tab__text--btn" field={props.fields['Button Link']} />
+        <Button variant="primary" field={props.fields['Button Link']} />
       </div>
       <div className="relative select-none w-full xl:w-[80vw]">
         <Swiper
@@ -108,7 +108,7 @@ const ColumnSliderCarousel = (props: ColumnSliderTabProps): JSX.Element => {
         </div>
       </div>
       <div className="lg:hidden w-full flex justify-center  mt-4">
-        <SecondaryButton field={props.fields['Button Link']} />
+        <Button variant="primary" field={props.fields['Button Link']} />
       </div>
     </div>
   );

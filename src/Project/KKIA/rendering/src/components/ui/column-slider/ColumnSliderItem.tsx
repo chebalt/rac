@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
   NextImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface ColumnSliderItemFields {
   Image: ImageField;
@@ -46,7 +46,7 @@ const ColumnSliderItem = (props: Omit<ColumnSliderItemProps, 'id'>): JSX.Element
         </p>
       </div>
       <div className="c-column-slider-item__link rtl:justify-end">
-        <JssLink
+        <CustomLink
           className="c-column-slider-item__link--container"
           field={props.fields['Button Link']}
         />

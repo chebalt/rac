@@ -1,13 +1,9 @@
 import React from 'react';
-import {
-  Text as JssText,
-  Link as JssLink,
-  TextField,
-  LinkField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text as JssText, TextField, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import ServicesItem, { ServicesItemProps } from 'src/atom/ServicesItem';
 import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface ServicesFields {
   Title: TextField;
@@ -28,7 +24,7 @@ const Services = (props: ServicesProps): JSX.Element => {
             <JssText field={props.fields.Title} />
           </h2>
           <p className="font-bold text-lg text-primary-dark-green flex gap-2 justify-center items-center rtl:flex-row-reverse">
-            <JssLink field={props.fields.Link} />
+            <CustomLink field={props.fields.Link} />
             <ArrowIconSvg className="w-6 h-6" />
           </p>
         </div>

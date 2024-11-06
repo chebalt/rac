@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Text as JssText,
   Image as JssImage,
-  Link as JssLink,
   TextField,
   LinkField,
   ImageField,
@@ -10,7 +9,8 @@ import {
   ComponentRendering,
   ComponentParams,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 interface ThreeColumnHighlightsCardFields {
   Image: ImageField;
@@ -30,14 +30,19 @@ const ThreeColumnHighlightsCard = (props: ThreeColumnHighlightsCardProps): JSX.E
   const placeholderKey = `kkia-threecolumnhighlights-cards-tiles-${props.params.DynamicPlaceholderId}`;
 
   return (
-    <div className="three-column-highlights-card">
+    <div>
       <JssImage field={Image} className="max-h-[180px] h-full w-full object-cover" />
-      <div className="flex flex-col gap-5 p-6 bg-white">
+      <div className="flex flex-col gap-5 p-6 bg-[#FFFFFF]">
         <JssText field={Title} tag="h5" className="font-bold" />
         <JssText field={Description} tag="h6" className="text-muted-darker font-light" />
         <Placeholder name={placeholderKey} rendering={props.rendering} />
         <div>
-          <PrimaryButton fontSize="1.125rem" noUnderline field={Link} hasMaxWidth={false} />
+          <Button
+            variant="tertiary"
+            field={Link}
+            rightIcon={<ArrowIconSvg />}
+            className="text-lg"
+          />
         </div>
       </div>
     </div>

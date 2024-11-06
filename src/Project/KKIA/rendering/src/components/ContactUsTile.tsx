@@ -2,12 +2,12 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface ContactUsTileProps {
   rendering: ComponentRendering;
@@ -26,7 +26,7 @@ const ContactUsTile = (props: ContactUsTileProps): JSX.Element => {
       </div>
 
       <div className="flex flex-col gap-2">
-        <JssLink
+        <CustomLink
           field={props.fields.Link}
           className="text-muted-darkest font-bold text-xl leading-6"
         />

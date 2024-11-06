@@ -119,7 +119,7 @@ export const Default = (props: DeparturesAndArrivalsTabsProps): JSX.Element => {
   const fetchFlights = useCallback(async () => {
     setLoading(true);
     try {
-      const response = await axios.get(apiUrl);
+      const response = await axios.get<Flight[]>(apiUrl);
       setFlights(response.data);
     } catch (error) {
       console.error('Error fetching flight data:', error);

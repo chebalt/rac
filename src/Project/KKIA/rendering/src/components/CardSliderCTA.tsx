@@ -9,8 +9,8 @@ import {
 import CardSliderCTACarousel from './ui/card-slider-cta/CardSliderCTACarousel';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import SuitcaseIconSvg from 'assets/icons/SuitcaseIconSvg';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
 import ArrowGroup from 'src/shared-components/ArrowGroup';
+import Button from 'src/shared-components/Button';
 
 export type CardSliderCTASlide = {
   fields: {
@@ -59,7 +59,7 @@ const CardSliderCTA = (props: CardSliderCTAProps): JSX.Element => {
       </div>
       <div>
         <div className="mt-16 flex justify-center">
-          <SecondaryButton field={props.fields.CTALink} />
+          <Button variant="primary" field={props.fields.CTALink} />
         </div>
       </div>
     </SectionPaddingWrapper>

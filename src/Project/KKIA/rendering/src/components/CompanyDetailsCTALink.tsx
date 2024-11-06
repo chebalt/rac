@@ -1,13 +1,12 @@
 import React from 'react';
 import {
   Text as JssText,
-  Link as JssLink,
   Image as JssImage,
   TextField,
   LinkField,
   ImageField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
+import Button from 'src/shared-components/Button';
 
 interface CompanyDetailsCTALinkFields {
   Title: TextField;
@@ -25,10 +24,10 @@ const CompanyDetailsCTALink = (props: CompanyDetailsCTALinkProps): JSX.Element =
   const hasImage = !props.fields.Image.value?.src?.includes('default_image');
 
   return (
-    <div className="bg-surface-quaternary w-full md:max-w-[400px]">
+    <div className="bg-surface-secondary w-full md:max-w-[400px] mt-14">
       {hasImage && (
         <div>
-          <JssImage field={props.fields.Image} />
+          <JssImage field={Image} />
         </div>
       )}
       <div className="p-6 flex flex-col gap-5">
@@ -39,7 +38,7 @@ const CompanyDetailsCTALink = (props: CompanyDetailsCTALinkProps): JSX.Element =
           tag="p"
           className="text-text-secondary text-body-normal-light"
         />
-        <SecondaryButton field={props.fields.Link} />
+        <Button variant="primary" field={Link} className="w-full md:w-full font-normal" />
       </div>
     </div>
   );

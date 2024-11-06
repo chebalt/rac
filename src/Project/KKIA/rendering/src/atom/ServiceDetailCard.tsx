@@ -6,7 +6,6 @@ import {
   ImageField,
   LinkField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import useUrl from 'src/hooks/useUrl';
 import { useI18n } from 'next-localization';
 import CustomCard from 'src/shared-components/CustomCard';
 
@@ -59,7 +58,6 @@ export type ServiceDetailCardProps = {
 const ServiceDetailCard = (props: ServiceDetailCardProps): JSX.Element => {
   const { itemUrl } = props;
   const { t } = useI18n();
-  const fullUrl = useUrl(itemUrl);
 
   return (
     <CustomCard
@@ -77,7 +75,7 @@ const ServiceDetailCard = (props: ServiceDetailCardProps): JSX.Element => {
           Location: terminal.fields.Location,
         },
       }))}
-      btnUrl={fullUrl}
+      btnUrl={itemUrl}
     />
   );
 };

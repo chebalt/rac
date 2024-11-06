@@ -2,7 +2,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import {
   Text as JssText,
   Image as JssImage,
-  Link as JssLink,
   TextField,
   LinkField,
   ImageField,
@@ -19,6 +18,7 @@ import HeroTag from './HeroTag';
 import RefreshCircleSvg from 'assets/icons/RefreshCircleSvg';
 import axios from 'axios';
 import { Flight } from 'src/pages/api/flightsInformation';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface HeroWithTilesFields {
   Title: TextField;
@@ -95,7 +95,10 @@ export const Default = (props: HeroWithTilesProps): JSX.Element => {
 
             <div className="text-jade-light flex items-center">
               <JssImage field={props.fields?.LocationIcon} />
-              <JssLink field={props.fields?.Location} className="text-jade-light font-light ml-2" />
+              <CustomLink
+                field={props.fields?.Location}
+                className="text-jade-light font-light ml-2"
+              />
             </div>
           </div>
         </SectionPaddingWrapper>
@@ -233,7 +236,7 @@ export const HeroFlightsResult = (props: HeroWithTilesProps): JSX.Element => {
   const fetchFlights = useCallback(async () => {
     setLoading(true);
     try {
-      const response = await axios.get(apiUrl);
+      const response = await axios.get<Flight[]>(apiUrl);
       const newFlights = response.data;
 
       const updatedFlight = newFlights.find(

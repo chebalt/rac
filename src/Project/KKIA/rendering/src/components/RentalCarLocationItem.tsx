@@ -2,12 +2,12 @@ import React from 'react';
 import {
   Text as JssText,
   Image as JssImage,
-  Link as JssLink,
   TextField,
   LinkField,
   ImageField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 interface RentalCarLocationItemFields {
   Title: TextField;
@@ -31,7 +31,7 @@ const RentalCarLocationItem = (props: RentalCarLocationItemProps): JSX.Element =
       </div>
       <JssText className="text-muted-darker font-light" tag="h6" field={Description} />
       <div className="pt-6">
-        <PrimaryButton fontSize="1.125rem" noUnderline field={Link} hasMaxWidth={false} />
+        <Button variant="tertiary" field={Link} rightIcon={<ArrowIconSvg />} />
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ import {
 import { useI18n } from 'next-localization';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
 import LocationIconSvg from 'assets/icons/LocationIconSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface AreaOfTerminalProps {
   fields: {
@@ -96,12 +97,11 @@ const TaxiCompanyDetails = (props: TaxiCompanyDetailsProps): JSX.Element => {
                       )}
                     </div>
                     <div className="c-column-slider-item__link">
-                      <a
+                      <CustomLink
+                        url={terminal.fields.Location.value.href}
+                        title={t('taxicompanydetails-getDirections')}
                         className="c-column-slider-item__link--container whitespace-nowrap text-lg"
-                        href={terminal.fields.Location.value.href}
-                      >
-                        {t('taxicompanydetails-getDirections')}
-                      </a>
+                      />
                       <img src="/icons/hero-slider-arrow-right.svg" alt="link" />
                     </div>
                   </div>
@@ -156,13 +156,12 @@ const TaxiCompanyDetails = (props: TaxiCompanyDetailsProps): JSX.Element => {
             <h2 className="text-lg text-muted-darker mb-4">
               <Text field={ContactTitle} />
             </h2>
-            <a
-              href={isPhoneNumber ? `tel:${contactValue}` : contactValue}
-              target="_blank"
+            <CustomLink
+              url={isPhoneNumber ? `tel:${contactValue}` : contactValue}
               className="text-lg text-jade-darkest font-bold rtl:block"
             >
               <Text field={Contact} />
-            </a>
+            </CustomLink>
           </div>
         </div>
       </div>

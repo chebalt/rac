@@ -1,11 +1,6 @@
 import React from 'react';
-import {
-  Link,
-  Text,
-  useSitecoreContext,
-  LinkField,
-  TextField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, useSitecoreContext, LinkField, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface Fields {
   data: {
@@ -87,9 +82,9 @@ export const Default = (props: TitleProps): JSX.Element => {
         {sitecoreContext.pageState === 'edit' ? (
           <Text field={text} />
         ) : (
-          <Link field={link}>
+          <CustomLink field={link}>
             <Text field={text} />
-          </Link>
+          </CustomLink>
         )}
       </>
     </ComponentContent>

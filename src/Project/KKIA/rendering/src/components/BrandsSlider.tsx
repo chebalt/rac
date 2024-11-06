@@ -3,7 +3,6 @@ import {
   ComponentRendering,
   ImageField,
   Text,
-  Link,
   LinkField,
   TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -11,6 +10,7 @@ import BrandSliderCarousel from './ui/brands-slider/BrandsSliderCarousel';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import ArrowGroup from 'src/shared-components/ArrowGroup';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface BrandsSliderFields {
   Title: TextField;
@@ -64,7 +64,7 @@ export const Default = (props: BrandsSliderProps): JSX.Element => {
       <SectionPaddingWrapper className="pt-10 pb-10 md:pb-14">
         {props.fields.Link.value.href && (
           <div className="flex items-center gap-2 relative max-w-fit rtl:max-w-none rtl:justify-end">
-            <Link
+            <CustomLink
               field={props.fields.Link}
               className="pr-8 relative z-10 text-body-normal-bold text-text-action-secondary-default hover:text-text-action-secondary-hover active:text-text-action-secondary-active"
             />

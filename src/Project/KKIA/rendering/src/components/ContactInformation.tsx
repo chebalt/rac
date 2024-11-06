@@ -47,14 +47,22 @@ const ContactInformation = (props: ContactInformationProps): JSX.Element => {
           <ContactItem
             icon={<CallSvg className="text-primary-dark-green" />}
             label={props.fields.PhoneNumber.value.text || ''}
-            value={props.fields.PhoneNumber.value.href?.replace('http://', '') || ''}
-            href={props.fields.PhoneNumber.value.href || ''}
+            value={
+              props.fields.PhoneNumber.value.href
+                ?.replace('http://', '')
+                .replace('tel:', '')
+                .trim() || ''
+            }
+            href={props.fields.PhoneNumber.value.href?.replace('http://', '') || ''}
           />
           <ContactItem
             icon={<WhatsAppSvg className="text-primary-dark-green" />}
             label={props.fields.WhatsApp.value.text || ''}
-            value={props.fields.WhatsApp.value.href?.replace('http://', '') || ''}
-            href={props.fields.WhatsApp.value.href || ''}
+            value={
+              props.fields.WhatsApp.value.href?.replace('http://', '').replace('tel:', '').trim() ||
+              ''
+            }
+            href={props.fields.WhatsApp.value.href?.replace('http://', '') || ''}
           />
           <ContactItem
             icon={<EmailSvg className="text-primary-dark-green" />}

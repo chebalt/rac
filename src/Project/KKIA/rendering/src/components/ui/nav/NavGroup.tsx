@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type NavGroupProps = {
   links: {
@@ -20,12 +21,11 @@ const NavGroup: React.FC<NavGroupProps> = ({ links }) => {
     <ul className="c-nav-item">
       {links.map((linkItem) => (
         <li key={linkItem.link.link.value.id} className="c-nav-item__content max-lg:rtl:text-end">
-          <a
-            href={linkItem.link.link.value.href}
+          <CustomLink
+            url={linkItem.link.link.value.href}
+            title={linkItem.link.link.value.text || linkItem.displayName}
             className="c-nav-item__content--link text-jade-darkest"
-          >
-            {linkItem.link.link.value.text || linkItem.displayName}
-          </a>
+          />
         </li>
       ))}
     </ul>

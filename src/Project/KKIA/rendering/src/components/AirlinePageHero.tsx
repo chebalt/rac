@@ -6,12 +6,12 @@ import {
   ImageField,
   TextField,
   LinkField,
-  Link,
   ComponentParams,
   Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import PinSvg from 'assets/icons/PinSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 type AirlinePageProps = {
   fields: {
@@ -51,7 +51,7 @@ const AirlinePageHero = (props: AirlinePageHeroProps): JSX.Element => {
           <div className="text-jade-light flex items-center">
             <PinSvg />
             <h6 className="text-jade-light font-light ml-2">
-              <Link field={Airline.fields['Company Location']} />
+              <CustomLink field={Airline.fields['Company Location']} />
             </h6>
           </div>
         </SectionPaddingWrapper>

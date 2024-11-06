@@ -1,3 +1,5 @@
+import CustomLink from 'src/shared-components/CustomLink';
+
 interface ContactItemProps {
   icon: React.ReactNode;
   label: string;
@@ -14,9 +16,11 @@ function ContactItem({ icon, label, value, href }: ContactItemProps): JSX.Elemen
       <div className="flex flex-col gap-4 min-w-0">
         <span className="text-lg font-normal text-muted-darker">{label}</span>
         {href ? (
-          <a href={href} className="text-lg font-bold text-jade-darkest break-words">
-            {value}
-          </a>
+          <CustomLink
+            url={href}
+            title={value}
+            className="text-lg font-bold text-jade-darkest break-words"
+          />
         ) : (
           <span className="text-lg font-bold text-jade-darkest break-words">{value}</span>
         )}

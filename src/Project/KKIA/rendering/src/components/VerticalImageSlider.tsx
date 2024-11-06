@@ -8,10 +8,10 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import SectionHeading from 'src/shared-components/SectionHeading';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
 import VerticalImageSliderCarousel from './ui/vertical-image-slider/VerticalImageSliderCarousel';
 import ArrowGroup from 'src/shared-components/ArrowGroup';
 import AirplaneIconSvg from 'assets/icons/AirplaneIconSvg';
+import Button from 'src/shared-components/Button';
 export interface SiteLanguageFields {
   Image: ImageField;
 }
@@ -54,7 +54,8 @@ export const Default = (props: VerticalImageSliderProps): JSX.Element => {
               field={props.fields.Images[0].fields.Image}
               className="w-full h-full lg:hidden py-8"
             />
-            <SecondaryButton
+            <Button
+              variant="primary"
               field={props.fields['Button Link']}
               className="mt-8 self-center lg:self-start lg:rtl:self-end"
             />

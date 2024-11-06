@@ -7,8 +7,8 @@ import { contactFormSchema } from 'src/validation/schemas';
 import PrimaryTextInput from 'src/shared-components/PrimaryTextInput';
 import { IContactForm } from 'src/types/forms.type';
 import { Text32 } from 'src/shared-components/Texts';
-import SecondaryButton from 'src/shared-components/SecondaryButton';
 import ReCAPTCHA from 'react-google-recaptcha';
+import Button from 'src/shared-components/Button';
 
 interface ContactFormProps {
   rendering: ComponentRendering;
@@ -130,12 +130,12 @@ const ContactForm = (props: ContactFormProps): JSX.Element => {
         sitekey={publicRecaptchaKey}
         onChange={onRecaptchaChange}
       />
-      <div
-        //@ts-expect-error //@ts-ignore
+
+      <Button
+        variant="primary"
+        label={props.fields['Send Button Text']?.value?.toString() || ''}
         onClick={handleSubmit}
-      >
-        <SecondaryButton field={props.fields['Send Button Text']} />
-      </div>
+      />
       <div className="h-6 w-full text-lg">{userMessage}</div>
     </div>
   );

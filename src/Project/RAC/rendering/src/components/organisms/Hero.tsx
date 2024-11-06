@@ -23,7 +23,7 @@ interface HeroProps {
   variant?: 'primary' | 'secondary' | 'tertiary' | 'quaternary';
 }
 
-export default function Hero({ fields, variant }: HeroProps) {
+export default function Hero({ fields, variant = 'primary' }: HeroProps) {
   if (variant === 'primary') {
     return (
       <Container className="flex flex-col gap-10 py-10 md:flex-row-reverse md:justify-between md:py-14">

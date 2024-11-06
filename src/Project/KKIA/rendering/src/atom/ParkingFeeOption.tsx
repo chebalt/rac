@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Text as JssText,
-  Link as JssLink,
   Image as JssImage,
   TextField,
   LinkField,
@@ -10,6 +9,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useI18n } from 'next-localization';
 import ThumbUpSvg from 'assets/icons/ThumbUpSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 export interface TerminalFields {
   id: string;
@@ -179,7 +179,7 @@ const ParkingFeeOption = (props: ParkingFeeOptionProps): JSX.Element | null => {
         </div>
       </div>
       <div className="c-parking-fee-option--submit bg-background-dark">
-        <JssLink field={props.fields.Link} />
+        <CustomLink field={props.fields.Link} />
         <img src="/icons/hero-slider-arrow-right.svg" alt="link" />
       </div>
     </div>

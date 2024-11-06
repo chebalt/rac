@@ -3,13 +3,14 @@ import {
   ComponentParams,
   ComponentRendering,
   Text as JssText,
-  Link as JssLink,
   LinkField,
   TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Default as ThreeCardLinkItem, ThreeCardLinkItemFields } from 'src/atom/ThreeCardLinkItem';
 import SectionPaddingWrapper from '../shared-components/SectionPaddingWrapper';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface ThreeCardLinkFields {
   Tag: TextField;
@@ -38,7 +39,7 @@ export const Default = (props: ThreeCardLinkProps): JSX.Element => {
           <JssText tag="h6" className="text-muted-darkest" field={props.fields.Tag} />
           <JssText tag="p" className="text-muted-dark font-light" field={props.fields.Title} />
         </div>
-        <div className="flex gap-6 max-lg:flex-col">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {items.map((item, index) => (
             <ThreeCardLinkItem key={index} params={props.params} fields={item.fields} />
           ))}
@@ -56,17 +57,17 @@ export const ThreeCardsWithLink = (props: ThreeCardLinkProps): JSX.Element => {
       <div className="text-body-medium-light text-muted-darkest my-6">
         <JssText field={props.fields.Tag} />
       </div>
-      <div className="flex items-center justify-between w-full">
+      <div className="flex items-center justify-between w-full mb-6">
         <JssText
           tag="p"
-          className="text-body-medium-light text-muted-darkest mb-6"
+          className="text-body-medium-light text-muted-darkest"
           field={props.fields.Title}
         />
-        <PrimaryButton
-          hasMaxWidth={false}
-          fontSize="1.125rem"
-          noUnderline
+        <Button
+          variant="tertiary"
           field={props.fields.Link}
+          rightIcon={<ArrowRightSvg />}
+          className="md:mr-20"
         />
       </div>
       <div className="items-list flex gap-6 max-lg:flex-col">
@@ -91,7 +92,7 @@ export const CardsWithBadge = (props: ThreeCardLinkProps): JSX.Element => {
           <JssText tag="span" className="text-muted-darker font-bold" field={props.fields.Title} />
         </div>
         <div className="field-promolink">
-          <JssLink field={props.fields.Link} />
+          <CustomLink field={props.fields.Link} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {items.map((item, index) => (

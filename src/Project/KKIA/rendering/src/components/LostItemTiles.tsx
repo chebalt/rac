@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
@@ -10,6 +9,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface LostItemTileFields {
   fields: {
@@ -63,7 +63,7 @@ export const Default = (props: LostItemTilesProps): JSX.Element => {
               />
 
               <div className="flex items-center gap-2 relative max-w-fit">
-                <JssLink
+                <CustomLink
                   field={tile.fields.Link}
                   className="pr-8 relative z-10 text-primary-dark-green text-lg font-bold"
                 />
@@ -98,7 +98,7 @@ export const FAQTiles = (props: LostItemTilesProps): JSX.Element => {
             />
 
             <div className="flex items-center gap-2 relative max-w-fit">
-              <JssLink
+              <CustomLink
                 field={tile.fields.Link}
                 className="pr-8 relative z-10 text-primary-dark-green text-lg font-bold"
               />

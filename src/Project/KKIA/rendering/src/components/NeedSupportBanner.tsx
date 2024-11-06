@@ -1,14 +1,9 @@
 import React from 'react';
-import {
-  Text,
-  Field,
-  Link as JssLink,
-  ComponentRendering,
-  LinkField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, Field, ComponentRendering, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import CallSvg from 'assets/icons/CallSvg';
 import PinSvg from 'assets/icons/PinSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface NeedSupportBannerProps {
   rendering: ComponentRendering;
@@ -34,7 +29,7 @@ const NeedSupportBanner = (props: NeedSupportBannerProps): JSX.Element => {
           <div className="flex flex-col md:flex-row gap-8 md:justify-center md:items-center">
             <div className="flex gap-2 justify-center items-center">
               <CallSvg />
-              <JssLink
+              <CustomLink
                 field={props.fields.FirstLink}
                 className="font-bold text-base text-muted-dark"
               />
@@ -43,7 +38,7 @@ const NeedSupportBanner = (props: NeedSupportBannerProps): JSX.Element => {
               <div className="text-primary-dark-green text-base">
                 <PinSvg />
               </div>
-              <JssLink
+              <CustomLink
                 field={props.fields.SecondLink}
                 className="font-bold text-base text-muted-dark"
               />

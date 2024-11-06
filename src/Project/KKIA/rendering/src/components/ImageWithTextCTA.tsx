@@ -6,9 +6,9 @@ import {
   ImageField,
   LinkField,
   Image as JssImage,
-  Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface ImageWithTextCTAProps {
   rendering: ComponentRendering;
@@ -46,7 +46,7 @@ const ImageWithTextCTA = (props: ImageWithTextCTAProps): JSX.Element => {
               <Text field={props.fields.Description} />
             </p>
           </div>
-          <JssLink
+          <CustomLink
             field={props.fields.CTALink}
             className="px-6 py-4 text-jade-darker bg-primary-variant font-bold text-lg w-full md:w-fit text-center"
           />

@@ -16,8 +16,8 @@ import clsx from 'clsx';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
+  Link as JssLink,
   LinkField,
   TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs';

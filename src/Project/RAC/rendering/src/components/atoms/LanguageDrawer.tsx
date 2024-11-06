@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
+import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+
 import ArrowTip from '../icons/ArrowTip';
 import clsx from 'clsx';
 import LanguageEnglish from '../icons/LanguageEnglish';
@@ -20,7 +23,20 @@ export interface LanguageDrawerProps {
  * A component that displays a language drawer
  */
 export default function LanguageDrawer({ isOpen, toggleDrawer, languages }: LanguageDrawerProps) {
-  const [currentLanguage, setCurrentLanguage] = useState(languages[0]?.code || '');
+  const router = useRouter();
+  const { sitecoreContext } = useSitecoreContext();
+  const [currentLanguage, setCurrentLanguage] = useState(
+    sitecoreContext.language || languages[0]?.code || ''
+  );
+
+  const handleLanguageChange = (languageCode: string) => {
+    setCurrentLanguage(languageCode);
+
+    const currentPath = router.asPath;
+    const newPath = `/${languageCode}${currentPath.replace(/^\/[a-z]{2}(-[A-Z]{2})?/, '')}`;
+
+    router.push(newPath, newPath, { locale: languageCode });
+  };
 
   const languageItem = (language: { code: string; name: string }, index: number) => {
     const isCurrentLanguage = language.code === currentLanguage;
@@ -33,7 +49,7 @@ export default function LanguageDrawer({ isOpen, toggleDrawer, languages }: Lang
             ? 'bg-surface-action-secondary-default hover:bg-surface-action-secondary-hover active:bg-surface-action-secondary-press'
             : 'bg-surface-primary hover:bg-surface-action-tertiary-hover active:bg-surface-action-tertiary-press'
         )}
-        onClick={() => setCurrentLanguage(language.code)}
+        onClick={() => handleLanguageChange(language.code)}
       >
         {language.code === 'en' ? <LanguageEnglish /> : <LanguageArabic />}
         <span

@@ -2,13 +2,13 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
   ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface CenteredCTAProps {
   rendering: ComponentRendering;
@@ -39,7 +39,7 @@ const CenteredCTA = (props: CenteredCTAProps): JSX.Element => {
             tag="p"
             className="text-jade-light text-lg text-center font-light mb-6"
           />
-          <JssLink
+          <CustomLink
             field={props.fields.Link}
             className="bg-surface-action-primary-default hover:bg-surface-action-primary-hover active:bg-surface-action-primary-press text-jade-darker font-normal text-lg py-4 px-6 w-full md:w-fit flex items-center justify-center"
           />

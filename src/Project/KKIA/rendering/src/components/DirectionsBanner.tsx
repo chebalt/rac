@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Image as JssImage,
   Text as JssText,
-  Link as JssLink,
   ImageField,
   TextField,
   LinkField,
@@ -10,6 +9,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import SectionPaddingWrapper from 'src/shared-components/SectionPaddingWrapper';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface DirectionsBannerProps {
   rendering: ComponentRendering;
@@ -36,7 +36,7 @@ const DirectionsBanner = (props: DirectionsBannerProps): JSX.Element => {
           </div>
 
           <div className="flex justify-center md:justify-start items-center gap-2">
-            <JssLink
+            <CustomLink
               field={props.fields.Link}
               className="text-lg font-bold text-primary-dark-green text-center md:text-left"
             />

@@ -6,7 +6,8 @@ import {
   TextField,
   Image as JssImage,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import PrimaryButton from '../shared-components/PrimaryButton';
+import Button from 'src/shared-components/Button';
+import ArrowIconSvg from 'assets/icons/ArrowIconSvg';
 
 export interface WideCTAWithImageFields {
   Title: TextField;
@@ -39,7 +40,13 @@ const WideCTAWithImage = (props: WideCTAWithImageProps): JSX.Element => {
           </h6>
         </div>
         <div className="rtl:w-auto rtl:ml-auto">
-          <PrimaryButton hasMaxWidth={false} field={props.fields.Link} />
+          <Button
+            variant="tertiary"
+            field={props.fields.Link}
+            className="font-normal"
+            rightIcon={<ArrowIconSvg />}
+            defaultUnderline
+          />
         </div>
       </div>
     </div>

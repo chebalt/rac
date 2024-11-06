@@ -1,5 +1,6 @@
-import { Field, LinkField, Text, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, LinkField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import ArrowRightSvg from 'assets/icons/ArrowRightSvg';
+import CustomLink from 'src/shared-components/CustomLink';
 
 interface ContactCardProps {
   title: Field<string>;
@@ -14,7 +15,7 @@ function ContactCard({ title, description, link }: ContactCardProps): JSX.Elemen
       <Text field={title} tag="h3" className="text-xl font-bold text-muted-darkest mb-5" />
       <Text field={description} tag="p" className="text-muted-dark font-light mb-5" />
       <div className="flex items-center gap-2">
-        <JssLink
+        <CustomLink
           field={link}
           className="text-primary-dark-green-variant font-bold text-normal flex items-center gap-2"
         />
