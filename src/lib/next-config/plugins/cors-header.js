@@ -4,9 +4,9 @@ const config = require('../../../temp/config');
  * @param {import('next').NextConfig} nextConfig
  */
 const corsHeaderPlugin = (nextConfig = {}) => {
-  // if (!config.sitecoreApiHost) {
-  //   return nextConfig;
-  // }
+  if (!config.sitecoreApiHost) {
+    return nextConfig;
+  }
   return Object.assign({}, nextConfig, {
     async headers() {
       const extendHeaders =
@@ -15,19 +15,21 @@ const corsHeaderPlugin = (nextConfig = {}) => {
         ...(await extendHeaders),
         {
           source: '/_next/:path*',
+          locale: false,
           headers: [
             {
               key: 'Access-Control-Allow-Origin',
-              value: '123',
+              value: config.sitecoreApiHost.replace(/\/$/, ''),
             },
           ],
         },
         {
           source: '/api/:path*',
+          locale: false,
           headers: [
             {
               key: 'Access-Control-Allow-Origin',
-              value: '*',
+              value: config.sitecoreApiHost.replace(/\/$/, ''),
             },
           ],
         },
