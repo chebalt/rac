@@ -18,7 +18,7 @@ const corsHeaderPlugin = (nextConfig = {}) => {
           headers: [
             {
               key: 'Access-Control-Allow-Origin',
-              value: '*',
+              value: '123',
             },
           ],
         },
