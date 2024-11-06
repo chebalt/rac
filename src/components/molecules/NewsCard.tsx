@@ -11,21 +11,23 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface News {
-  title: TextField;
-  description: TextField;
+  Title: TextField;
+  introText: TextField;
   date: TextField;
   timeToRead: TextField;
-  link: LinkField;
   type: TextField;
   image: ImageField;
 }
 
 interface NewsCardProps {
-  news: News;
+  fields: {
+    url: string;
+    fields: News;
+  };
   firstNews: boolean;
 }
 
-export default function NewsCard({ news, firstNews }: NewsCardProps) {
+export default function NewsCard({ fields, firstNews }: NewsCardProps) {
   return (
     <div
       className={clsx('flex w-full flex-col gap-6', {
@@ -34,7 +36,7 @@ export default function NewsCard({ news, firstNews }: NewsCardProps) {
       })}
     >
       <JssImage
-        field={news.image}
+        field={fields.fields.image}
         width={576}
         height={360}
         className={clsx('block h-auto w-full', {
@@ -48,11 +50,11 @@ export default function NewsCard({ news, firstNews }: NewsCardProps) {
         })}
       >
         <div className="flex gap-3">
-          <Tag label={news.type} variant="default" size="small" />
+          <Tag label={fields.fields.type} variant="default" size="small" />
           <JssText
             tag="p"
             className="text-body-small-light text-text-primary"
-            field={news.timeToRead}
+            field={fields.fields.timeToRead}
           />
         </div>
         <JssText
@@ -61,13 +63,13 @@ export default function NewsCard({ news, firstNews }: NewsCardProps) {
             firstNews ? 'text-headline-h2' : 'text-body-large-regular',
             'text-text-primary'
           )}
-          field={news.title}
+          field={fields.fields.Title}
         />
         {!firstNews && (
           <JssText
             tag="p"
             className="text-body-small-light text-text-secondary"
-            field={news.date}
+            field={fields.fields.date}
           />
         )}
       </div>
@@ -77,11 +79,10 @@ export default function NewsCard({ news, firstNews }: NewsCardProps) {
             <JssText
               tag="p"
               className="text-body-medium-light text-text-secondary"
-              field={news.description}
+              field={fields.fields.introText}
             />
             <Button
               variant="tertiary"
-              field={news.link}
               rightIcon={<ArrowRight />}
               className="!justify-start !pl-0"
             />

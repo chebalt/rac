@@ -95,7 +95,7 @@ export default function Button({
   const renderButtonContent = () => (
     <>
       {leftIcon && <span className={clsx(iconSize)}>{renderIcon(leftIcon)}</span>}
-      {field ? field.value.text : label}
+      {field ? field.value?.text : label}
       {rightIcon && <span className={clsx(iconSize)}>{renderIcon(rightIcon)}</span>}
     </>
   );

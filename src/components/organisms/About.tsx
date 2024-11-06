@@ -25,18 +25,15 @@ export default function About({ fields }: AboutProps) {
         style={{ backgroundImage: `url(${fields?.image?.value?.src || ''})` }}
       >
         {/* Desktop view */}
-        {/* FIX ME
         <div className="hidden h-full w-full bg-[#1D1D1D40] md:flex">
           {Array.isArray(fields?.items) &&
-            //
             fields.items.map((item, index) => <AboutItemDesktop key={index} field={item} />)}
-        </div> */}
+        </div>
         {/* Mobile view */}
-        {/* FIX ME
         <div className="flex h-full w-full flex-col justify-center bg-[#1D1D1D40] md:hidden">
           {Array.isArray(fields?.items) &&
             fields.items.map((item, index) => <AboutItemMobile key={index} field={item} />)}
-        </div> */}
+        </div>
       </div>
     </div>
   );

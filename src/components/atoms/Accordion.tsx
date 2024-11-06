@@ -6,11 +6,12 @@ import ChevronDown from '../icons/ChevronDown';
 import { getIcon } from 'lib/getIcon';
 
 interface AccordionProps {
-  /** Items - array of objects with title, description, and optional icon */
   items: {
-    title: TextField;
-    description: TextField;
-    icon?: TextField;
+    fields: {
+      title: TextField;
+      description: TextField;
+      icon?: TextField;
+    };
   }[];
 }
 
@@ -25,7 +26,7 @@ export default function Accordion({ items }: AccordionProps) {
 
   return (
     <div className="flex flex-col">
-      {items.map((item, index) => (
+      {items?.map((item, index) => (
         <div className="flex gap-6" key={index}>
           <div className="flex w-12 flex-col items-center">
             <div className="p-3">
@@ -40,10 +41,10 @@ export default function Accordion({ items }: AccordionProps) {
               className="flex w-full cursor-pointer items-center gap-4"
               onClick={() => handleClick(index)}
             >
-              {item.icon && (
+              {item.fields.icon?.value && (
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-surface-secondary">
                   <div className="h-6 w-6 text-icon-primary">
-                    {getIcon(item.icon.value?.toString() || '')}
+                    {getIcon(item.fields.icon.value?.toString() || '')}
                   </div>
                 </div>
               )}
@@ -51,7 +52,7 @@ export default function Accordion({ items }: AccordionProps) {
                 <JssText
                   tag="h4"
                   className="text-body-medium-bold text-text-primary"
-                  field={item.title}
+                  field={item.fields.title}
                 />
                 <div
                   className={`h-6 w-6 text-icon-primary transition-transform duration-300 ${
@@ -68,7 +69,7 @@ export default function Accordion({ items }: AccordionProps) {
                   openIndexes.includes(index) ? 'max-h-screen py-2' : 'max-h-0'
                 }`}
               >
-                <JssText tag="p" field={item.description} />
+                <JssText tag="p" field={item.fields.description} />
               </div>
             </div>
           </div>
