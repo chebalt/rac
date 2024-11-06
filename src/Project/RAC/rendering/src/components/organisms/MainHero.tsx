@@ -27,10 +27,10 @@ import ArrowRight from 'components/icons/ArrowRight';
 
 interface MainHeroProps {
   fields: {
-    images: ImageField[];
+    images: { fields: { Image: ImageField } }[];
     title: TextField;
     description: TextField;
-    links: LinkField[];
+    links: { fields: { Link: LinkField } }[];
   };
 }
 
@@ -66,13 +66,13 @@ export default function MainHero({ fields }: MainHeroProps) {
                 size="default"
                 variant="primary"
                 leftIcon={<Telescope />}
-                field={fields.links[0]}
+                field={fields.links[0].fields.Link}
               />
               <Button
                 size="default"
                 variant="secondary"
                 leftIcon={<User />}
-                field={fields.links[1]}
+                field={fields.links[1].fields.Link}
               />
             </div>
           </div>
@@ -167,7 +167,7 @@ export default function MainHero({ fields }: MainHeroProps) {
             {fields.images.map((image, index) => (
               <SwiperSlide key={index}>
                 <JssImage
-                  field={image}
+                  field={image.fields.Image}
                   priority
                   width={1440}
                   height={640}
@@ -211,7 +211,7 @@ export default function MainHero({ fields }: MainHeroProps) {
               {fields.images.map((image, index) => (
                 <SwiperSlide key={index}>
                   <JssImage
-                    field={image}
+                    field={image.fields.Image}
                     priority
                     width={767}
                     height={380}
@@ -240,13 +240,13 @@ export default function MainHero({ fields }: MainHeroProps) {
                 size="default"
                 variant="primary"
                 leftIcon={<Telescope />}
-                field={fields.links[0]}
+                field={fields.links[0].fields.Link}
               />
               <Button
                 size="default"
                 variant="secondary"
                 leftIcon={<User />}
-                field={fields.links[1]}
+                field={fields.links[1].fields.Link}
               />
             </div>
           </div>
